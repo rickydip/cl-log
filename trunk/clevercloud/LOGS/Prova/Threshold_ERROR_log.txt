@@ -1,0 +1,4 @@
+2014-03-03 16:50:57,399 [main] ERROR (Prova1.java:128) Error Message!  su Prova
+2014-03-03 16:50:57,399 [main] FATAL (Prova1.java:129) Fatal Message!  su Prova
+2014-03-03 16:50:57,406 [main] ERROR (Prova.java:94) Error Message!  su Prova
+2014-03-03 16:50:57,406 [main] FATAL (Prova.java:95) Fatal Message!  su Prova

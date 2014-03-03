@@ -1,0 +1,11 @@
+
+
+<logger name="ProvaAgent" additivity="false">
+        <level value="debug" />
+        <appender-ref ref="ProvaClever1" />
+        <appender-ref ref="ProvaClever2" />
+        <appender-ref ref="ProvaClever3" />
+        <appender-ref ref="ProvaClever4" />
+
+        
+</logger>

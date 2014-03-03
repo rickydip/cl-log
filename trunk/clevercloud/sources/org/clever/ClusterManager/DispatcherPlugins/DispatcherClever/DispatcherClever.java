@@ -65,7 +65,7 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
     private ConnectionXMPP connectionXMPP = null;
     //private ModuleCommunicator mc = null;
     private RequestsManager requestsManager = null;
-    private Logger logger = null;
+    private Logger logger = Logger.getLogger("Dispatcher");
     private Map<String, List<String>> notificationDelivery = new HashMap<String, List<String>>();
 
     @Override
@@ -85,7 +85,17 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
 
     @Override
     public void init(Element params,Agent owner) throws CleverException {
-        logger = Logger.getLogger("DispatcherClever");
+        
+      logger.info("SONO DENTRO init() di DispacerClever.java : ");
+      logger.debug("Debug Message! su DispacerClever");
+      logger.info("Info Message!  su DispacerClever");
+      logger.warn("Warn Message!  su DispacerClever");
+      logger.error("Error Message!  su DispacerClever");
+      logger.fatal("Fatal Message!  su DispacerClever");
+        
+        
+        
+        //logger = Logger.getLogger("DispatcherClever");
         requestsManager = new RequestsManager();
         if(this.connectionXMPP==null)
             this.connectionXMPP=((DispatcherAgent)this.owner).connectionXMPP;

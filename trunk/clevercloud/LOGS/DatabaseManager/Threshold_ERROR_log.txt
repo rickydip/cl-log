@@ -1,0 +1,2 @@
+2014-03-03 16:50:59,052 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
+2014-03-03 16:50:59,052 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova

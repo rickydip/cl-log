@@ -26,6 +26,7 @@
  */
 package org.clever.ClusterManager.Dispatcher;
 
+import java.io.File;
 import java.io.InputStream;
 import org.apache.log4j.Logger;
 import org.clever.ClusterManager.Brain.BrainInterface;
@@ -33,6 +34,7 @@ import org.clever.Common.Communicator.CmAgent;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Communicator.ThreadMessageDispatcher;
 import org.clever.Common.Exceptions.CleverException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.XMLTools.FileStreamer;
 import org.clever.Common.XMLTools.ParserXML;
 import org.clever.Common.XMPPCommunicator.CleverMessage;
@@ -48,6 +50,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
     private BrainInterface brainInterface;
     private ThreadMessageDispatcher threadMessageDispatcher;
     public ConnectionXMPP connectionXMPP = null;
+    Logger logger6 = Logger.getLogger("Dispatcher");
     
     public DispatcherAgent( ConnectionXMPP connectionXMPP ) throws CleverException 
     {   
@@ -63,6 +66,19 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
     @Override
     public void initialization() throws CleverException
     {
+      //  
+        
+      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/Dispatcher/log_conf/"; 
+      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/Dispatcher/log_conf/x.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(log4jConfigFile,vett,1,logger6);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+        //
+        
+        
+        
+        
         super.setAgentName("DispatcherAgent");
         super.start();
         
@@ -83,7 +99,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
             dispatcherPlugin.setOwner(this);*/
             dispatcherPlugin.setOwner(this);
             dispatcherPlugin.setConnectionXMMP( this.connectionXMPP );
-            logger.info( "Dispatcher created" );
+            logger6.info( "Dispatcher created" );
             
             this.threadMessageDispatcher = new ThreadMessageDispatcher(dispatcherPlugin,2000, 20); //TODO: retrieve parameters from configuration file
             this.threadMessageDispatcher.start();
@@ -112,7 +128,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
         }*/
         catch( Exception e )
         {
-            logger.error("errore generico dispatcherAgent CC");
+            logger6.error("errore generico dispatcherAgent CC");
             throw new CleverException( e );
         }
     }
@@ -159,7 +175,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
 
     @Override
     public void handleCleverMessage(CleverMessage message) {
-        logger.debug("received: "+message);
+        logger6.debug("received: "+message);
         this.threadMessageDispatcher.pushMessage(message);
     }
 

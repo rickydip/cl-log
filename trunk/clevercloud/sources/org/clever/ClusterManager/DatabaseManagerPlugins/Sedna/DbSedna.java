@@ -4,23 +4,6 @@
  * Copyright 2011 Alessio Di Pietro.
  * Copyright 2013 Tricomi Giuseppe
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
  */
 package org.clever.ClusterManager.DatabaseManagerPlugins.Sedna;
 
@@ -29,6 +12,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import java.util.logging.Level;
 import net.cfoster.sedna.SednaUpdateService;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -47,7 +31,7 @@ import org.xmldb.api.modules.XQueryService;
  */
 public class DbSedna implements DatabaseManagerPlugin {
     private Agent owner;
-    private Logger logger;
+    private Logger logger5;
     private String serverURL;
     private String dbName;
     private String user;
@@ -56,6 +40,18 @@ public class DbSedna implements DatabaseManagerPlugin {
     private String xpath = "/clever/cluster[@id='clustermain']";
 
     public DbSedna() throws CleverException {
+         
+         //
+         logger5 = Logger.getLogger("DatabaseManager");
+        try {
+            this.registerXMLDBDriver();
+        } catch (XMLDBException ex) {
+            java.util.logging.Logger.getLogger(DbSedna.class.getName()).log(Level.SEVERE, null, ex);
+        }
+         logger5.debug("DbSedna plugin created!");
+         //        
+        
+   /*      
         try {
             logger = Logger.getLogger("DbSednaPlugin");
             Properties prop = new Properties();
@@ -73,6 +69,9 @@ public class DbSedna implements DatabaseManagerPlugin {
         } catch (IOException ex) {
             throw new CleverException("Error on reading logger.properties");
         }
+   */ 
+        
+        
     }
 
     private void registerXMLDBDriver() throws XMLDBException {
@@ -84,11 +83,11 @@ public class DbSedna implements DatabaseManagerPlugin {
             DatabaseManager.registerDatabase(sednaDatabase);
 
         } catch (InstantiationException ex) {
-            logger.error("Instantiation error registering XMLDB: " + ex);
+            logger5.error("Instantiation error registering XMLDB: " + ex);
         } catch (IllegalAccessException ex) {
-            logger.error("Illegal access error registering XMLDB: " + ex);
+            logger5.error("Illegal access error registering XMLDB: " + ex);
         } catch (ClassNotFoundException ex) {
-            logger.error("Class not found error registering XMLDB: " + ex);
+            logger5.error("Class not found error registering XMLDB: " + ex);
         }
     }
 
@@ -112,7 +111,7 @@ public class DbSedna implements DatabaseManagerPlugin {
          */
 
 
-        logger.debug("Connecting to XMLDB");
+        logger5.debug("Connecting to XMLDB");
 
         //check HM node
         if (!checkHm(hostId)) {
@@ -134,7 +133,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             serviceUpdate.update(updateStr);
             //collect.close();
         } catch (XMLDBException ex) {
-            logger.error("Insert node failed: " + ex.getMessage());
+            logger5.error("Insert node failed: " + ex.getMessage());
             throw new CleverException("HM database update failed! " + ex);
         } finally {
             try {
@@ -142,7 +141,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
                 throw new CleverException("Error closing connection " + ex);
             }
         }
@@ -175,7 +174,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             //System.out.println(updateStr);
             collect.close();
         } catch (XMLDBException ex) {
-            logger.error("Insert node failed: " + ex.getMessage());
+            logger5.error("Insert node failed: " + ex.getMessage());
             throw new CleverException("CM database update failed! " + ex);
         } finally {
             try {
@@ -183,7 +182,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
                 throw new CleverException("Error closing connection " + ex);
             }
         }
@@ -201,14 +200,14 @@ public class DbSedna implements DatabaseManagerPlugin {
             serviceUpdate.update(updateStr);
 
         } catch (XMLDBException ex) {
-            logger.error("Insert HM node failed: " + ex.getMessage());
+            logger5.error("Insert HM node failed: " + ex.getMessage());
         } finally {
             try {
                 if (collect != null) {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
 
@@ -223,14 +222,14 @@ public class DbSedna implements DatabaseManagerPlugin {
                     + " into document(\"" + this.document + "\")/" + xpath;
             serviceUpdate.update(updateStr);
         } catch (XMLDBException ex) {
-            logger.error("Insert CM node failed: " + ex.getMessage());
+            logger5.error("Insert CM node failed: " + ex.getMessage());
         } finally {
             try {
                 if (collect != null) {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
 
         }
@@ -250,7 +249,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             ResourceIterator results = resultSet.getIterator();
             existsHm = results.hasMoreResources();
         } catch (XMLDBException ex) {
-            logger.error("Check HM node failed: " + ex.getMessage());
+            logger5.error("Check HM node failed: " + ex.getMessage());
             throw new CleverException("Check HM node failed!");
         } finally {
             try {
@@ -258,7 +257,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
 
@@ -278,14 +277,14 @@ public class DbSedna implements DatabaseManagerPlugin {
             existsCm = results.hasMoreResources();
 
         } catch (XMLDBException ex) {
-            logger.error("Check CM node failed: " + ex.getMessage());
+            logger5.error("Check CM node failed: " + ex.getMessage());
         } finally {
             try {
                 if (collect != null) {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
 
@@ -310,14 +309,14 @@ public class DbSedna implements DatabaseManagerPlugin {
 
 
         } catch (XMLDBException ex) {
-            logger.error("Check Agent node failed: " + ex.getMessage());
+            logger5.error("Check Agent node failed: " + ex.getMessage());
         } finally {
             try {
                 if (collect != null) {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
         return existsAgent;
@@ -337,14 +336,14 @@ public class DbSedna implements DatabaseManagerPlugin {
             serviceUpdate.update(updateStr);
 
         } catch (XMLDBException ex) {
-            logger.error("Insert Agent node failed: " + ex.getMessage());
+            logger5.error("Insert Agent node failed: " + ex.getMessage());
         } finally {
             try {
                 if (collect != null) {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
 
             }
 
@@ -359,6 +358,17 @@ public class DbSedna implements DatabaseManagerPlugin {
     
     
     private void init() {
+       
+      //
+      logger5.info("SONO DENTRO init() di DbSedna.java : ");  
+      logger5.debug("Debug Message! su Prova");
+      logger5.info("Info Message!  su Prova");
+      logger5.warn("Warn Message!  su Prova");
+      logger5.error("Error Message!  su Prova");
+      logger5.fatal("Fatal Message!  su Prova");
+      //
+      
+        
         ResourceSet resultSet = null;
         ResourceIterator results = null;
         Collection collect = null;
@@ -402,14 +412,14 @@ public class DbSedna implements DatabaseManagerPlugin {
             }
 
         } catch (XMLDBException ex) {
-            logger.error("Check document failed: " + ex.getMessage());
+            logger5.error("Check document failed: " + ex.getMessage());
         } finally {
             try {
                 if (collect != null) {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
 
@@ -458,7 +468,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             XQueryService serviceXQuery = (XQueryService) collect.getService("XQueryService", "1.0");
             ResourceSet resultSet = serviceXQuery.queryResource(document, this.xpath + xpath);
             ResourceIterator results = resultSet.getIterator();
-            logger.debug("Executing query xpath=" + this.xpath + xpath);
+            logger5.debug("Executing query xpath=" + this.xpath + xpath);
             while (results.hasMoreResources()) {
                 XMLResource resource = (XMLResource) results.nextResource();
                 result.append(resource.toString());
@@ -467,7 +477,7 @@ public class DbSedna implements DatabaseManagerPlugin {
 
 
         } catch (XMLDBException ex) {
-            logger.error("Error executing query: " + ex);
+            logger5.error("Error executing query: " + ex);
             throw new CleverException("Error executing query: " + ex);
         } finally {
             try {
@@ -475,7 +485,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
 
         }
@@ -497,7 +507,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             XQueryService serviceXQuery = (XQueryService) collect.getService("XQueryService", "1.0");
             ResourceSet resultSet = serviceXQuery.queryResource(document, xpath + "/hm" + filter + "/agent[@name='" + agentId + "']" + location);
             ResourceIterator results = resultSet.getIterator();
-            logger.debug("Executing query xpath=" + this.xpath + "/hm" + filter + "/agent[@name='" + agentId + "']" + location);
+            logger5.debug("Executing query xpath=" + this.xpath + "/hm" + filter + "/agent[@name='" + agentId + "']" + location);
             while (results.hasMoreResources()) {
                 XMLResource resource = (XMLResource) results.nextResource();
                 result.append(resource.toString());
@@ -505,7 +515,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             }
 
         } catch (XMLDBException ex) {
-            logger.error("Error executing query: " + ex);
+            logger5.error("Error executing query: " + ex);
             throw new CleverException("Error executing query: " + ex);
         } finally {
             try {
@@ -513,7 +523,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
         return result.substring(0);
@@ -532,7 +542,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             XQueryService serviceXQuery = (XQueryService) collect.getService("XQueryService", "1.0");
             ResourceSet resultSet = serviceXQuery.queryResource(document, xpath + "/cm/agent[@name='" + agentId + "']" + location);
             ResourceIterator results = resultSet.getIterator();
-            logger.debug("Executing query xpath=" + this.xpath + "/cm/agent[@name='" + agentId + "']" + location);
+            logger5.debug("Executing query xpath=" + this.xpath + "/cm/agent[@name='" + agentId + "']" + location);
             while (results.hasMoreResources()) {
                 XMLResource resource = (XMLResource) results.nextResource();
                 result.append(resource.toString());
@@ -540,7 +550,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             }
 
         } catch (XMLDBException ex) {
-            logger.error("Execute query failed: " + ex);
+            logger5.error("Execute query failed: " + ex);
             throw new CleverException("Error executing query: " + ex);
         } finally {
             try {
@@ -548,7 +558,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
         return result.substring(0);
@@ -562,7 +572,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             XQueryService serviceXQuery = (XQueryService) collect.getService("XQueryService", "1.0");
             ResourceSet resultSet = serviceXQuery.queryResource(document, xpath + "/cm/agent[@name='" + agentId + "']" + location);
             ResourceIterator results = resultSet.getIterator();
-            logger.debug("Executing query xpath=" + this.xpath + "/cm/agent[@name='" + agentId + "']" + location);
+            logger5.debug("Executing query xpath=" + this.xpath + "/cm/agent[@name='" + agentId + "']" + location);
             while (results.hasMoreResources()) {
                 XMLResource resource = (XMLResource) results.nextResource();
                 result.append(resource.toString());
@@ -570,7 +580,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             }
 
         } catch (XMLDBException ex) {
-            logger.error("Execute query failed: " + ex);
+            logger5.error("Execute query failed: " + ex);
             throw new CleverException("Error executing query: " + ex);
         } finally {
             try {
@@ -578,7 +588,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
             }
         }
         return result.substring(0);
@@ -645,7 +655,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             collect.close();
 
         } catch (XMLDBException ex) {
-            logger.error("find node failed: " + ex.getMessage());
+            logger5.error("find node failed: " + ex.getMessage());
         }
         return state;
     }
@@ -676,7 +686,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             collect.close();
 
         } catch (XMLDBException ex) {
-            logger.error("Insert node failed: " + ex.getMessage());
+            logger5.error("Insert node failed: " + ex.getMessage());
         }
         return a;
     }
@@ -765,7 +775,7 @@ public class DbSedna implements DatabaseManagerPlugin {
 
             collect.close();
         } catch (XMLDBException ex) {
-            logger.error("Update node failed: " + ex.getMessage());
+            logger5.error("Update node failed: " + ex.getMessage());
             throw new CleverException("CM database update failed! " + ex);
         } finally {
             try {
@@ -773,7 +783,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
                 throw new CleverException("Error closing connection " + ex);
             }
         }
@@ -805,7 +815,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             collect.close();
             
         } catch (XMLDBException ex) {
-            logger.error("Delete node failed: " + ex.getMessage());
+            logger5.error("Delete node failed: " + ex.getMessage());
             throw new CleverException("CM database update failed! " + ex);
         } finally {
             try {
@@ -813,7 +823,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
                 throw new CleverException("Error closing connection " + ex);
             }
         }
@@ -850,7 +860,7 @@ public class DbSedna implements DatabaseManagerPlugin {
         boolean existsAgentNode = false;
         String filter = "";
         Collection collect = null;
-        logger.debug("checkagentnode");
+        logger5.debug("checkagentnode");
         try {
 
             collect = this.connect();
@@ -861,7 +871,7 @@ public class DbSedna implements DatabaseManagerPlugin {
 
 
         } catch (XMLDBException ex) {
-            logger.error("Check Agent node failed: " + ex.getMessage());
+            logger5.error("Check Agent node failed: " + ex.getMessage());
             throw new CleverException("Error checking node: " + ex);
         } finally {
             try {
@@ -869,7 +879,7 @@ public class DbSedna implements DatabaseManagerPlugin {
                     collect.close();
                 }
             } catch (XMLDBException ex) {
-                logger.error("Error closing connection: " + ex.getMessage());
+                logger5.error("Error closing connection: " + ex.getMessage());
 
             }
         }
@@ -908,7 +918,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             collect.close();
 
         } catch (XMLDBException ex) {
-            logger.error("Retrieving attribute \"name\" failed:" + ex.getMessage());
+            logger5.error("Retrieving attribute \"name\" failed:" + ex.getMessage());
         }
         return a;
     }
@@ -939,7 +949,7 @@ public class DbSedna implements DatabaseManagerPlugin {
             collect.close();
 
         } catch (XMLDBException ex) {
-            logger.error("Retrieving attribute \"name\" failed:" + ex.getMessage());
+            logger5.error("Retrieving attribute \"name\" failed:" + ex.getMessage());
         }
         return a;
     }

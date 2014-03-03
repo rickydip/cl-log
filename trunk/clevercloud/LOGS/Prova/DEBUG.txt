@@ -1,0 +1,38 @@
+2014-03-03 16:50:57 INFO [org.clever.Common.Prova.ProvaAgent:44] - 
+
+ProvaAgent Started!
+
+
+2014-03-03 16:50:57 INFO [org.clever.Common.Prova.ProvaAgent:61] - ProvaPlugin start creation.
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova:41] - ProvaClever plugin created:  
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova:81] - SONO DENTRO init di PROVA.java : 
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova:119] - 
+
+ Ecco la variabile x: 1
+
+
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova:124] - 
+
+Ecco la variabile y: yes
+
+
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova1:115] - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova1:120] - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+2014-03-03 16:50:57 DEBUG [org.clever.Common.ProvaPlugins.Prova1:125] - Info Message! su Prova
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova1:126] - Info Message!  su Prova
+2014-03-03 16:50:57 WARN [org.clever.Common.ProvaPlugins.Prova1:127] - Warn Message!  su Prova
+2014-03-03 16:50:57 ERROR [org.clever.Common.ProvaPlugins.Prova1:128] - Error Message!  su Prova
+2014-03-03 16:50:57 FATAL [org.clever.Common.ProvaPlugins.Prova1:129] - Fatal Message!  su Prova
+2014-03-03 16:50:57 DEBUG [org.clever.Common.ProvaPlugins.Prova:91] - Debug Message! su Prova
+2014-03-03 16:50:57 INFO [org.clever.Common.ProvaPlugins.Prova:92] - Info Message!  su Prova
+2014-03-03 16:50:57 WARN [org.clever.Common.ProvaPlugins.Prova:93] - Warn Message!  su Prova
+2014-03-03 16:50:57 ERROR [org.clever.Common.ProvaPlugins.Prova:94] - Error Message!  su Prova
+2014-03-03 16:50:57 FATAL [org.clever.Common.ProvaPlugins.Prova:95] - Fatal Message!  su Prova

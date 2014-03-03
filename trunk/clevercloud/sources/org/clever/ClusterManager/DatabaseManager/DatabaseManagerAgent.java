@@ -26,6 +26,7 @@
 package org.clever.ClusterManager.DatabaseManager;
 
 
+import java.io.File;
 import java.io.IOException;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.XMLTools.FileStreamer;
@@ -38,6 +39,7 @@ import java.util.List;
 import org.clever.Common.Communicator.CmAgent;
 import org.clever.Common.Communicator.MethodInvoker;
 import org.clever.Common.Exceptions.CleverException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 
 
 
@@ -46,6 +48,10 @@ public class DatabaseManagerAgent extends CmAgent
 {
     private DatabaseManagerPlugin DbManagerPlugin;
     //private Class cl;
+    
+    //////
+    Logger logger1 = Logger.getLogger("DatabaseManager"); 
+    //////
     
     public DatabaseManagerAgent() throws CleverException 
     {
@@ -57,6 +63,23 @@ public class DatabaseManagerAgent extends CmAgent
     @Override
     public void initialization() throws CleverException, IOException
     {
+        
+        //DatabaseManager
+        
+       
+        //
+      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/DatabaseManager/conf_log/"; 
+      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/DatabaseManager/conf_log/x.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(log4jConfigFile,vett,1,logger1);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+        //
+        
+        
+        
+        
+        
         if(super.getAgentName().equals("NoName"))
             super.setAgentName("DatabaseManagerAgent");
         
@@ -95,7 +118,7 @@ public class DatabaseManagerAgent extends CmAgent
     @Override
     public void handleNotification(Notification notification) throws CleverException {
         if(notification.getId().equals("PRESENCE/HM")){            
-            logger.debug("Received notification type "+notification.getId());
+            logger1.debug("Received notification type "+notification.getId());
             if(!DbManagerPlugin.checkHm(notification.getHostId())){
                 DbManagerPlugin.addHm(notification.getHostId());
             }
@@ -124,7 +147,7 @@ public class DatabaseManagerAgent extends CmAgent
             //agentName=pXML.getElementContent( "moduleName" );
             DbManagerPlugin.setOwner(this);*/
            this.DbManagerPlugin.setOwner(this);
-            logger.info( "DbManagerPlugin created " );
+            logger1.info( "DbManagerPlugin created " );
             
         }
         catch( java.lang.NullPointerException e )

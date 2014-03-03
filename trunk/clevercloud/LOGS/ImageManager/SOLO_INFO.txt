@@ -1,0 +1,9 @@
+ INFO [main] (ImageManagerAgent.java:143) - 
+
+ImageManagerAgent Started!
+
+
+ INFO [main] (ImageManager.java:97) - ImageManager created:  
+ INFO [main] (ImageManager.java:102) - SONO DENTRO init() di ImageMAnager.java : 
+ INFO [main] (ImageManager.java:104) - Info Message!  su ImageMAnager
+ INFO [main] (ImageManagerAgent.java:159) - ImageManager created!
