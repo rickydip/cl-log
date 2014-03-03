@@ -2,7 +2,7 @@
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 <log4j:configuration>
 <appender name="ImgMan1" class="org.apache.log4j.FileAppender">
-   <param name="file" value="LOGS/ImageManager/SOLO_INFO.txt"/>
+   <param name="file" value="LOGS/HostManager/ImageManager/SOLO_INFO.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
@@ -15,14 +15,14 @@
 
 <appender name="ImgMan2" class="org.apache.log4j.FileAppender">
     <param name="Threshold" value="ERROR"/>  
-    <param name="file" value="LOGS/ImageManager/Threshold_ERROR_log.txt"/>
+    <param name="file" value="LOGS/HostManager/ImageManager/Threshold_ERROR_log.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
        <param name="ConversionPattern" value="%d [%t] %-5p (%F:%L) %m%n"/>     
     </layout>
 </appender>
 
 <appender name="ImgMan3" class="org.apache.log4j.FileAppender">
-    <param name="file" value="LOGS/ImageManager/DEBUG.txt"/>
+    <param name="file" value="LOGS/HostManager/ImageManager/DEBUG.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n"/>  
    </layout>

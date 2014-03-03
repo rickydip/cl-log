@@ -1,5 +1,5 @@
 <appender name="HypVB1" class="org.apache.log4j.FileAppender">
-   <param name="file" value="LOGS/HyperVisor/SOLO_INFO.txt"/>
+   <param name="file" value="LOGS/HostManager/HyperVisor/SOLO_INFO.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
@@ -12,14 +12,14 @@
 
 <appender name="HypVB2" class="org.apache.log4j.FileAppender">
     <param name="Threshold" value="ERROR"/>  
-    <param name="file" value="LOGS/HyperVisor/Threshold_ERROR_log.txt"/>
+    <param name="file" value="LOGS/HostManager/HyperVisor/Threshold_ERROR_log.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
        <param name="ConversionPattern" value="%d [%t] %-5p (%F:%L) %m%n"/>     
     </layout>
 </appender>
 
 <appender name="HypVB3" class="org.apache.log4j.FileAppender">
-    <param name="file" value="LOGS/HyperVisor/DEBUG.txt"/>
+    <param name="file" value="LOGS/HostManager/HyperVisor/DEBUG.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n"/>  
    </layout>

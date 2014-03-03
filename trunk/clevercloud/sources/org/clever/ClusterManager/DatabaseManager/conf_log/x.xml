@@ -2,7 +2,7 @@
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 <log4j:configuration>
 <appender name="DBMa1" class="org.apache.log4j.FileAppender">
-   <param name="file" value="LOGS/DatabaseManager/SOLO_INFO.txt"/>
+   <param name="file" value="LOGS/ClusterManager/DatabaseManager/SOLO_INFO.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
@@ -15,14 +15,14 @@
 
 <appender name="DBMa2" class="org.apache.log4j.FileAppender">
     <param name="Threshold" value="ERROR"/>  
-    <param name="file" value="LOGS/DatabaseManager/Threshold_ERROR_log.txt"/>
+    <param name="file" value="LOGS/ClusterManager/DatabaseManager/Threshold_ERROR_log.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
        <param name="ConversionPattern" value="%d [%t] %-5p (%F:%L) %m%n"/>     
     </layout>
 </appender>
 
 <appender name="DBMa3" class="org.apache.log4j.FileAppender">
-    <param name="file" value="LOGS/DatabaseManager/DEBUG.txt"/>
+    <param name="file" value="LOGS/ClusterManager/DatabaseManager/DEBUG.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n"/>  
    </layout>

@@ -632,6 +632,15 @@ public class StorageManager implements StorageManagerPlugin {
     @Override
     public void init(Element params, Agent owner) throws CleverException {
         this.owner=owner;
+        
+        logger.info("SONO DENTRO init() di StorageManager.java : ");
+        logger.debug("Debug Message! su StorageManager");
+        logger.info("Info Message! su StorageManager");
+        logger.warn("Warn Message! su StorageManager");
+        logger.error("Error Message! su StorageManager");
+        logger.fatal("Fatal Message! su StorageManager");
+        
+        
     }
 
     @Override

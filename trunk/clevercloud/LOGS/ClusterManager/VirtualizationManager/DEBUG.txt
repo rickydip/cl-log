@@ -1,0 +1,16 @@
+2014-03-03 18:26:51 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:59] - VirtualizationManager plugin created: 
+2014-03-03 18:26:51 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:65] - SONO DENTRO init() di VirtualizationManagerClever.java : 
+2014-03-03 18:26:51 DEBUG [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:66] - Debug Message! su VirtualizationManagerClever
+2014-03-03 18:26:51 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:67] - Info Message! su VirtualizationManagerClever
+2014-03-03 18:26:51 WARN [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:68] - Warn Message! su VirtualizationManagerClever
+2014-03-03 18:26:51 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:69] - Error Message! su VirtualizationManagerClever
+2014-03-03 18:26:51 FATAL [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:70] - Fatal Message! su VirtualizationManagerClever
+2014-03-03 18:26:51 INFO [org.clever.ClusterManager.VirtualizationManager.VirtualizationManagerAgent:140] - VirtualizationManager Agent created 
+2014-03-03 18:41:02 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:59] - VirtualizationManager plugin created: 
+2014-03-03 18:41:02 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:65] - SONO DENTRO init() di VirtualizationManagerClever.java : 
+2014-03-03 18:41:02 DEBUG [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:66] - Debug Message! su VirtualizationManagerClever
+2014-03-03 18:41:02 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:67] - Info Message! su VirtualizationManagerClever
+2014-03-03 18:41:02 WARN [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:68] - Warn Message! su VirtualizationManagerClever
+2014-03-03 18:41:02 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:69] - Error Message! su VirtualizationManagerClever
+2014-03-03 18:41:02 FATAL [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:70] - Fatal Message! su VirtualizationManagerClever
+2014-03-03 18:41:03 INFO [org.clever.ClusterManager.VirtualizationManager.VirtualizationManagerAgent:140] - VirtualizationManager Agent created 

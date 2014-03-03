@@ -1,0 +1,16 @@
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !

@@ -31,14 +31,14 @@ public class ProvaAgent extends Agent {
     public void initialization() throws Exception {
       
       Logger logger1 = Logger.getLogger("ProvaAgent");  
-        //
+      //
       String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/Common/Prova/log_conf/"; 
       String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/Common/Prova/log_conf/x.xml";
       String vett[]={path};
       Log4J log = new Log4J(log4jConfigFile,vett,1,logger1);
       log.creaFileConfigurazioneLog();
       log.assegnaConfToLog4j(log4jConfigFile);
-        //
+      //
       
       
         logger1.info("\n\nProvaAgent Started!\n\n");

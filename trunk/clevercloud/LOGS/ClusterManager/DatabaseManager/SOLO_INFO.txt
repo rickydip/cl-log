@@ -1,0 +1,15 @@
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 

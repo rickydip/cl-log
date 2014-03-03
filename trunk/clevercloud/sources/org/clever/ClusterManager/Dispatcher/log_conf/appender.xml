@@ -1,5 +1,5 @@
 <appender name="Disp1" class="org.apache.log4j.FileAppender">
-   <param name="file" value="LOGS/Dispatcher/SOLO_INFO.txt"/>
+   <param name="file" value="LOGS/ClusterManager/Dispatcher/SOLO_INFO.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
@@ -12,14 +12,14 @@
 
 <appender name="Disp2" class="org.apache.log4j.FileAppender">
     <param name="Threshold" value="ERROR"/>  
-    <param name="file" value="LOGS/Dispatcher/Threshold_ERROR_log.txt"/>
+    <param name="file" value="LOGS/ClusterManager/Dispatcher/Threshold_ERROR_log.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
        <param name="ConversionPattern" value="%d [%t] %-5p (%F:%L) %m%n"/>     
     </layout>
 </appender>
 
 <appender name="Disp3" class="org.apache.log4j.FileAppender">
-    <param name="file" value="LOGS/Dispatcher/DEBUG.txt"/>
+    <param name="file" value="LOGS/ClusterManager/Dispatcher/DEBUG.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n"/>  
    </layout>

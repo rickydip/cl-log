@@ -1,0 +1,10 @@
+2014-03-03 16:50:58,455 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-03 16:50:58,456 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-03 17:59:01,845 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-03 17:59:01,846 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-03 18:21:46,081 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-03 18:21:46,082 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-03 18:26:50,550 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-03 18:26:50,550 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-03 18:41:01,947 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-03 18:41:01,947 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever

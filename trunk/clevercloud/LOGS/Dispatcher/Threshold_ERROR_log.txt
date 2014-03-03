@@ -1,2 +1,0 @@
-2014-03-03 16:50:58,455 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-03 16:50:58,456 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
