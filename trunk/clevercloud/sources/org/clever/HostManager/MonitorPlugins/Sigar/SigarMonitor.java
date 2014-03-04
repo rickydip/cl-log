@@ -32,6 +32,7 @@ package org.clever.HostManager.MonitorPlugins.Sigar;
 
 import org.clever.HostManager.Monitor.MonitorPlugin;
 import java.util.List;
+import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.Exceptions.CleverException;
@@ -51,6 +52,19 @@ public class SigarMonitor implements MonitorPlugin{
     //public void init() throws InstantiationException, IllegalAccessException, ClassNotFoundException {
     @Override
     public void init(Element params, Agent owner) throws CleverException {
+        //
+        Logger logger = Logger.getLogger("MonitorAgent");
+        logger.info("SONO DENTRO init() di SigarMonitor.java : ");
+        logger.debug("Debug Message! su SigarMonitor.java");
+        logger.info("Info Message! su SigarMonitor.java");
+        logger.warn("Warn Message! su SigarMonitor.java");
+        logger.error("Error Message! su SigarMonitor.java");
+        logger.fatal("Fatal Message! su SigarMonitor.java");
+        
+        
+        
+        //
+        
         this.owner=owner;
         HwMonitorFactory HwMonitorFactory = new HwMonitorFactory();
         this.setHwMonitor(HwMonitorFactory.getHwMonitor());

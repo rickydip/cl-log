@@ -15,7 +15,6 @@ Fine delle istruzioni di init() di HvVirtualbox
 
 : 
  INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-0] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
  INFO [main] (HyperVisorAgent.java:50) - 
 
 HyperVisorAgent Started!
@@ -24,201 +23,7 @@ HyperVisorAgent Started!
  INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
  INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
  INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@f23838
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@48ec32
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-3] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@17cd6ad
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-0] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@17cd6ad
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-0] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@16c3ef9
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@f23838
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@f23838
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-2] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@48ec32
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@f23838
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-0] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@17cd6ad
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-3] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@17cd6ad
- INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
- INFO [main] (HvVirtualBox.java:115) - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
- INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-3] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
- INFO [main] (HyperVisorAgent.java:50) - 
-
-HyperVisorAgent Started!
-
-
- INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
- INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
- INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@f23838
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@124532
  INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
  INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
  INFO [main] (HvVirtualBox.java:115) - 
@@ -252,7 +57,7 @@ HyperVisorAgent Started!
  INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
  INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
  INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
- INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@17cd6ad
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@124532
  INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
  INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
  INFO [main] (HvVirtualBox.java:115) - 
@@ -261,4 +66,4 @@ Fine delle istruzioni di init() di HvVirtualbox
 
 : 
  INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
- INFO [Thread-3] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+ INFO [Thread-0] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1

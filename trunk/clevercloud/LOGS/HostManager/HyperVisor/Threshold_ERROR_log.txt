@@ -1,60 +1,16 @@
-2014-03-04 11:43:36,792 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 11:43:36,792 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 11:43:37,043 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 11:43:37,043 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 11:46:43,307 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 11:46:43,308 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 11:46:43,570 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 11:46:43,571 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 11:51:31,694 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 11:51:31,694 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 11:51:32,072 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 11:51:32,072 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 11:54:14,848 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 11:54:14,848 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 11:54:15,176 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 11:54:15,176 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 11:57:06,019 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 11:57:06,020 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 11:57:06,418 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 11:57:06,418 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:02:33,867 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:02:33,867 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:02:34,097 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:02:34,097 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:05:20,634 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:05:20,634 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:05:20,959 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:05:20,960 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:10:11,225 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:10:11,226 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:10:11,545 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:10:11,546 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:17:30,312 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:17:30,313 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:17:30,614 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:17:30,614 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:19:46,285 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:19:46,285 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:19:46,597 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:19:46,597 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:36:31,238 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:36:31,238 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:36:31,548 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:36:31,548 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:37:38,035 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:37:38,035 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:37:38,316 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:37:38,317 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:40:10,294 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:40:10,294 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:40:10,636 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:40:10,636 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:43:23,207 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:43:23,208 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:43:23,362 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:43:23,362 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
-2014-03-04 12:46:50,698 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
-2014-03-04 12:46:50,698 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
-2014-03-04 12:46:51,024 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
-2014-03-04 12:46:51,024 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
+2014-03-04 15:14:13,635 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
+2014-03-04 15:14:13,635 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
+2014-03-04 15:14:14,335 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+2014-03-04 15:14:14,336 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
+2014-03-04 15:29:41,426 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
+2014-03-04 15:29:41,427 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
+2014-03-04 15:29:41,889 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+2014-03-04 15:29:41,889 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
+2014-03-04 15:35:19,637 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
+2014-03-04 15:35:19,637 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
+2014-03-04 15:35:20,028 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+2014-03-04 15:35:20,029 [main] ERROR (HvVirtualBox.java:380) Error on updateMap
+2014-03-04 16:27:24,937 [main] ERROR (HvVirtualBox.java:77) Error Message!  su HvVirtualbox
+2014-03-04 16:27:24,937 [main] FATAL (HvVirtualBox.java:78) Fatal Message!  su HvVirtualbox
+2014-03-04 16:27:25,371 [main] ERROR (HvVirtualBox.java:408) Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+2014-03-04 16:27:25,371 [main] ERROR (HvVirtualBox.java:380) Error on updateMap

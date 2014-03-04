@@ -28,3 +28,21 @@
 2014-03-04 12:43:24,972 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
 2014-03-04 12:46:52,484 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
 2014-03-04 12:46:52,484 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-04 15:13:24,410 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-04 15:13:24,410 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-04 15:14:15,413 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-04 15:14:15,413 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-04 15:29:43,709 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-04 15:29:43,709 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-04 15:35:21,690 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-04 15:35:21,690 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-04 15:35:47,393 [Thread-3] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-04 15:35:47,454 [Thread-3] ERROR (VirtualizationManagerClever.java:884) An exception has verified in function <manageReUpHost> step 1:null
+2014-03-04 15:36:07,621 [Thread-3] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-04 15:36:07,622 [Thread-3] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null
+2014-03-04 16:27:26,780 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-04 16:27:26,780 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever

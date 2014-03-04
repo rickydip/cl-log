@@ -154,3 +154,55 @@
 2014-03-04 12:46:52 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 
 2014-03-04 12:46:52 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
 2014-03-04 12:46:52 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:13:24 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:51] - DbSedna plugin created!
+2014-03-04 15:13:24 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:363] - SONO DENTRO init() di DbSedna.java : 
+2014-03-04 15:13:24 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:364] - Debug Message! su Prova
+2014-03-04 15:13:24 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:365] - Info Message!  su Prova
+2014-03-04 15:13:24 WARN [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:366] - Warn Message!  su Prova
+2014-03-04 15:13:24 ERROR [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:367] - Error Message!  su Prova
+2014-03-04 15:13:24 FATAL [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:368] - Fatal Message!  su Prova
+2014-03-04 15:13:24 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 
+2014-03-04 15:13:24 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:13:24 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:14:15 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:51] - DbSedna plugin created!
+2014-03-04 15:14:15 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:363] - SONO DENTRO init() di DbSedna.java : 
+2014-03-04 15:14:15 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:364] - Debug Message! su Prova
+2014-03-04 15:14:15 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:365] - Info Message!  su Prova
+2014-03-04 15:14:15 WARN [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:366] - Warn Message!  su Prova
+2014-03-04 15:14:15 ERROR [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:367] - Error Message!  su Prova
+2014-03-04 15:14:15 FATAL [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:368] - Fatal Message!  su Prova
+2014-03-04 15:14:15 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 
+2014-03-04 15:14:15 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:14:15 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:29:43 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:51] - DbSedna plugin created!
+2014-03-04 15:29:43 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:363] - SONO DENTRO init() di DbSedna.java : 
+2014-03-04 15:29:43 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:364] - Debug Message! su Prova
+2014-03-04 15:29:43 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:365] - Info Message!  su Prova
+2014-03-04 15:29:43 WARN [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:366] - Warn Message!  su Prova
+2014-03-04 15:29:43 ERROR [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:367] - Error Message!  su Prova
+2014-03-04 15:29:43 FATAL [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:368] - Fatal Message!  su Prova
+2014-03-04 15:29:43 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 
+2014-03-04 15:29:44 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:29:44 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:29:51 DEBUG [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:121] - Received notification type PRESENCE/HM
+2014-03-04 15:35:21 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:51] - DbSedna plugin created!
+2014-03-04 15:35:21 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:363] - SONO DENTRO init() di DbSedna.java : 
+2014-03-04 15:35:21 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:364] - Debug Message! su Prova
+2014-03-04 15:35:21 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:365] - Info Message!  su Prova
+2014-03-04 15:35:21 WARN [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:366] - Warn Message!  su Prova
+2014-03-04 15:35:21 ERROR [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:367] - Error Message!  su Prova
+2014-03-04 15:35:21 FATAL [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:368] - Fatal Message!  su Prova
+2014-03-04 15:35:21 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 
+2014-03-04 15:35:22 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 15:35:22 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 16:27:26 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:51] - DbSedna plugin created!
+2014-03-04 16:27:26 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:363] - SONO DENTRO init() di DbSedna.java : 
+2014-03-04 16:27:26 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:364] - Debug Message! su Prova
+2014-03-04 16:27:26 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:365] - Info Message!  su Prova
+2014-03-04 16:27:26 WARN [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:366] - Warn Message!  su Prova
+2014-03-04 16:27:26 ERROR [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:367] - Error Message!  su Prova
+2014-03-04 16:27:26 FATAL [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:368] - Fatal Message!  su Prova
+2014-03-04 16:27:26 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 
+2014-03-04 16:27:27 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 16:27:27 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:863] - checkagentnode
+2014-03-04 16:27:30 DEBUG [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:121] - Received notification type PRESENCE/HM

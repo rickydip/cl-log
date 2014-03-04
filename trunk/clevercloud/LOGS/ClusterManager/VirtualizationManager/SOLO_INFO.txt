@@ -57,3 +57,23 @@
  INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
  INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
  INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 

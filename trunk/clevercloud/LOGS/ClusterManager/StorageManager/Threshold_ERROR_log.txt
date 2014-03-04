@@ -28,3 +28,13 @@
 2014-03-04 12:43:25,072 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager
 2014-03-04 12:46:52,415 [main] ERROR (StorageManager.java:640) Error Message! su StorageManager
 2014-03-04 12:46:52,420 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager
+2014-03-04 15:13:24,463 [main] ERROR (StorageManager.java:640) Error Message! su StorageManager
+2014-03-04 15:13:24,463 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager
+2014-03-04 15:14:15,442 [main] ERROR (StorageManager.java:640) Error Message! su StorageManager
+2014-03-04 15:14:15,443 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager
+2014-03-04 15:29:43,703 [main] ERROR (StorageManager.java:640) Error Message! su StorageManager
+2014-03-04 15:29:43,703 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager
+2014-03-04 15:35:21,654 [main] ERROR (StorageManager.java:640) Error Message! su StorageManager
+2014-03-04 15:35:21,655 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager
+2014-03-04 16:27:26,860 [main] ERROR (StorageManager.java:640) Error Message! su StorageManager
+2014-03-04 16:27:26,861 [main] FATAL (StorageManager.java:641) Fatal Message! su StorageManager

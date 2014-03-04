@@ -28,3 +28,13 @@
 2014-03-04 12:43:24,914 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova
 2014-03-04 12:46:52,450 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
 2014-03-04 12:46:52,450 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova
+2014-03-04 15:13:24,516 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
+2014-03-04 15:13:24,521 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova
+2014-03-04 15:14:15,393 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
+2014-03-04 15:14:15,394 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova
+2014-03-04 15:29:43,619 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
+2014-03-04 15:29:43,620 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova
+2014-03-04 15:35:21,708 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
+2014-03-04 15:35:21,709 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova
+2014-03-04 16:27:26,850 [main] ERROR (DbSedna.java:367) Error Message!  su Prova
+2014-03-04 16:27:26,850 [main] FATAL (DbSedna.java:368) Fatal Message!  su Prova

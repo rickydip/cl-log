@@ -71,7 +71,8 @@ public class NetworkManagerLinux implements NetworkManagerPlugin
 
   public NetworkManagerLinux() //cmq i log non funzionano nemmeno qui!!!
   {
-      logger = Logger.getLogger( "NetworkManagerLinux" );
+      //logger = Logger.getLogger( "NetworkManagerLinux" );
+      Logger logger = Logger.getLogger("NetworkManager");
       this.logger.info("Network Manager plugin created: ");
   }
 
@@ -84,6 +85,17 @@ public class NetworkManagerLinux implements NetworkManagerPlugin
     }
 
     private void init(Agent owner) throws CleverException {
+        
+        ////
+        logger.info("SONO DENTRO init di NetworkManager.java : ");
+        logger.debug("Debug Message! su NetworkManager.java");
+        logger.info("Info Message! su NetworkManager.java");
+        logger.warn("Warn Message! su NetworkManager.java");
+        logger.error("Error Message! su NetworkManager.java");
+        logger.fatal("Fatal Message! su NetworkManager.java");
+        ////
+        
+        
         this.owner=owner;
         this.adaptersInfo = new ArrayList();
         this.adaptersState = new ArrayList();

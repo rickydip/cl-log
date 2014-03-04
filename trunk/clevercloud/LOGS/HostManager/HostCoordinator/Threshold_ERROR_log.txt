@@ -1,4 +1,0 @@
-2014-03-04 12:10:09,972 [main] ERROR (HostCoordinator.java:85) Error Message!  su HostCoordinator.java
-2014-03-04 12:10:09,972 [main] FATAL (HostCoordinator.java:86) Fatal Message!  su HostCoordinator.java
-2014-03-04 12:17:29,041 [main] ERROR (HostCoordinator.java:85) Error Message!  su HostCoordinator.java
-2014-03-04 12:17:29,041 [main] FATAL (HostCoordinator.java:86) Fatal Message!  su HostCoordinator.java

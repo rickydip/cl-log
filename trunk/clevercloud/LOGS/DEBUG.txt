@@ -2749,3 +2749,969 @@ DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 113469
 ERROR [Thread-6] (ImageManager.java:867) - Error deleting host info from the database : Error while sending message with sendRecv.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
 Check if this object exists.
+DEBUG [main] (DispatcherAgent.java:168) - ?=)** hostId= riccardo
+DEBUG [main] (DispatcherAgent.java:189) - preparing notify clever message
+DEBUG [main] (DispatcherAgent.java:203) - notification sent
+DEBUG [main] (DispatcherAgent.java:173) - Debug Message! su DispatcherAgentHm.java
+ INFO [main] (DispatcherAgent.java:174) - Info Message! su DispatcherAgentHm.java
+ WARN [main] (DispatcherAgent.java:175) - Warn Message! su DispatcherAgentHm.java
+ERROR [main] (DispatcherAgent.java:176) - Error Message! su DispatcherAgentHm.java
+FATAL [main] (DispatcherAgent.java:177) - Fatal Message! su DispatcherAgentHm.java
+ INFO [main] (ImageManagerAgent.java:143) - 
+
+ImageManagerAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:43) - 
+
+LoggingAgent Started!
+
+
+DEBUG [main] (MonitorAgent.java:62) - MonitorPlugin start creation
+ERROR [main] (MonitorAgent.java:70) - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (HyperVisorAgent.java:50) - 
+
+HyperVisorAgent Started!
+
+
+ INFO [main] (ProvaAgent.java:44) - 
+
+ProvaAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:60) - LoggingPlugin start creation.
+ INFO [main] (ImageManager.java:97) - ImageManager created:  
+ INFO [main] (ImageManager.java:102) - SONO DENTRO init() di ImageMAnager.java : 
+DEBUG [main] (ImageManager.java:103) - Debug Message! su ImageMAnager
+ INFO [main] (ImageManager.java:104) - Info Message!  su ImageMAnager
+ WARN [main] (ImageManager.java:105) - Warn Message!  su ImageMAnager
+ INFO [main] (Log4J.java:75) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:130) - SONO DENTRO init() di Log4J.java : 
+DEBUG [main] (Log4J.java:132) - Debug Message! su Log4J
+ INFO [main] (Log4J.java:133) - Info Message! su Log4J
+ERROR [main] (ImageManager.java:106) - Error Message!  su ImageMAnager
+FATAL [main] (ImageManager.java:107) - Fatal Message!  su ImageMAnager
+ WARN [main] (Log4J.java:134) - Warn Message! su Log4J
+ERROR [main] (Log4J.java:135) - Error Message! su Log4J
+FATAL [main] (Log4J.java:136) - Fatal Message! su Log4J
+ INFO [main] (Log4J.java:139) - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+ INFO [main] (Log4J.java:142) - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+ INFO [main] (Log4J.java:233) - Sono entrato in creaFileConfigurazioneLog()
+ INFO [main] (Log4J.java:512) - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+ INFO [main] (Log4J.java:519) - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+ INFO [main] (Log4J.java:622) - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+ INFO [main] (Log4J.java:595) - Entro in stringToFile()
+ INFO [main] (Log4J.java:603) - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+ERROR [main] (LoggingAgent.java:66) -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (ImageManagerAgent.java:159) - ImageManager created!
+ INFO [main] (ProvaAgent.java:61) - ProvaPlugin start creation.
+ INFO [main] (Prova.java:41) - ProvaClever plugin created:  
+ INFO [main] (Prova.java:81) - SONO DENTRO init di PROVA.java : 
+ INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
+ INFO [main] (Prova.java:119) - 
+
+ Ecco la variabile x: 1
+
+
+ INFO [main] (Prova.java:124) - 
+
+Ecco la variabile y: yes
+
+
+ INFO [main] (Prova1.java:115) - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+ INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
+ INFO [main] (Prova1.java:120) - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+DEBUG [main] (HvVirtualBox.java:74) - Debug Message! su HvVirtualbox
+ INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
+ WARN [main] (HvVirtualBox.java:76) - Warn Message!  su HvVirtualbox
+ERROR [main] (HvVirtualBox.java:77) - Error Message!  su HvVirtualbox
+FATAL [main] (HvVirtualBox.java:78) - Fatal Message!  su HvVirtualbox
+DEBUG [main] (HvVirtualBox.java:91) - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+DEBUG [main] (Prova1.java:125) - Info Message! su Prova
+ INFO [main] (Prova1.java:126) - Info Message!  su Prova
+ WARN [main] (Prova1.java:127) - Warn Message!  su Prova
+ERROR [main] (Prova1.java:128) - Error Message!  su Prova
+FATAL [main] (Prova1.java:129) - Fatal Message!  su Prova
+DEBUG [main] (Prova.java:91) - Debug Message! su Prova
+ INFO [main] (Prova.java:92) - Info Message!  su Prova
+ WARN [main] (Prova.java:93) - Warn Message!  su Prova
+ERROR [main] (Prova.java:94) - Error Message!  su Prova
+FATAL [main] (Prova.java:95) - Fatal Message!  su Prova
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@124532
+ INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+ INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
+ERROR [main] (HvVirtualBox.java:408) - Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+ERROR [main] (HvVirtualBox.java:380) - Error on updateMap
+ INFO [main] (HvVirtualBox.java:115) - 
+
+Fine delle istruzioni di init() di HvVirtualbox
+
+: 
+ INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+DEBUG [main] (DispatcherClever.java:90) - Debug Message! su DispacerClever
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ WARN [main] (DispatcherClever.java:92) - Warn Message!  su DispacerClever
+ERROR [main] (DispatcherClever.java:93) - Error Message!  su DispacerClever
+FATAL [main] (DispatcherClever.java:94) - Fatal Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+DEBUG [main] (VirtualizationManagerClever.java:66) - Debug Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ WARN [main] (VirtualizationManagerClever.java:68) - Warn Message! su VirtualizationManagerClever
+ERROR [main] (VirtualizationManagerClever.java:69) - Error Message! su VirtualizationManagerClever
+FATAL [main] (VirtualizationManagerClever.java:70) - Fatal Message! su VirtualizationManagerClever
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+DEBUG [main] (StorageManager.java:637) - Debug Message! su StorageManager
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ WARN [main] (StorageManager.java:639) - Warn Message! su StorageManager
+ERROR [main] (StorageManager.java:640) - Error Message! su StorageManager
+FATAL [main] (StorageManager.java:641) - Fatal Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+DEBUG [main] (DbSedna.java:51) - DbSedna plugin created!
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+DEBUG [main] (DbSedna.java:364) - Debug Message! su Prova
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ WARN [main] (DbSedna.java:366) - Warn Message!  su Prova
+ERROR [main] (DbSedna.java:367) - Error Message!  su Prova
+FATAL [main] (DbSedna.java:368) - Fatal Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+DEBUG [Thread-3] (DbSedna.java:863) - checkagentnode
+DEBUG [Thread-3] (DbSedna.java:863) - checkagentnode
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@1ee3d36
+ INFO [Thread-2] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@597692
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:185) - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1293870214" type="REPLY">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Tue Mar 04 15:13:31 CET 2014</timestamp>
+  <replyToMsg>1780206336</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="OBJECT" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<list>
+  <string>ubuntu_server</string>
+</list>]]></attachement>
+</message>
+
+
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:189) - Module name: HyperVisorAgent and operation: listHVms
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 1780206336 with result: org.clever.Common.Communicator.Request@a6e4e2
+DEBUG [Thread-3] (HvVirtualBox.java:338) - List running HVms returned number of machine: 0
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@1e85079
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:185) - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="184001027" type="REPLY">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Tue Mar 04 15:13:32 CET 2014</timestamp>
+  <replyToMsg>303802377</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="OBJECT" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<list/>]]></attachement>
+</message>
+
+
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:189) - Module name: HyperVisorAgent and operation: listRunningHVms
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 303802377 with result: org.clever.Common.Communicator.Request@10875ae
+ERROR [Thread-6] (ImageManager.java:867) - Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.
+DEBUG [main] (DispatcherAgent.java:168) - ?=)** hostId= riccardo
+DEBUG [main] (DispatcherAgent.java:189) - preparing notify clever message
+DEBUG [main] (DispatcherAgent.java:203) - notification sent
+DEBUG [main] (DispatcherAgent.java:173) - Debug Message! su DispatcherAgentHm.java
+ INFO [main] (DispatcherAgent.java:174) - Info Message! su DispatcherAgentHm.java
+ WARN [main] (DispatcherAgent.java:175) - Warn Message! su DispatcherAgentHm.java
+ERROR [main] (DispatcherAgent.java:176) - Error Message! su DispatcherAgentHm.java
+FATAL [main] (DispatcherAgent.java:177) - Fatal Message! su DispatcherAgentHm.java
+ INFO [main] (HyperVisorAgent.java:50) - 
+
+HyperVisorAgent Started!
+
+
+ INFO [main] (ImageManagerAgent.java:143) - 
+
+ImageManagerAgent Started!
+
+
+ INFO [main] (ProvaAgent.java:44) - 
+
+ProvaAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:43) - 
+
+LoggingAgent Started!
+
+
+DEBUG [main] (MonitorAgent.java:62) - MonitorPlugin start creation
+ERROR [main] (MonitorAgent.java:70) - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (ImageManager.java:97) - ImageManager created:  
+ INFO [main] (ImageManager.java:102) - SONO DENTRO init() di ImageMAnager.java : 
+DEBUG [main] (ImageManager.java:103) - Debug Message! su ImageMAnager
+ INFO [main] (ImageManager.java:104) - Info Message!  su ImageMAnager
+ WARN [main] (ImageManager.java:105) - Warn Message!  su ImageMAnager
+ERROR [main] (ImageManager.java:106) - Error Message!  su ImageMAnager
+FATAL [main] (ImageManager.java:107) - Fatal Message!  su ImageMAnager
+ INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
+ INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
+DEBUG [main] (HvVirtualBox.java:74) - Debug Message! su HvVirtualbox
+ INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
+ WARN [main] (HvVirtualBox.java:76) - Warn Message!  su HvVirtualbox
+ERROR [main] (HvVirtualBox.java:77) - Error Message!  su HvVirtualbox
+FATAL [main] (HvVirtualBox.java:78) - Fatal Message!  su HvVirtualbox
+DEBUG [main] (HvVirtualBox.java:91) - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+ INFO [main] (ImageManagerAgent.java:159) - ImageManager created!
+ INFO [main] (LoggingAgent.java:60) - LoggingPlugin start creation.
+ INFO [main] (ProvaAgent.java:61) - ProvaPlugin start creation.
+ INFO [main] (Log4J.java:75) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:130) - SONO DENTRO init() di Log4J.java : 
+DEBUG [main] (Log4J.java:132) - Debug Message! su Log4J
+ INFO [main] (Log4J.java:133) - Info Message! su Log4J
+ WARN [main] (Log4J.java:134) - Warn Message! su Log4J
+ERROR [main] (Log4J.java:135) - Error Message! su Log4J
+FATAL [main] (Log4J.java:136) - Fatal Message! su Log4J
+ INFO [main] (Log4J.java:139) - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+ INFO [main] (Log4J.java:142) - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+ INFO [main] (Log4J.java:233) - Sono entrato in creaFileConfigurazioneLog()
+ INFO [main] (Log4J.java:512) - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+ INFO [main] (Log4J.java:519) - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+ INFO [main] (Log4J.java:622) - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+ INFO [main] (Log4J.java:595) - Entro in stringToFile()
+ INFO [main] (Log4J.java:603) - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+ERROR [main] (LoggingAgent.java:66) -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (Prova.java:41) - ProvaClever plugin created:  
+ INFO [main] (Prova.java:81) - SONO DENTRO init di PROVA.java : 
+ INFO [main] (Prova.java:119) - 
+
+ Ecco la variabile x: 1
+
+
+ INFO [main] (Prova.java:124) - 
+
+Ecco la variabile y: yes
+
+
+ INFO [main] (Prova1.java:115) - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+ INFO [main] (Prova1.java:120) - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+DEBUG [main] (Prova1.java:125) - Info Message! su Prova
+ INFO [main] (Prova1.java:126) - Info Message!  su Prova
+ WARN [main] (Prova1.java:127) - Warn Message!  su Prova
+ERROR [main] (Prova1.java:128) - Error Message!  su Prova
+FATAL [main] (Prova1.java:129) - Fatal Message!  su Prova
+DEBUG [main] (Prova.java:91) - Debug Message! su Prova
+ INFO [main] (Prova.java:92) - Info Message!  su Prova
+ WARN [main] (Prova.java:93) - Warn Message!  su Prova
+ERROR [main] (Prova.java:94) - Error Message!  su Prova
+FATAL [main] (Prova.java:95) - Fatal Message!  su Prova
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@124532
+ INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+ INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
+ERROR [main] (HvVirtualBox.java:408) - Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+ERROR [main] (HvVirtualBox.java:380) - Error on updateMap
+ INFO [main] (HvVirtualBox.java:115) - 
+
+Fine delle istruzioni di init() di HvVirtualbox
+
+: 
+ INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+DEBUG [main] (DispatcherClever.java:90) - Debug Message! su DispacerClever
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ WARN [main] (DispatcherClever.java:92) - Warn Message!  su DispacerClever
+ERROR [main] (DispatcherClever.java:93) - Error Message!  su DispacerClever
+FATAL [main] (DispatcherClever.java:94) - Fatal Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+DEBUG [main] (DbSedna.java:51) - DbSedna plugin created!
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+DEBUG [main] (DbSedna.java:364) - Debug Message! su Prova
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ WARN [main] (DbSedna.java:366) - Warn Message!  su Prova
+ERROR [main] (DbSedna.java:367) - Error Message!  su Prova
+FATAL [main] (DbSedna.java:368) - Fatal Message!  su Prova
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+DEBUG [main] (VirtualizationManagerClever.java:66) - Debug Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ WARN [main] (VirtualizationManagerClever.java:68) - Warn Message! su VirtualizationManagerClever
+ERROR [main] (VirtualizationManagerClever.java:69) - Error Message! su VirtualizationManagerClever
+FATAL [main] (VirtualizationManagerClever.java:70) - Fatal Message! su VirtualizationManagerClever
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+DEBUG [main] (StorageManager.java:637) - Debug Message! su StorageManager
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ WARN [main] (StorageManager.java:639) - Warn Message! su StorageManager
+ERROR [main] (StorageManager.java:640) - Error Message! su StorageManager
+FATAL [main] (StorageManager.java:641) - Fatal Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+DEBUG [Thread-0] (DbSedna.java:863) - checkagentnode
+DEBUG [Thread-0] (DbSedna.java:863) - checkagentnode
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+ERROR [Thread-6] (ImageManager.java:867) - Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.
+DEBUG [main] (DispatcherAgent.java:168) - ?=)** hostId= riccardo
+DEBUG [main] (DispatcherAgent.java:189) - preparing notify clever message
+DEBUG [main] (DispatcherAgent.java:203) - notification sent
+DEBUG [main] (DispatcherAgent.java:173) - Debug Message! su DispatcherAgentHm.java
+ INFO [main] (DispatcherAgent.java:174) - Info Message! su DispatcherAgentHm.java
+ WARN [main] (DispatcherAgent.java:175) - Warn Message! su DispatcherAgentHm.java
+ERROR [main] (DispatcherAgent.java:176) - Error Message! su DispatcherAgentHm.java
+FATAL [main] (DispatcherAgent.java:177) - Fatal Message! su DispatcherAgentHm.java
+ INFO [main] (HyperVisorAgent.java:50) - 
+
+HyperVisorAgent Started!
+
+
+ INFO [main] (ProvaAgent.java:44) - 
+
+ProvaAgent Started!
+
+
+ INFO [main] (ImageManagerAgent.java:143) - 
+
+ImageManagerAgent Started!
+
+
+ INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
+ INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
+DEBUG [main] (HvVirtualBox.java:74) - Debug Message! su HvVirtualbox
+ INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
+ WARN [main] (HvVirtualBox.java:76) - Warn Message!  su HvVirtualbox
+ERROR [main] (HvVirtualBox.java:77) - Error Message!  su HvVirtualbox
+FATAL [main] (HvVirtualBox.java:78) - Fatal Message!  su HvVirtualbox
+DEBUG [main] (HvVirtualBox.java:91) - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+ INFO [main] (LoggingAgent.java:43) - 
+
+LoggingAgent Started!
+
+
+DEBUG [main] (MonitorAgent.java:66) - MonitorPlugin start creation
+ INFO [main] (ProvaAgent.java:61) - ProvaPlugin start creation.
+ERROR [main] (MonitorAgent.java:70) - Errore in un file di conf 1
+org.clever.Common.Exceptions.CleverException: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+	at org.clever.Common.Communicator.Agent.startPlugin(Agent.java:152)
+	at org.clever.HostManager.Monitor.MonitorAgent.initialization(MonitorAgent.java:68)
+	at org.clever.Common.Communicator.Agent.main(Agent.java:499)
+ INFO [main] (Prova.java:41) - ProvaClever plugin created:  
+ INFO [main] (Prova.java:81) - SONO DENTRO init di PROVA.java : 
+ INFO [main] (Prova.java:119) - 
+
+ Ecco la variabile x: 1
+
+
+ INFO [main] (Prova.java:124) - 
+
+Ecco la variabile y: yes
+
+
+ INFO [main] (Prova1.java:115) - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+ INFO [main] (Prova1.java:120) - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+DEBUG [main] (Prova1.java:125) - Info Message! su Prova
+ INFO [main] (Prova1.java:126) - Info Message!  su Prova
+ WARN [main] (Prova1.java:127) - Warn Message!  su Prova
+ERROR [main] (Prova1.java:128) - Error Message!  su Prova
+FATAL [main] (Prova1.java:129) - Fatal Message!  su Prova
+DEBUG [main] (Prova.java:91) - Debug Message! su Prova
+ INFO [main] (Prova.java:92) - Info Message!  su Prova
+ WARN [main] (Prova.java:93) - Warn Message!  su Prova
+ERROR [main] (Prova.java:94) - Error Message!  su Prova
+FATAL [main] (Prova.java:95) - Fatal Message!  su Prova
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@124532
+ INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+ INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
+ERROR [main] (HvVirtualBox.java:408) - Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+ERROR [main] (HvVirtualBox.java:380) - Error on updateMap
+ INFO [main] (HvVirtualBox.java:115) - 
+
+Fine delle istruzioni di init() di HvVirtualbox
+
+: 
+ INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
+ INFO [main] (ImageManager.java:97) - ImageManager created:  
+ INFO [main] (ImageManager.java:102) - SONO DENTRO init() di ImageMAnager.java : 
+DEBUG [main] (ImageManager.java:103) - Debug Message! su ImageMAnager
+ INFO [main] (ImageManager.java:104) - Info Message!  su ImageMAnager
+ WARN [main] (ImageManager.java:105) - Warn Message!  su ImageMAnager
+ERROR [main] (ImageManager.java:106) - Error Message!  su ImageMAnager
+FATAL [main] (ImageManager.java:107) - Fatal Message!  su ImageMAnager
+ INFO [main] (ImageManagerAgent.java:159) - ImageManager created!
+ INFO [main] (LoggingAgent.java:60) - LoggingPlugin start creation.
+ INFO [main] (Log4J.java:75) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:130) - SONO DENTRO init() di Log4J.java : 
+DEBUG [main] (Log4J.java:132) - Debug Message! su Log4J
+ INFO [main] (Log4J.java:133) - Info Message! su Log4J
+ WARN [main] (Log4J.java:134) - Warn Message! su Log4J
+ERROR [main] (Log4J.java:135) - Error Message! su Log4J
+FATAL [main] (Log4J.java:136) - Fatal Message! su Log4J
+ INFO [main] (Log4J.java:139) - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+ INFO [main] (Log4J.java:142) - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+ INFO [main] (Log4J.java:233) - Sono entrato in creaFileConfigurazioneLog()
+ INFO [main] (Log4J.java:512) - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+ INFO [main] (Log4J.java:519) - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+ INFO [main] (Log4J.java:622) - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+ INFO [main] (Log4J.java:595) - Entro in stringToFile()
+ INFO [main] (Log4J.java:603) - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+ERROR [main] (LoggingAgent.java:66) -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+DEBUG [main] (DispatcherClever.java:90) - Debug Message! su DispacerClever
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ WARN [main] (DispatcherClever.java:92) - Warn Message!  su DispacerClever
+ERROR [main] (DispatcherClever.java:93) - Error Message!  su DispacerClever
+FATAL [main] (DispatcherClever.java:94) - Fatal Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+DEBUG [main] (DbSedna.java:51) - DbSedna plugin created!
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+DEBUG [main] (DbSedna.java:364) - Debug Message! su Prova
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ WARN [main] (DbSedna.java:366) - Warn Message!  su Prova
+ERROR [main] (DbSedna.java:367) - Error Message!  su Prova
+FATAL [main] (DbSedna.java:368) - Fatal Message!  su Prova
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+DEBUG [main] (StorageManager.java:637) - Debug Message! su StorageManager
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ WARN [main] (StorageManager.java:639) - Warn Message! su StorageManager
+ERROR [main] (StorageManager.java:640) - Error Message! su StorageManager
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+DEBUG [main] (VirtualizationManagerClever.java:66) - Debug Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ WARN [main] (VirtualizationManagerClever.java:68) - Warn Message! su VirtualizationManagerClever
+ERROR [main] (VirtualizationManagerClever.java:69) - Error Message! su VirtualizationManagerClever
+FATAL [main] (VirtualizationManagerClever.java:70) - Fatal Message! su VirtualizationManagerClever
+FATAL [main] (StorageManager.java:641) - Fatal Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+DEBUG [Thread-1] (DbSedna.java:863) - checkagentnode
+DEBUG [Thread-1] (DbSedna.java:863) - checkagentnode
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@1f4a84b
+DEBUG [Thread-1] (DatabaseManagerAgent.java:121) - Received notification type PRESENCE/HM
+ERROR [Thread-6] (ImageManager.java:867) - Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.
+DEBUG [main] (DispatcherAgent.java:168) - ?=)** hostId= riccardo
+DEBUG [main] (DispatcherAgent.java:189) - preparing notify clever message
+DEBUG [main] (DispatcherAgent.java:203) - notification sent
+DEBUG [main] (DispatcherAgent.java:173) - Debug Message! su DispatcherAgentHm.java
+ INFO [main] (DispatcherAgent.java:174) - Info Message! su DispatcherAgentHm.java
+ WARN [main] (DispatcherAgent.java:175) - Warn Message! su DispatcherAgentHm.java
+ERROR [main] (DispatcherAgent.java:176) - Error Message! su DispatcherAgentHm.java
+FATAL [main] (DispatcherAgent.java:177) - Fatal Message! su DispatcherAgentHm.java
+ INFO [main] (HyperVisorAgent.java:50) - 
+
+HyperVisorAgent Started!
+
+
+ INFO [main] (ImageManagerAgent.java:143) - 
+
+ImageManagerAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:43) - 
+
+LoggingAgent Started!
+
+
+ INFO [main] (ProvaAgent.java:44) - 
+
+ProvaAgent Started!
+
+
+ INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
+ INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
+DEBUG [main] (HvVirtualBox.java:74) - Debug Message! su HvVirtualbox
+ INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
+ WARN [main] (HvVirtualBox.java:76) - Warn Message!  su HvVirtualbox
+ERROR [main] (HvVirtualBox.java:77) - Error Message!  su HvVirtualbox
+FATAL [main] (HvVirtualBox.java:78) - Fatal Message!  su HvVirtualbox
+DEBUG [main] (HvVirtualBox.java:91) - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+DEBUG [main] (MonitorAgent.java:64) - MonitorPlugin start creation
+ERROR [main] (MonitorAgent.java:73) - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (LoggingAgent.java:60) - LoggingPlugin start creation.
+ INFO [main] (Log4J.java:75) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:130) - SONO DENTRO init() di Log4J.java : 
+DEBUG [main] (Log4J.java:132) - Debug Message! su Log4J
+ INFO [main] (Log4J.java:133) - Info Message! su Log4J
+ WARN [main] (Log4J.java:134) - Warn Message! su Log4J
+ERROR [main] (Log4J.java:135) - Error Message! su Log4J
+FATAL [main] (Log4J.java:136) - Fatal Message! su Log4J
+ INFO [main] (Log4J.java:139) - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+ INFO [main] (Log4J.java:142) - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+ INFO [main] (Log4J.java:233) - Sono entrato in creaFileConfigurazioneLog()
+ INFO [main] (Log4J.java:512) - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+ INFO [main] (Log4J.java:519) - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+ INFO [main] (Log4J.java:622) - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+ INFO [main] (Log4J.java:595) - Entro in stringToFile()
+ INFO [main] (Log4J.java:603) - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+ERROR [main] (LoggingAgent.java:66) -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@1a87069
+ INFO [main] (ImageManager.java:97) - ImageManager created:  
+ INFO [main] (ImageManager.java:102) - SONO DENTRO init() di ImageMAnager.java : 
+DEBUG [main] (ImageManager.java:103) - Debug Message! su ImageMAnager
+ INFO [main] (ImageManager.java:104) - Info Message!  su ImageMAnager
+ WARN [main] (ImageManager.java:105) - Warn Message!  su ImageMAnager
+ERROR [main] (ImageManager.java:106) - Error Message!  su ImageMAnager
+FATAL [main] (ImageManager.java:107) - Fatal Message!  su ImageMAnager
+ INFO [main] (ImageManagerAgent.java:159) - ImageManager created!
+ INFO [main] (ProvaAgent.java:61) - ProvaPlugin start creation.
+ INFO [main] (Prova.java:41) - ProvaClever plugin created:  
+ INFO [main] (Prova.java:81) - SONO DENTRO init di PROVA.java : 
+ INFO [main] (Prova.java:119) - 
+
+ Ecco la variabile x: 1
+
+
+ INFO [main] (Prova.java:124) - 
+
+Ecco la variabile y: yes
+
+
+ INFO [main] (Prova1.java:115) - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+ INFO [main] (Prova1.java:120) - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+DEBUG [main] (Prova1.java:125) - Info Message! su Prova
+ INFO [main] (Prova1.java:126) - Info Message!  su Prova
+ WARN [main] (Prova1.java:127) - Warn Message!  su Prova
+ERROR [main] (Prova1.java:128) - Error Message!  su Prova
+FATAL [main] (Prova1.java:129) - Fatal Message!  su Prova
+DEBUG [main] (Prova.java:91) - Debug Message! su Prova
+ INFO [main] (Prova.java:92) - Info Message!  su Prova
+ WARN [main] (Prova.java:93) - Warn Message!  su Prova
+ERROR [main] (Prova.java:94) - Error Message!  su Prova
+FATAL [main] (Prova.java:95) - Fatal Message!  su Prova
+ INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+ INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
+ERROR [main] (HvVirtualBox.java:408) - Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+ERROR [main] (HvVirtualBox.java:380) - Error on updateMap
+ INFO [main] (HvVirtualBox.java:115) - 
+
+Fine delle istruzioni di init() di HvVirtualbox
+
+: 
+ INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+DEBUG [main] (DispatcherClever.java:90) - Debug Message! su DispacerClever
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ WARN [main] (DispatcherClever.java:92) - Warn Message!  su DispacerClever
+ERROR [main] (DispatcherClever.java:93) - Error Message!  su DispacerClever
+FATAL [main] (DispatcherClever.java:94) - Fatal Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+DEBUG [main] (StorageManager.java:637) - Debug Message! su StorageManager
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ WARN [main] (StorageManager.java:639) - Warn Message! su StorageManager
+ERROR [main] (StorageManager.java:640) - Error Message! su StorageManager
+FATAL [main] (StorageManager.java:641) - Fatal Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+DEBUG [main] (VirtualizationManagerClever.java:66) - Debug Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ WARN [main] (VirtualizationManagerClever.java:68) - Warn Message! su VirtualizationManagerClever
+ERROR [main] (VirtualizationManagerClever.java:69) - Error Message! su VirtualizationManagerClever
+FATAL [main] (VirtualizationManagerClever.java:70) - Fatal Message! su VirtualizationManagerClever
+DEBUG [main] (DbSedna.java:51) - DbSedna plugin created!
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+DEBUG [main] (DbSedna.java:364) - Debug Message! su Prova
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ WARN [main] (DbSedna.java:366) - Warn Message!  su Prova
+ERROR [main] (DbSedna.java:367) - Error Message!  su Prova
+FATAL [main] (DbSedna.java:368) - Fatal Message!  su Prova
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+DEBUG [Thread-0] (DbSedna.java:863) - checkagentnode
+DEBUG [Thread-0] (DbSedna.java:863) - checkagentnode
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@1f4a84b
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@139a82d
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:185) - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1372823015" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Tue Mar 04 15:35:47 CET 2014</timestamp>
+  <replyToMsg>366464495</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:267)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:240)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:189) - Module name: HyperVisorAgent and operation: listHVms
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 366464495 with result: org.clever.Common.Communicator.Request@1c377f3
+ERROR [ThreadMessageHandler] (DispatcherClever.java:204) - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+ERROR [Thread-3] (VirtualizationManagerClever.java:862) - An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+ERROR [Thread-3] (VirtualizationManagerClever.java:884) - An exception has verified in function <manageReUpHost> step 1:null
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@48c9bb
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:185) - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1056963654" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Tue Mar 04 15:36:07 CET 2014</timestamp>
+  <replyToMsg>828144572</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:267)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:240)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:189) - Module name: HyperVisorAgent and operation: listRunningHVms
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 828144572 with result: org.clever.Common.Communicator.Request@4e5b11
+ERROR [ThreadMessageHandler] (DispatcherClever.java:204) - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+ERROR [Thread-3] (VirtualizationManagerClever.java:862) - An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+ERROR [Thread-3] (VirtualizationManagerClever.java:903) - An exception has verified in function <manageReUpHost> :null
+ERROR [Thread-6] (ImageManager.java:867) - Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.
+DEBUG [main] (DispatcherAgent.java:168) - ?=)** hostId= riccardo
+DEBUG [main] (DispatcherAgent.java:189) - preparing notify clever message
+DEBUG [main] (DispatcherAgent.java:203) - notification sent
+DEBUG [main] (DispatcherAgent.java:173) - Debug Message! su DispatcherAgentHm.java
+ INFO [main] (DispatcherAgent.java:174) - Info Message! su DispatcherAgentHm.java
+ WARN [main] (DispatcherAgent.java:175) - Warn Message! su DispatcherAgentHm.java
+ERROR [main] (DispatcherAgent.java:176) - Error Message! su DispatcherAgentHm.java
+FATAL [main] (DispatcherAgent.java:177) - Fatal Message! su DispatcherAgentHm.java
+ INFO [main] (ImageManagerAgent.java:143) - 
+
+ImageManagerAgent Started!
+
+
+ INFO [main] (HyperVisorAgent.java:50) - 
+
+HyperVisorAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:43) - 
+
+LoggingAgent Started!
+
+
+ INFO [main] (ImageManager.java:97) - ImageManager created:  
+ INFO [main] (ImageManager.java:102) - SONO DENTRO init() di ImageMAnager.java : 
+DEBUG [main] (ImageManager.java:103) - Debug Message! su ImageMAnager
+ INFO [main] (ImageManager.java:104) - Info Message!  su ImageMAnager
+ WARN [main] (ImageManager.java:105) - Warn Message!  su ImageMAnager
+ERROR [main] (ImageManager.java:106) - Error Message!  su ImageMAnager
+FATAL [main] (ImageManager.java:107) - Fatal Message!  su ImageMAnager
+ INFO [main] (NetworkManagerAgent.java:53) - NetworkManagerPlugin Started
+ INFO [main] (LoggingAgent.java:60) - LoggingPlugin start creation.
+ INFO [main] (Log4J.java:75) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:130) - SONO DENTRO init() di Log4J.java : 
+DEBUG [main] (Log4J.java:132) - Debug Message! su Log4J
+ INFO [main] (Log4J.java:133) - Info Message! su Log4J
+ WARN [main] (Log4J.java:134) - Warn Message! su Log4J
+ERROR [main] (Log4J.java:135) - Error Message! su Log4J
+FATAL [main] (Log4J.java:136) - Fatal Message! su Log4J
+ INFO [main] (Log4J.java:139) - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+ INFO [main] (Log4J.java:142) - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+ INFO [main] (Log4J.java:233) - Sono entrato in creaFileConfigurazioneLog()
+ INFO [main] (Log4J.java:512) - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+ INFO [main] (Log4J.java:519) - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+ INFO [main] (Log4J.java:622) - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+ INFO [main] (Log4J.java:595) - Entro in stringToFile()
+ INFO [main] (Log4J.java:603) - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+ERROR [main] (LoggingAgent.java:66) -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (ImageManagerAgent.java:159) - ImageManager created!
+ INFO [main] (HvVirtualBox.java:66) - VirtualBox plugin created: 
+ INFO [main] (HvVirtualBox.java:73) - Sono dentro init() di HvVirtualbox.java
+DEBUG [main] (HvVirtualBox.java:74) - Debug Message! su HvVirtualbox
+ INFO [main] (ProvaAgent.java:44) - 
+
+ProvaAgent Started!
+
+
+ INFO [main] (HvVirtualBox.java:75) - Info Message!  su HvVirtualbox
+ WARN [main] (HvVirtualBox.java:76) - Warn Message!  su HvVirtualbox
+ERROR [main] (HvVirtualBox.java:77) - Error Message!  su HvVirtualbox
+FATAL [main] (HvVirtualBox.java:78) - Fatal Message!  su HvVirtualbox
+DEBUG [main] (HvVirtualBox.java:91) - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+ERROR [main] (NetworkManagerAgent.java:63) - CleverException in Network Agent initializationorg.clever.Common.Exceptions.CleverException: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+DEBUG [main] (MonitorAgent.java:64) - MonitorPlugin start creation
+ERROR [main] (MonitorAgent.java:73) - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 
+ INFO [main] (ProvaAgent.java:61) - ProvaPlugin start creation.
+ INFO [main] (Prova.java:41) - ProvaClever plugin created:  
+ INFO [main] (Prova.java:81) - SONO DENTRO init di PROVA.java : 
+ INFO [main] (Prova.java:119) - 
+
+ Ecco la variabile x: 1
+
+
+ INFO [main] (Prova.java:124) - 
+
+Ecco la variabile y: yes
+
+
+ INFO [main] (Prova1.java:115) - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+ INFO [main] (Prova1.java:120) - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+DEBUG [main] (Prova1.java:125) - Info Message! su Prova
+ INFO [main] (Prova1.java:126) - Info Message!  su Prova
+ WARN [main] (Prova1.java:127) - Warn Message!  su Prova
+ERROR [main] (Prova1.java:128) - Error Message!  su Prova
+FATAL [main] (Prova1.java:129) - Fatal Message!  su Prova
+DEBUG [main] (Prova.java:91) - Debug Message! su Prova
+ INFO [main] (Prova.java:92) - Info Message!  su Prova
+ WARN [main] (Prova.java:93) - Warn Message!  su Prova
+ERROR [main] (Prova.java:94) - Error Message!  su Prova
+FATAL [main] (Prova.java:95) - Fatal Message!  su Prova
+ INFO [main] (HvVirtualBox.java:100) - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@124532
+ INFO [main] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+ INFO [main] (HvVirtualBox.java:354) - VM adding: ubuntu_server
+ERROR [main] (HvVirtualBox.java:408) - Error :org.virtualbox_4_1.VBoxException: The function "getMedium" returned an error condition: "No storage device attached to device slot 0 on port 0 of controller 'IDE Controller'"  (0x80bb0001)
+ERROR [main] (HvVirtualBox.java:380) - Error on updateMap
+ INFO [main] (HvVirtualBox.java:115) - 
+
+Fine delle istruzioni di init() di HvVirtualbox
+
+: 
+ INFO [main] (HyperVisorAgent.java:61) - HyperVisorPlugin created 
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+DEBUG [main] (DispatcherClever.java:90) - Debug Message! su DispacerClever
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ WARN [main] (DispatcherClever.java:92) - Warn Message!  su DispacerClever
+ERROR [main] (DispatcherClever.java:93) - Error Message!  su DispacerClever
+FATAL [main] (DispatcherClever.java:94) - Fatal Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (VirtualizationManagerClever.java:59) - VirtualizationManager plugin created: 
+ INFO [main] (VirtualizationManagerClever.java:65) - SONO DENTRO init() di VirtualizationManagerClever.java : 
+DEBUG [main] (VirtualizationManagerClever.java:66) - Debug Message! su VirtualizationManagerClever
+ INFO [main] (VirtualizationManagerClever.java:67) - Info Message! su VirtualizationManagerClever
+ WARN [main] (VirtualizationManagerClever.java:68) - Warn Message! su VirtualizationManagerClever
+ERROR [main] (VirtualizationManagerClever.java:69) - Error Message! su VirtualizationManagerClever
+FATAL [main] (VirtualizationManagerClever.java:70) - Fatal Message! su VirtualizationManagerClever
+ INFO [main] (StorageManagerAgent.java:62) - Read Configuration StorageManager!
+DEBUG [main] (DbSedna.java:51) - DbSedna plugin created!
+ INFO [main] (DbSedna.java:363) - SONO DENTRO init() di DbSedna.java : 
+DEBUG [main] (DbSedna.java:364) - Debug Message! su Prova
+ INFO [main] (DbSedna.java:365) - Info Message!  su Prova
+ WARN [main] (DbSedna.java:366) - Warn Message!  su Prova
+ERROR [main] (DbSedna.java:367) - Error Message!  su Prova
+FATAL [main] (DbSedna.java:368) - Fatal Message!  su Prova
+ INFO [main] (StorageManager.java:636) - SONO DENTRO init() di StorageManager.java : 
+DEBUG [main] (StorageManager.java:637) - Debug Message! su StorageManager
+ INFO [main] (StorageManager.java:638) - Info Message! su StorageManager
+ WARN [main] (StorageManager.java:639) - Warn Message! su StorageManager
+ERROR [main] (StorageManager.java:640) - Error Message! su StorageManager
+FATAL [main] (StorageManager.java:641) - Fatal Message! su StorageManager
+ INFO [main] (StorageManagerAgent.java:81) - StorageManager Plugin instantiated !
+ INFO [main] (DatabaseManagerAgent.java:150) - DbManagerPlugin created 
+DEBUG [Thread-3] (DbSedna.java:863) - checkagentnode
+DEBUG [Thread-3] (DbSedna.java:863) - checkagentnode
+ INFO [main] (VirtualizationManagerAgent.java:140) - VirtualizationManager Agent created 
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@137e38c
+DEBUG [Thread-3] (DatabaseManagerAgent.java:121) - Received notification type PRESENCE/HM
+ INFO [Thread-0] (HvVirtualBox.java:307) - List VMs rturned numero di macchine: 1
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@1321f9b
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:185) - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1178514946" type="REPLY">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Tue Mar 04 16:27:30 CET 2014</timestamp>
+  <replyToMsg>1129608972</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="OBJECT" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<list>
+  <string>ubuntu_server</string>
+</list>]]></attachement>
+</message>
+
+
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:189) - Module name: HyperVisorAgent and operation: listHVms
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 1129608972 with result: org.clever.Common.Communicator.Request@10379d4
+DEBUG [Thread-0] (HvVirtualBox.java:338) - List running HVms returned number of machine: 0
+DEBUG [Smack Listener Processor (0)] (DispatcherAgent.java:178) - received: org.clever.Common.XMPPCommunicator.CleverMessage@172cef6
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:185) - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="344033577" type="REPLY">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Tue Mar 04 16:27:31 CET 2014</timestamp>
+  <replyToMsg>1437127749</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="OBJECT" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<list/>]]></attachement>
+</message>
+
+
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:189) - Module name: HyperVisorAgent and operation: listRunningHVms
+DEBUG [ThreadMessageHandler] (DispatcherClever.java:196) - searching for: 1437127749 with result: org.clever.Common.Communicator.Request@cf9c64
+ERROR [Thread-6] (ImageManager.java:867) - Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.

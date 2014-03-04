@@ -43,3 +43,18 @@
 2014-03-04 12:46:50,705 [main] ERROR (Log4J.java:135) Error Message! su Log4J
 2014-03-04 12:46:50,706 [main] FATAL (Log4J.java:136) Fatal Message! su Log4J
 2014-03-04 12:46:50,711 [main] ERROR (LoggingAgent.java:66)  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 15:13:22,448 [main] ERROR (Log4J.java:135) Error Message! su Log4J
+2014-03-04 15:13:22,448 [main] FATAL (Log4J.java:136) Fatal Message! su Log4J
+2014-03-04 15:13:22,460 [main] ERROR (LoggingAgent.java:66)  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 15:14:13,684 [main] ERROR (Log4J.java:135) Error Message! su Log4J
+2014-03-04 15:14:13,685 [main] FATAL (Log4J.java:136) Fatal Message! su Log4J
+2014-03-04 15:14:13,691 [main] ERROR (LoggingAgent.java:66)  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 15:29:41,949 [main] ERROR (Log4J.java:135) Error Message! su Log4J
+2014-03-04 15:29:41,949 [main] FATAL (Log4J.java:136) Fatal Message! su Log4J
+2014-03-04 15:29:41,954 [main] ERROR (LoggingAgent.java:66)  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 15:35:19,808 [main] ERROR (Log4J.java:135) Error Message! su Log4J
+2014-03-04 15:35:19,808 [main] FATAL (Log4J.java:136) Fatal Message! su Log4J
+2014-03-04 15:35:19,813 [main] ERROR (LoggingAgent.java:66)  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 16:27:24,858 [main] ERROR (Log4J.java:135) Error Message! su Log4J
+2014-03-04 16:27:24,859 [main] FATAL (Log4J.java:136) Fatal Message! su Log4J
+2014-03-04 16:27:24,878 [main] ERROR (LoggingAgent.java:66)  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
