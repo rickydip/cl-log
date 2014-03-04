@@ -1,0 +1,465 @@
+2014-03-04 11:43:36 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 11:43:36 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 11:43:36 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 11:43:36 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 11:43:36 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 11:43:36 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 11:43:36 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 11:43:36 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 11:46:42 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 11:46:43 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 11:46:43 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 11:46:43 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 11:46:43 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 11:46:43 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 11:46:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 11:46:43 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 11:51:31 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 11:51:31 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 11:51:31 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 11:51:31 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 11:51:31 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 11:51:31 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 11:51:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 11:51:31 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 11:54:14 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 11:54:14 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 11:54:14 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 11:54:14 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 11:54:14 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 11:54:14 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 11:54:14 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 11:54:14 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 11:57:05 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 11:57:05 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 11:57:06 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 11:57:06 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 11:57:06 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 11:57:06 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 11:57:06 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 11:57:06 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:02:33 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:02:33 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:02:33 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:02:33 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:02:33 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:02:33 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:02:33 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:02:33 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:05:20 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:05:20 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:05:20 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:05:20 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:05:20 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:05:20 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:05:20 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:05:20 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:10:10 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:10:11 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:10:11 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:10:11 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:10:11 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:10:11 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:10:11 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:10:11 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:17:29 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:17:30 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:17:30 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:17:30 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:17:30 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:17:30 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:17:30 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:17:30 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:19:46 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:19:46 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:19:46 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:19:46 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:19:46 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:19:46 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:19:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:19:46 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:36:30 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:36:31 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:36:31 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:36:31 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:36:31 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:36:31 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:36:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:36:31 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:37:37 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:37:37 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:37:37 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:37:37 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:37:37 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:37:37 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:37:37 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:37:37 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:40:09 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:40:10 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:40:10 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:40:10 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:40:10 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:40:10 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:40:10 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:40:10 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:43:22 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:43:23 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:43:23 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:43:23 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:43:23 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:43:23 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:43:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:43:23 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-04 12:46:50 INFO [org.clever.Common.Logging.LoggingAgent:43] - 
+
+LoggingAgent Started!
+
+
+2014-03-04 12:46:50 INFO [org.clever.Common.Logging.LoggingAgent:60] - LoggingPlugin start creation.
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:75] - LoggingAgent plugin created:  
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:130] - SONO DENTRO init() di Log4J.java : 
+2014-03-04 12:46:50 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:132] - Debug Message! su Log4J
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:133] - Info Message! su Log4J
+2014-03-04 12:46:50 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:134] - Warn Message! su Log4J
+2014-03-04 12:46:50 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:135] - Error Message! su Log4J
+2014-03-04 12:46:50 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:136] - Fatal Message! su Log4J
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:139] - 
+
+Inizio delle istruzioni di init() di Log4J
+
+: 
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:142] - la radice è: 
+
+/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/
+
+
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:233] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - Entro in validaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:519] - Il file: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf//appender.xml non esiste!!!
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:622] - Creazione directory: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:595] - Entro in stringToFile()
+2014-03-04 12:46:50 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:603] - Errore: java.io.FileNotFoundException: /home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/frammento_default/appender.xml (No such file or directory)
+2014-03-04 12:46:50 ERROR [org.clever.Common.Logging.LoggingAgent:66] -  LoggingPlugin creation failed: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 

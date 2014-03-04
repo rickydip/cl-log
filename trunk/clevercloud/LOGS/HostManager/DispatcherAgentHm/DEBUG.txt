@@ -1,0 +1,120 @@
+2014-03-04 11:43:35 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 11:43:35 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 11:43:35 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 11:43:35 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 11:43:35 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 11:43:35 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 11:43:35 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 11:43:35 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 11:46:42 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 11:46:42 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 11:46:42 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 11:46:42 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 11:46:42 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 11:46:42 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 11:46:42 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 11:46:42 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 11:51:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 11:51:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 11:51:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 11:51:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 11:51:30 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 11:51:30 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 11:51:30 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 11:51:30 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 11:54:13 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 11:54:13 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 11:54:13 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 11:54:13 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 11:54:13 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 11:54:13 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 11:54:13 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 11:54:13 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 11:57:05 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 11:57:05 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 11:57:05 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 11:57:05 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 11:57:05 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 11:57:05 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 11:57:05 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 11:57:05 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:02:32 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:02:32 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:02:33 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:02:33 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:02:33 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:02:33 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:02:33 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:02:33 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:05:19 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:05:19 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:05:19 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:05:19 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:05:19 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:05:19 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:05:19 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:05:19 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:10:10 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:10:10 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:10:10 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:10:10 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:10:10 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:10:10 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:10:10 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:10:10 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:17:29 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:17:29 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:17:29 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:17:29 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:17:29 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:17:29 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:17:29 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:17:29 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:19:45 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:19:45 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:19:45 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:19:45 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:19:45 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:19:45 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:19:45 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:19:45 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:36:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:36:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:36:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:36:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:36:30 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:36:30 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:36:30 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:36:30 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:37:36 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:37:36 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:37:36 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:37:36 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:37:36 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:37:36 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:37:36 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:37:36 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:40:09 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:40:09 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:40:09 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:40:09 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:40:09 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:40:09 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:40:09 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:40:09 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:43:22 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:43:22 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:43:22 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:43:22 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:43:22 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:43:22 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:43:22 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:43:22 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java
+2014-03-04 12:46:49 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:168] - ?=)** hostId= riccardo
+2014-03-04 12:46:49 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:189] - preparing notify clever message
+2014-03-04 12:46:49 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:203] - notification sent
+2014-03-04 12:46:49 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:173] - Debug Message! su DispatcherAgentHm.java
+2014-03-04 12:46:49 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:174] - Info Message! su DispatcherAgentHm.java
+2014-03-04 12:46:49 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:175] - Warn Message! su DispatcherAgentHm.java
+2014-03-04 12:46:49 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:176] - Error Message! su DispatcherAgentHm.java
+2014-03-04 12:46:49 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:177] - Fatal Message! su DispatcherAgentHm.java

@@ -24,6 +24,7 @@
  */
 package org.clever.HostManager.Dispatcher;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -32,6 +33,7 @@ import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Exceptions.CleverException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.XMPPCommunicator.CleverMessage;
 import org.clever.Common.XMPPCommunicator.ConnectionXMPP;
 import org.clever.Common.XMPPCommunicator.NotificationOperation;
@@ -124,6 +126,9 @@ public class DispatcherAgent extends Agent
     private NotificationThread notificationThread;
     private int notificationsThreshold;    
    
+    //
+    Logger logger = Logger.getLogger("DispatcherAgentHm");
+    //
 
     public DispatcherAgent(ConnectionXMPP connectionXMPP, int notificationsThreshold) throws CleverException
     {   super();
@@ -139,6 +144,18 @@ public class DispatcherAgent extends Agent
      @Override
 public void initialization() throws CleverException
 {
+    
+    //
+    String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/Dispatcher/log_conf/"; 
+    String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/Dispatcher/log_conf/x.xml";
+    String vett[]={path};
+    Log4J log = new Log4J(log4jConfigFile,vett,1,logger);
+    log.creaFileConfigurazioneLog();
+    log.assegnaConfToLog4j(log4jConfigFile);
+      //
+    
+    
+    
     super.setAgentName("DispatcherAgentHm");    
     super.start();
     
@@ -151,6 +168,18 @@ public void initialization() throws CleverException
     logger.debug("?=)** hostId= "+hostid);
     notification.setHostId(hostid);
     this.sendNotification(notification);
+    
+    
+    logger.debug("Debug Message! su DispatcherAgentHm.java");
+    logger.info("Info Message! su DispatcherAgentHm.java");
+    logger.warn("Warn Message! su DispatcherAgentHm.java");
+    logger.error("Error Message! su DispatcherAgentHm.java");
+    logger.fatal("Fatal Message! su DispatcherAgentHm.java");
+    
+    
+    
+    
+    
 }
 
     @Override

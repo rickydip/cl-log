@@ -23,11 +23,13 @@
  */
 package org.clever.HostManager.ServiceManager;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Exceptions.CleverException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.XMLTools.FileStreamer;
 import org.clever.Common.XMLTools.ParserXML;
 import org.jdom.Element;
@@ -58,13 +60,30 @@ public class ServiceManagerAgent extends Agent {
 
     @Override
     public void initialization() throws Exception {
-          
+       
+      Logger logger7 = Logger.getLogger("ServiceManager");  
+       //
+      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/ServiceManager/log_conf/"; 
+      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/ServiceManager/log_conf/x.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(log4jConfigFile,vett,1,logger7);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+        
+      logger7.debug("Debug Message! su ServiceManagerAgent.java");
+      logger7.info("Info Message! su ServiceManagerAgent.java");
+      logger7.warn("Warn Message! su ServiceManagerAgent.java");
+      logger7.error("Error Message! su ServiceManagerAgent.java");
+      logger7.fatal("Fatal Message! su ServiceManagerAgent.java"); 
+      
+      
        try {
            service_manager = (ServiceManagerPlugin) super.startPlugin("./cfg/configuration_ServiceManager.xml","/org/clever/HostManager/ServiceManager/configuration_ServiceManager.xml");
            service_manager.setOwner(this);
-           logger.info("ServiceManagerAgent created ");
+           logger7.info("ServiceManagerAgent created ");
         } catch (Exception ex) {
-            logger.error("ServiceManagerPlugin creation failed: " + ex);
+            logger7.error("ServiceManagerPlugin creation failed: " + ex);
         }
     }
 
