@@ -33,3 +33,8 @@
 2014-03-05 19:57:40 WARN [org.clever.HostManager.Info.InfoAgent:90] - Warn Message!  su InfoAgentHM
 2014-03-05 19:57:40 ERROR [org.clever.HostManager.Info.InfoAgent:91] - Error Message!  su InfoAgentHM
 2014-03-05 19:57:40 FATAL [org.clever.HostManager.Info.InfoAgent:92] - Fatal Message!  su InfoAgentHM
+2014-03-05 20:08:00 DEBUG [org.clever.HostManager.Info.InfoAgent:88] - Debug Message! su InfoAgentHM
+2014-03-05 20:08:00 INFO [org.clever.HostManager.Info.InfoAgent:89] - Info Message!  su InfoAgentHM
+2014-03-05 20:08:00 WARN [org.clever.HostManager.Info.InfoAgent:90] - Warn Message!  su InfoAgentHM
+2014-03-05 20:08:00 ERROR [org.clever.HostManager.Info.InfoAgent:91] - Error Message!  su InfoAgentHM
+2014-03-05 20:08:00 FATAL [org.clever.HostManager.Info.InfoAgent:92] - Fatal Message!  su InfoAgentHM

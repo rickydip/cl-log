@@ -618,3 +618,34 @@ Ecco la variabile y: yes
  INFO [main] (Prova1.java:122) - Info Message!  su Prova1
  INFO [main] (Prova.java:93) - Info Message!  su Prova
  INFO [main] (ProvaAgent.java:53) -  ProvaPlugin created.
+ INFO [main] (ProvaAgent.java:33) - 
+
+ProvaAgent Started!
+
+
+ INFO [main] (ProvaAgent.java:50) - ProvaPlugin start creation.
+ INFO [main] (Prova.java:42) - ProvaClever plugin created:  
+ INFO [main] (Prova.java:82) - SONO DENTRO init di PROVA.java : 
+ INFO [main] (Prova.java:120) - 
+
+ Ecco la variabile x: 1
+
+
+ INFO [main] (Prova.java:125) - 
+
+Ecco la variabile y: yes
+
+
+ INFO [main] (Prova1.java:111) - 
+
+ (Prova1) Ecco la variabile x: 2
+
+
+ INFO [main] (Prova1.java:116) - 
+
+ (Prova1) Ecco la variabile y: no
+
+
+ INFO [main] (Prova1.java:122) - Info Message!  su Prova1
+ INFO [main] (Prova.java:93) - Info Message!  su Prova
+ INFO [main] (ProvaAgent.java:53) -  ProvaPlugin created.

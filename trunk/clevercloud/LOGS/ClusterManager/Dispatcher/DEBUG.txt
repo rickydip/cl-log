@@ -702,3 +702,12 @@ Check if this object exists.
 2014-03-05 19:56:34 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
 2014-03-05 19:56:36 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@150cc3c
 2014-03-05 19:56:37 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:302] - No agents associated to notificationId PRESENCE/HM
+2014-03-05 20:08:07 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 20:08:07 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 20:08:07 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 20:08:07 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 20:08:07 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 20:08:07 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 20:08:07 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 20:08:07 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@d7c2c7
+2014-03-05 20:08:08 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:302] - No agents associated to notificationId PRESENCE/HM

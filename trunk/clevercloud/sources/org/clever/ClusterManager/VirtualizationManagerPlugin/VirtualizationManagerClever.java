@@ -21,6 +21,7 @@ import org.clever.Common.Communicator.MethodInvoker;
 import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.Exceptions.LogicalCatalogException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.VEInfo.DesktopVirtualization;
 import org.clever.Common.VEInfo.StorageSettings;
 import org.clever.Common.VEInfo.VEDescription;
@@ -55,8 +56,11 @@ public class VirtualizationManagerClever implements VirtualizationManagerPlugin 
 
 
     public VirtualizationManagerClever() throws Exception{
-        this.logger = Logger.getLogger( "VirtualizationManager" );
-        this.logger.info("VirtualizationManager plugin created: ");
+        //#############################################
+        logger = Logger.getLogger( "VirtualizationManager" );
+        setLog4J(logger);
+      //#############################################
+        logger.info("VirtualizationManager plugin created: ");
     }
 
 
@@ -990,6 +994,20 @@ public String listMac_address(String id) throws CleverException{
     public void shutdownPluginInstance(){
         
     }
+    
+     public void setLog4J(Logger logger){
+       //
+      String radice=System.getProperty("user.dir");
+      String path =radice+"/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+        //   
+       
+    }
+    
 }
 
  

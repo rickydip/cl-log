@@ -55,17 +55,12 @@ public class VirtualizationManagerAgent extends CmAgent {
     
     public void initialization()throws CleverException,IOException {
         
+      //############################################
       Logger logger = Logger.getLogger("VirtualizationManager");  
-        //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //
-        
-        
+      setLog4J(logger);
+      //#############################################
+      
+      
         
         try {
             List params = null;
@@ -264,5 +259,18 @@ public class VirtualizationManagerAgent extends CmAgent {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    
+    public void setLog4J(Logger logger){
+       //
+      String radice=System.getProperty("user.dir");
+      String path =radice+"/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+        //   
+       
+    }
     
 }

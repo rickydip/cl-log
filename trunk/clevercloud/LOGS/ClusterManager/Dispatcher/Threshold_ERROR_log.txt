@@ -60,3 +60,5 @@ Check if this object exists.
 2014-03-05 19:53:35,105 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
 2014-03-05 19:56:34,813 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
 2014-03-05 19:56:34,813 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 20:08:07,546 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 20:08:07,547 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever

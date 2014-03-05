@@ -78,3 +78,7 @@
 2014-03-05 19:57:43,624 [main] FATAL (Prova1.java:125) Fatal Message!  su Prova1
 2014-03-05 19:57:43,645 [main] ERROR (Prova.java:95) Error Message!  su Prova
 2014-03-05 19:57:43,645 [main] FATAL (Prova.java:96) Fatal Message!  su Prova
+2014-03-05 20:08:05,198 [main] ERROR (Prova1.java:124) Error Message!  su Prova1
+2014-03-05 20:08:05,258 [main] FATAL (Prova1.java:125) Fatal Message!  su Prova1
+2014-03-05 20:08:05,272 [main] ERROR (Prova.java:95) Error Message!  su Prova
+2014-03-05 20:08:05,272 [main] FATAL (Prova.java:96) Fatal Message!  su Prova
