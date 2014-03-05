@@ -20,7 +20,7 @@ public class Prova implements ProvaPlugin{
     private String version = "0.0.1";
     private String description = "Clever Prova";
     private String name = "Prova";
-    private Logger logger1 = null;
+    private Logger logger = null;
     //#########################################
     
     
@@ -30,15 +30,16 @@ public class Prova implements ProvaPlugin{
     public Prova(int x, String y, Logger logger) {
         this.x = x;
         this.y = y;
-        this.logger1 = logger;
+        this.logger = logger;
         
     }
     
+     
     public Prova() {
         this.x = 0;
         this.y = "";
-        logger1 = Logger.getLogger("ProvaAgent");
-        logger1.info("ProvaClever plugin created:  ");
+        logger = Logger.getLogger("ProvaAgent");
+        logger.info("ProvaClever plugin created:  ");
     }
     
 
@@ -78,9 +79,9 @@ public class Prova implements ProvaPlugin{
      
         
         
-        logger1.info("SONO DENTRO init di PROVA.java : ");
-        Prova a =new Prova(1,"yes", logger1);
-        Prova1 b =new Prova1(2,"no", logger1);
+        logger.info("SONO DENTRO init di PROVA.java : ");
+        Prova a =new Prova(1,"yes",logger);
+        Prova1 b =new Prova1(2,"no", logger);
         a.printX();
         a.printY();
         b.printX();
@@ -88,11 +89,11 @@ public class Prova implements ProvaPlugin{
         b.printZ();
         
         
-      logger1.debug("Debug Message! su Prova");
-      logger1.info("Info Message!  su Prova");
-      logger1.warn("Warn Message!  su Prova");
-      logger1.error("Error Message!  su Prova");
-      logger1.fatal("Fatal Message!  su Prova");
+      logger.debug("Debug Message! su Prova");
+      logger.info("Info Message!  su Prova");
+      logger.warn("Warn Message!  su Prova");
+      logger.error("Error Message!  su Prova");
+      logger.fatal("Fatal Message!  su Prova");
         
         
     }
@@ -116,12 +117,12 @@ public class Prova implements ProvaPlugin{
     }
     
     public void printX(){
-       logger1.info("\n\n Ecco la variabile x: "+x+"\n\n");
+       logger.info("\n\n Ecco la variabile x: "+x+"\n\n");
         
     }
     
     public void printY(){
-        logger1.info("\n\nEcco la variabile y: "+y+"\n\n");
+        logger.info("\n\nEcco la variabile y: "+y+"\n\n");
         
     }
 

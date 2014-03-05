@@ -46,9 +46,10 @@ import org.jdom.Element;
 
 /**
  *
- * @author riccardo
+ * @author Riccardo Di Pietro
  */
 public class Log4J implements LoggingPlugin{
+    
     //###################################
     private Agent owner;
     private String version = "0.0.1";
@@ -75,22 +76,37 @@ public class Log4J implements LoggingPlugin{
         logger2.info("LoggingAgent plugin created:  ");
     }
     
+    /**
+     * La versione del costruttore con il parametro radice serve per gestire la 
+     * creazione dinamica dei frammenti di default qualora il normale processo
+     * di creazione non possa essere avviato a causa della mancanza di qualche 
+     * frammento.
+     * Il parametro radice viene richiamato in assegnaFrammento() tramite un getRadice()
+     * 
+     * @param radice
+     * @param log4jConfigFile
+     * @param vett
+     * @param n
+     * @param logger 
+     */
+    public Log4J(String radice, String log4jConfigFile, String[] vett, int n, Logger logger) {
+     this.log4jConfigFile = log4jConfigFile;
+     this.vett = vett;
+     this.n = n;
+     this.logger2 = logger;
+     this.radice = radice;
+         
+    }
     
     public Log4J( String log4jConfigFile, String[] vett, int n, Logger logger) {
      this.log4jConfigFile = log4jConfigFile;
      this.vett = vett;
      this.n = n;
-     this.logger2=logger;
-         
+     this.logger2 = logger;
+            
     }
     
-    public Log4J( String log4jConfigFile, String[] vett, int n) {
-     this.log4jConfigFile = log4jConfigFile;
-     this.vett = vett;
-     this.n = n;
-         
-    }
-    
+     
      // Metodi ereditati  @Override
     
      @Override
@@ -119,16 +135,14 @@ public class Log4J implements LoggingPlugin{
    
     @Override
     public void init(Element params, Agent owner) throws CleverException {
-    
-    init(); 
-    
+        init(); 
     }
 
     private void init (){
        
-      int flag=0; 
-      logger2.info("SONO DENTRO init() di Log4J.java : ");
+      int flag=0;
       
+      logger2.info("SONO DENTRO init() di Log4J.java : ");
       logger2.debug("Debug Message! su Log4J");
       logger2.info("Info Message! su Log4J");
       logger2.warn("Warn Message! su Log4J");
@@ -148,8 +162,8 @@ public class Log4J implements LoggingPlugin{
      //String comodo = radice+"sources/org/clever/HostManager/";
      //String path1 = comodo+"ImageManager/log_conf/";
      //String path2 = comodo+"Monitor/log_conf/";
-     String path3 = "/home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Prova/log_conf/";
-     String path4 = "/home/riccardo/NetBeansProjects/cl-log-2/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/";
+     String path3 = "/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/Common/Prova/log_conf/";
+     String path4 = "/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/";
     
       n = 2;
       String[] vett= {path4,path3};
@@ -174,7 +188,8 @@ public class Log4J implements LoggingPlugin{
   //  avviaEsecuzioneSlave3(); 
     
     logger2.info("\n\nFine delle istruzioni di init() di Log4J\n\n: "); 
-      
+    
+     
     }
     
     
@@ -217,7 +232,7 @@ public class Log4J implements LoggingPlugin{
     
     
 /**
- * Funzione principale del progetto
+ * Funzione principale della classe Lo4J 
  * @param n dim del vettore vett
  * @param vett vettore contenente i path delle componenti sw
  * @param log4jConfigFile path dove salvare il file di configurazione di Log4J
@@ -301,13 +316,13 @@ public int validaComponenteSW(String path){
      //##################################
      String appender=path+"/appender.xml";
      //apro il file 
-     flag=validaFile(appender);
+     flag=verificaFile(appender);
      //################################
      //Verificare esistenza logger.xml#
      //################################
      if(flag==0){
      String logger=path+"/logger.xml";
-     flag=validaFile(logger);
+     flag=verificaFile(logger);
      }
      //####################################
      //Verificare esistenza rootLogger.xml#
@@ -315,7 +330,7 @@ public int validaComponenteSW(String path){
      if(flag==0){
      String rootLogger=path+"/rootLogger.xml";
      //apro il file 
-      flag=validaFile(rootLogger);
+      flag=verificaFile(rootLogger);
      }
 return flag;
 }//validaPath   
@@ -330,24 +345,24 @@ return flag;
  */
 public String assegnaFrammento(String componente_sw, int n_c_sw){
     String output="";  int flag=0; String nome_app="app_def_";
+      
     //creo il nuovo path
-    output=componente_sw+"frammento_default/";
+    output=componente_sw+"/frammento_default/";
     //se già esiste la cancello
     deleteDir(output);
     //creo la directory
     creaDir(output);
+    
+    String path_log =fileToString("/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/Common/Prova/log_conf/path_log.txt");
+    logger2.info("path_log: " +path_log);
+    
     //##########################################
     //creo il contenuto di appender.xml
     String text_appender ="<appender name=\""+nome_app+n_c_sw+"\" class=\"org.apache.log4j.FileAppender\">\n" +
-"   <param name=\"file\" value=\""+getRadice()+"/LOGS/logclass"+n_c_sw+"_output/LOG.txt"+"\"/>\n" +
+"   <param name=\"file\" value=\""+path_log+"DEBUG_default.txt"+"\"/>\n" +
 "   <layout class=\"org.apache.log4j.PatternLayout\" >\n" +
 "     <param name=\"ConversionPattern\" value=\"%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n\"/>     \n" +
 "   </layout>\n" +
-"   <filter class=\"org.apache.log4j.varia.LevelMatchFilter\">\n" +
-"      <param name=\"LevelToMatch\" value=\"INFO\" />\n" +
-"      <param name=\"AcceptOnMatch\" value=\"true\" />\n" +
-"    </filter>\n" +
-"    <filter class=\"org.apache.log4j.varia.DenyAllFilter\" /> \n" +
 "</appender>";
     //creo il file
     flag=stringToFile(output+"appender.xml",text_appender);
@@ -359,7 +374,7 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
            // apro il file che contiene i nomi dei logger
            ArrayList lista = new ArrayList();
            String file = null;
-           file = fileToString(componente_sw+"/logger_attivi.txt");
+           file = fileToString(componente_sw+"/logger.txt");
            lista = stringToArrayList(file);
            
            //debug
@@ -503,13 +518,13 @@ public String componirootLogConf(String[] path,int n){
 }//componirootLogConf
 
 /**
- * Questa funzione "Attualmente" serve per verificare l'esistenza di un file
+ * Questa funzione serve per verificare l'esistenza di un file
  * @param path percorso del file da verificare 
  * @return 0 il file esiste
  * @return 1 i1 filenon esiste
  */
- public int validaFile(String path){
-     logger2.info("Entro in validaFile()\n, eseguo il controllo sull'esistenza del file: "+path);
+ public int verificaFile(String path){
+     logger2.info("Entro in verificaFile()\n, eseguo il controllo sull'esistenza del file: "+path);
     int flag=0;
      //apro il file 
      File  file1 =new File(path);
@@ -518,37 +533,37 @@ public String componirootLogConf(String[] path,int n){
          flag=1;
      logger2.info("Il file: "+path+" non esiste!!!");
      }
-     if(flag==0){logger2.info("Il file esiste. Esco da validaFile()");}
+     if(flag==0){logger2.info("Il file esiste. Esco da verificaFile()");}
 return flag;
-}//validaFile
+}//verificaFile
 
 /**
- * Scrive in append il contenuto_da_appenere (stringa), dentro il file_contenitore
+ * Questo metodo scrive in modalità append il contenuto_da_appenere (stringa), dentro il file_contenitore
  * (indicato col suo path)
- * @param link_file_contenitore path del file da riempire in append
- * @param contenuto_da_appendere contenuto da mettere nel link_file_contenitore
+ * @param contenitore path del file da riempire in modalità append
+ * @param contenuto contenuto da mettere nel file contenitore
  */
-public void componiFile(String link_file_contenitore, String contenuto_da_appendere){
+public void componiFile(String contenitore, String contenuto){
    logger2.info("Entro in componiFile()");
    
     BufferedWriter bw = null;
    String file;
 try {
-    bw = new BufferedWriter(new FileWriter(link_file_contenitore, true));
+    bw = new BufferedWriter(new FileWriter(contenitore, true));
     
-    file=fileToString(contenuto_da_appendere);
+    file=fileToString(contenuto);
     
     bw.write(file);
     bw.newLine();
     bw.flush();
 } catch (IOException ioe) {
     ioe.printStackTrace();
-} finally { // always close the file
+} finally { // chiudo sempre il file
     if (bw != null) {
         try {
             bw.close();
         } catch (IOException ioe2) {
-            // just ignore it
+            // nn la gestisco
         }
     }
 }
@@ -556,7 +571,8 @@ logger2.info("Esco da componiFile()");
 }//componiFile
 
 /**
- * Restituisce una stringa che contiene il contenuto del file indicato col suo path
+ * Questo metodo restituisce una stringa che contiene il contenuto del file 
+ * indicato col suo "path".
  * Funzione usata all'interno di componiFile()
  * @param path percorso del file
  * @return 
@@ -585,7 +601,8 @@ public String fileToString( String path ){
 }
 
 /**
- * Crea un nuovo file al path definito e gli assegna text come contenuto
+ * Questo metodo crea un nuovo file al "path" definito e gli assegna "text" 
+ * come contenuto.
  * @param path dove crea il file
  * @param text testo che assegna al file
  * @return 0 funzionamento regolare
@@ -611,13 +628,14 @@ public int stringToFile(String path, String text){
 } //strinToFile
 
 /**
- * Questo metodo crea una direcotory dato il percorso con nome
+ * Questo metodo crea una direcotory dato il percorso con nome finale
  * @param directoryName 
  */
 public void creaDir(String directoryName){
-        File theDir = new File(directoryName);
+   
+   File theDir = new File(directoryName);
 
-  // if the directory does not exist, create it
+  // se la directory non esiste, la crea
   if (!theDir.exists()) {
     logger2.info("Creazione directory: " + directoryName);
     boolean result = theDir.mkdir();  
@@ -684,7 +702,9 @@ public static void deleteDir(String path) {
 
 /**
  * Questo metodo trasforma una stringa di testo in un array list, dove ciscun 
- * campo è una parola della stringa
+ * campo è una parola della stringa.
+ * Viene usato per ricavare i logger presenti in logger.txt, durante la procedura
+ * assegnaFrammento() quando deve creare una configurazione di default.
  * @param stringa
  * @return 
  */
@@ -704,7 +724,7 @@ public ArrayList stringToArrayList (String stringa){
 /**
  * Metodo che aggiorna la configurazione di log4j
  */
-public void assegnaConfToLog4j(){
+public void aggiornaConfToLog4j(){
      //faccio un reset di eventuali precedenti configurazione log4j
      LogManager.resetConfiguration();
      //setto il file di configurazione in log4j
@@ -713,15 +733,16 @@ public void assegnaConfToLog4j(){
 }//assegnaConfToLog4j
 
 /**
- * Metodo che aggiorna la configurazione di log4j
+ * Metodo che assegna la configurazione di log4j
  */
 public void assegnaConfToLog4j(String file){
-     //faccio un reset di eventuali precedenti configurazione log4j
-    //LogManager.resetConfiguration();
+     
      //setto il file di configurazione in log4j
      DOMConfigurator.configure(file);    
     
 }//assegnaConfToLog4j
+
+    
 
 
 

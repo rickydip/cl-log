@@ -1,0 +1,9 @@
+<logger name="ClusterCoordinator" additivity="false">
+        <level value="debug" />
+        <appender-ref ref="CluCo1" />
+        <appender-ref ref="CluCo2" />
+        <appender-ref ref="CluCo3" />
+        <appender-ref ref="CluCo4" />
+</logger>
+
+

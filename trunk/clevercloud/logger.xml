@@ -1,0 +1,6 @@
+<logger name="ProvaAgent" additivity="false">
+<level value="debug"/>
+<appender-ref ref="app_def_1" />
+</logger>
+
+

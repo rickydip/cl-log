@@ -46,12 +46,38 @@
  INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
  INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
  INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [ThreadMessageHandler] (DispatcherClever.java:302) - No agents associated to notificationId PRESENCE/HM
  INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
  INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
  INFO [main] (DispatcherAgent.java:102) - Dispatcher created
  INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
  INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
  INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
+ INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
+ INFO [main] (DispatcherAgent.java:102) - Dispatcher created
+ INFO [ThreadMessageHandler] (DispatcherClever.java:302) - No agents associated to notificationId PRESENCE/HM
  INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
  INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
  INFO [main] (DispatcherAgent.java:102) - Dispatcher created

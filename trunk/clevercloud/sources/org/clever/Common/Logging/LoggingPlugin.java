@@ -40,7 +40,7 @@ public String componiConfLog(String[] vett_ok,int n);
 public String componiAppConf(String [] path,int n);
 public String componiLogConf(String[] path,int n);
 public String componirootLogConf(String[] path,int n);
-public int validaFile(String path);
+public int verificaFile(String path);
 public void componiFile(String link_file_contenitore, String contenuto_da_appendere);
 public String fileToString(String path);
 public void creaDir(String directoryName);

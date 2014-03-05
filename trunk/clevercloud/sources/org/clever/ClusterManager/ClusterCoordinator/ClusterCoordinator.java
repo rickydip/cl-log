@@ -7,26 +7,7 @@
  *  Copyright (c) 2010 Antonio Nastasi
  *  Copyright (c) 2012 Marco Carbone
  *
- *  Permission is hereby granted, free of charge, to any person
- *  obtaining a copy of this software and associated documentation
- *  files (the "Software"), to deal in the Software without
- *  restriction, including without limitation the rights to use,
- *  copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the
- *  Software is furnished to do so, subject to the following
- *  conditions:
- *
- *  The above copyright notice and this permission notice shall be
- *  included in all copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- *  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- *  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- *  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- *  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- *  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- *  OTHER DEALINGS IN THE SOFTWARE.
+
  */
 
 
@@ -53,6 +34,7 @@ import org.clever.ClusterManager.Brain.BrainInterface;
 import org.clever.Common.Initiator.ElectionThread;
 import org.clever.Common.Initiator.Listener;
 import org.clever.Common.Initiator.ModuleFactory.*;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.Shared.Support;
 import org.clever.Common.XMLTools.FileStreamer;
 import org.clever.Common.XMLTools.ParserXML;
@@ -96,6 +78,8 @@ public class ClusterCoordinator implements CleverMessageHandler
   
   private boolean tls;
     
+  
+  
   public ClusterCoordinator()
   {
       try
@@ -110,7 +94,12 @@ public class ClusterCoordinator implements CleverMessageHandler
           java.util.logging.Logger.getLogger(ClusterCoordinator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);       
       }
       
-      logger = Logger.getLogger( "ClusterCoordinator" );     
+      
+    logger = Logger.getLogger( "ClusterCoordinator" );
+      
+      
+      
+           
       conn = null;
 
       pXML = null;      
@@ -134,6 +123,32 @@ public class ClusterCoordinator implements CleverMessageHandler
   
   public void init() 
   {
+      //
+   /*   logger = Logger.getLogger( "ClusterCoordinator" );
+      //
+      
+      //
+      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/ClusterCoordinator/conf_log/"; 
+      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/ClusterCoordinator/conf_log/x.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+           
+      //
+      logger.info("SONO DENTRO init() di ClusterCoordinator.java : ");
+      logger.debug("Debug Message! su ClusterCoordinator.java ");
+      logger.info("Info Message! su ClusterCoordinator.java ");
+      logger.warn("Warn Message! su ClusterCoordinator.java ");
+      logger.error("Error Message! su ClusterCoordinator.java ");
+      logger.fatal("Fatal Message! su ClusterCoordinator.java ");
+      //
+      
+   */   
+      
+      
+      
       cfgFile = new File( cfgPath );
       
       if( !cfgFile.exists() )

@@ -46,7 +46,7 @@ public class DbSedna implements DatabaseManagerPlugin {
         try {
             this.registerXMLDBDriver();
         } catch (XMLDBException ex) {
-            java.util.logging.Logger.getLogger(DbSedna.class.getName()).log(Level.SEVERE, null, ex);
+            logger5.debug("Errore: ", ex);
         }
          logger5.debug("DbSedna plugin created!");
          //        
@@ -361,11 +361,11 @@ public class DbSedna implements DatabaseManagerPlugin {
        
       //
       logger5.info("SONO DENTRO init() di DbSedna.java : ");  
-      logger5.debug("Debug Message! su Prova");
-      logger5.info("Info Message!  su Prova");
-      logger5.warn("Warn Message!  su Prova");
-      logger5.error("Error Message!  su Prova");
-      logger5.fatal("Fatal Message!  su Prova");
+      logger5.debug("Debug Message! su DbSedna.java");
+      logger5.info("Info Message!  su DbSedna.java");
+      logger5.warn("Warn Message!  su DbSedna.java");
+      logger5.error("Error Message!  su DbSedna.java");
+      logger5.fatal("Fatal Message!  su DbSedna.java");
       //
       
         

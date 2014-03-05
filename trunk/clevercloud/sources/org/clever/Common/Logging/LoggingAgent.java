@@ -2,6 +2,7 @@
 
 package org.clever.Common.Logging;
 
+import java.io.File;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Exceptions.CleverException;
@@ -10,7 +11,7 @@ import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 
 /**
  *
- * @author riccardo
+ * @author Riccardo Di Pietro
  */
 public class LoggingAgent extends Agent {
 
@@ -30,17 +31,12 @@ public LoggingAgent() throws CleverException
     @Override
     public void initialization() throws Exception {
         
-        Logger logger2 = Logger.getLogger("LoggingAgent");
-        //
-      String path =System.getProperty("user.dir")+"/sources/org/clever/Common/Logging/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+"/sources/org/clever/Common/Logging/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger2);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //
+        //#############################################
+        Logger logger = Logger.getLogger("LoggingAgent");
+        setLog4J(logger);
+        //#############################################
         
-        logger2.info("\n\nLoggingAgent Started!\n\n");
+        logger.info("\n\nLoggingAgent Started!\n\n");
         if(super.getAgentName().equals("NoName"))
             {
              super.setAgentName("LoggingAgent");
@@ -52,18 +48,18 @@ public LoggingAgent() throws CleverException
       }
       catch (CleverException ex) 
       {
-          logger2.error("Error in start procedure of  LoggingAgent. Message:"+ex.getMessage());
+          logger.error("Error in start procedure of  LoggingAgent. Message:"+ex.getMessage());
       }
         
       try 
         {
-            logger2.info( "LoggingPlugin start creation." );
+            logger.info( "LoggingPlugin start creation." );
             loggingPlugin = (LoggingPlugin) super.startPlugin("./cfg/configuration_logging.xml","/org/clever/Common/Logging/configuration_logging.xml");        
             loggingPlugin.setOwner(this);
-            logger2.info(" LoggingPlugin created.");
+            logger.info(" LoggingPlugin created.");
             
         } catch (Exception e) {
-            logger2.error(" LoggingPlugin creation failed: " + e.getMessage());
+            logger.error(" LoggingPlugin creation failed: " + e.getMessage());
         }
      
         
@@ -92,7 +88,19 @@ public LoggingAgent() throws CleverException
     
     //FINE 4 metodi astratti
     
+public void setLog4J(Logger logger){
+  //
+    String radice =  System.getProperty("user.dir");
+    String path =radice+"/sources/org/clever/Common/Logging/log_conf/"; 
+    String log4jConfigFile=radice+"/sources/org/clever/Common/Logging/log_conf/conf.xml";
+    String vett[]={path};
+    Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+    log.creaFileConfigurazioneLog();
+    log.assegnaConfToLog4j(log4jConfigFile);   
+  //    
+}
+ 
 
-    
+
     
 }

@@ -20,7 +20,7 @@ public class Prova1 implements ProvaPlugin{
     private String version = "0.0.1";
     private String description = "Clever Prova";
     private String name = "Prova";
-    private Logger logger1 = null;
+    private Logger logger = null;
     //#########################################
     
     
@@ -30,14 +30,14 @@ public class Prova1 implements ProvaPlugin{
     public Prova1(int x, String y, Logger logger) {
         this.x = x;
         this.y = y;
-        this.logger1 = logger;
+        this.logger = logger;
         
     }
     
     public Prova1() {
         this.x = 0;
         this.y = "";
-        logger1 = Logger.getLogger("ProvaAgent");
+        logger = Logger.getLogger("ProvaAgent");
         //logger1.info("ProvaClever plugin created:  ");
     }
     
@@ -78,17 +78,13 @@ public class Prova1 implements ProvaPlugin{
      
         
     /*    
-        logger1.info("SONO DENTRO init di PROVA.java : ");
+        logger1.info("SONO DENTRO init di PROVA1.java : ");
         Prova1 a =new Prova1(1,"yes", logger1);
         
         a.printX();
         a.printY();
         
-      logger1.debug("Info Message! su Prova");
-      logger1.info("Info Message!  su Prova");
-      logger1.warn("Warn Message!  su Prova");
-      logger1.error("Error Message!  su Prova");
-      logger1.fatal("Fatal Message!  su Prova");
+      
       */  
         
     }
@@ -112,21 +108,21 @@ public class Prova1 implements ProvaPlugin{
     }
     
     public void printX(){
-       logger1.info("\n\n (Prova1) Ecco la variabile x: "+x+"\n\n");
+       logger.info("\n\n (Prova1) Ecco la variabile x: "+x+"\n\n");
         
     }
     
     public void printY(){
-        logger1.info("\n\n (Prova1) Ecco la variabile y: "+y+"\n\n");
+        logger.info("\n\n (Prova1) Ecco la variabile y: "+y+"\n\n");
         
     }
 
 public void printZ(){
-    logger1.debug("Info Message! su Prova");
-      logger1.info("Info Message!  su Prova");
-      logger1.warn("Warn Message!  su Prova");
-      logger1.error("Error Message!  su Prova");
-      logger1.fatal("Fatal Message!  su Prova");
+      logger.debug("Info Message! su Prova1");
+      logger.info("Info Message!  su Prova1");
+      logger.warn("Warn Message!  su Prova1");
+      logger.error("Error Message!  su Prova1");
+      logger.fatal("Fatal Message!  su Prova1");
     
 }
     

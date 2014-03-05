@@ -1,46 +1,68 @@
-2014-03-04 11:43:37,740 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 11:43:37,740 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 11:46:44,380 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 11:46:44,381 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 11:51:32,998 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 11:51:32,999 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 11:54:15,908 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 11:54:15,909 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 11:57:07,396 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 11:57:07,396 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:02:35,127 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:02:35,128 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:05:21,853 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:05:21,854 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:10:12,363 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:10:12,363 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:17:31,379 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:17:31,379 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:19:47,465 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:19:47,465 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:36:32,362 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:36:32,362 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:37:39,144 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:37:39,145 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:40:11,564 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:40:11,564 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:43:24,328 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:43:24,328 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 12:46:51,810 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 12:46:51,810 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 15:13:23,779 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 15:13:23,779 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 15:14:14,785 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 15:14:14,785 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 15:29:42,964 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 15:29:42,965 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 15:35:21,040 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 15:35:21,040 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
-2014-03-04 15:35:47,358 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+2014-03-04 17:56:50,750 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-04 17:56:50,750 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-04 18:01:50,854 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-04 18:01:50,855 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 10:29:09,255 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 10:29:09,256 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 10:30:15,033 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 10:30:15,033 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 10:44:59,236 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 10:44:59,236 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 10:50:33,070 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 10:50:33,070 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 10:52:13,025 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 10:52:13,025 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 10:52:51,639 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 10:52:51,639 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:22:35,553 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:22:35,553 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:34:34,904 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:34:34,904 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:36:36,803 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:36:36,803 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:39:27,720 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:39:27,720 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:51:36,169 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:51:36,170 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:53:30,390 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:53:30,391 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:54:29,862 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:54:29,862 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:56:39,819 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:56:39,819 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 11:59:46,988 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 11:59:46,988 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:02:50,275 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:02:50,275 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:05:06,827 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:05:06,827 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:08:00,556 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:08:00,556 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:12:21,359 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:12:21,359 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:17:23,835 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:17:23,835 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:18:51,427 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:18:51,427 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:19:54,124 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:19:54,124 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:20:17,957 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
 Check if this object exists.
-2014-03-04 15:36:07,590 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+2014-03-05 12:20:38,196 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
 Check if this object exists.
-2014-03-04 16:27:26,182 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
-2014-03-04 16:27:26,183 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:22:07,201 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:22:07,201 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:22:32,316 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 12:22:52,546 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 12:25:39,334 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:25:39,334 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:29:19,433 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:29:19,433 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 12:34:29,725 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 12:34:29,726 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever

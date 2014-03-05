@@ -1,10 +1,5 @@
 package org.clever.Common.Prova;
 
-
-
-
-
-
 import java.io.File;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
@@ -13,7 +8,7 @@ import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.Prova.ProvaPlugin;
 
 /**
- *
+ * Agente di Prova
  * @author Riccardo Di Pietro
  */
 public class ProvaAgent extends Agent {
@@ -30,18 +25,12 @@ public class ProvaAgent extends Agent {
     @Override
     public void initialization() throws Exception {
       
-      Logger logger1 = Logger.getLogger("ProvaAgent");  
-      //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/Common/Prova/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/Common/Prova/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger1);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
+      //############################################
+      Logger logger = Logger.getLogger("ProvaAgent");  
+      setLog4J(logger);
+      //#############################################
       
-      
-        logger1.info("\n\nProvaAgent Started!\n\n");
+        logger.info("\n\nProvaAgent Started!\n\n");
         if(super.getAgentName().equals("NoName"))
             {
              super.setAgentName("ProvaAgent");
@@ -53,18 +42,18 @@ public class ProvaAgent extends Agent {
       }
       catch (CleverException ex) 
       {
-          logger1.error("Error in start procedure of  ProvaAgent. Message:"+ex.getMessage());
+          logger.error("Error in start procedure of  ProvaAgent. Message:"+ex.getMessage());
       }
         
       try 
         {
-            logger1.info("ProvaPlugin start creation.");
+            logger.info("ProvaPlugin start creation.");
             provaPlugin = (ProvaPlugin) super.startPlugin("./cfg/configuration_prova.xml","/org/clever/Common/Prova/configuration_prova.xml");        
             provaPlugin.setOwner(this);
             logger.info(" ProvaPlugin created.");
             
         } catch (Exception e) {
-            logger1.error(" ProvaPlugin creation failed: " + e.getMessage());
+            logger.error(" ProvaPlugin creation failed: " + e.getMessage());
         }
      
       
@@ -85,6 +74,19 @@ public class ProvaAgent extends Agent {
     @Override
     public void shutDown() {
         //vuoto    
+    }
+    
+    
+    public void setLog4J(Logger logger){
+      //
+      String radice =  System.getProperty("user.dir"); 
+      String path = radice + File.separator+"/sources/org/clever/Common/Prova/log_conf/"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
     }
     
 }
