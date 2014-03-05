@@ -39,7 +39,7 @@ public class HostCoordinator implements CleverMessageHandler {
     private ConnectionXMPP conn;
     private ModuleFactory moduleFactory;
     private ModuleCommunicator mc;
-    private Logger logger;
+    Logger logger;
     private String cfgPath = "./cfg/configuration_initiator.xml"; //28/11/2011: il file di configurazione ora coincide con quello dell'initiator!
     private ParserXML pXML;
     private InfoAgent infoAgent;
@@ -52,8 +52,14 @@ public class HostCoordinator implements CleverMessageHandler {
     private int timeReload; //memorizzo il tempo max x rilanciare un agente
 
     public HostCoordinator(ConnectionXMPP conn) throws CleverException {
-        logger = Logger.getLogger("HostCoordinatorHM");
-
+        //logger = Logger.getLogger("HostCoordinatorHM");
+        //#############################################  
+      logger = Logger.getLogger("HostCoordinatorHM");
+      //setLog4J(logger);
+      //############################################# 
+        
+        
+        
         this.conn = conn; //il costruttore accetta come parametro la connessione dell'initiator
 
         moduleFactory = null;
@@ -69,22 +75,15 @@ public class HostCoordinator implements CleverMessageHandler {
     }
 
     public void init()  {
-        
-      //
-      //String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/HostCoordinator/log_conf/"; 
-      //String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/HostCoordinator/log_conf/x.xml";
-      //String vett[]={path};
-      //Log4J log = new Log4J(log4jConfigFile,vett,1,logger);
-      //log.creaFileConfigurazioneLog();
-      //log.assegnaConfToLog4j(log4jConfigFile);
-      //
-              
-        logger.debug("Debug Message! su HostCoordinator.java");
-        logger.info("Info Message!  su HostCoordinator.java");
-        logger.warn("Warn Message!  su HostCoordinator.java");
-        logger.error("Error Message!  su HostCoordinator.java");
-        logger.fatal("Fatal Message!  su HostCoordinator.java");
-        
+      
+      //setLog4J(logger);
+        //    
+        logger.debug("Debug Message! su HostCoordinator.java HM");
+        logger.info("Info Message!  su HostCoordinator.java HM");
+        logger.warn("Warn Message!  su HostCoordinator.java HM");
+        logger.error("Error Message!  su HostCoordinator.java HM");
+        logger.fatal("Fatal Message!  su HostCoordinator.java HM");
+        //
         
         try {
             logger.debug("CLASSPATH= " + System.getProperty("java.class.path", null));
@@ -292,4 +291,21 @@ public class HostCoordinator implements CleverMessageHandler {
             this.conn.sendMessage(message.getSrc(), cleverMsg);
         }
     }
+    
+    public void setLog4J(Logger logger){
+      //
+      String radice =System.getProperty("user.dir");
+      String path =radice +"/sources/org/clever/HostManager/HostCoordinator/log_conf/"; 
+      String log4jConfigFile=path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+    
+    
+    
+    
+    }
+    
 }

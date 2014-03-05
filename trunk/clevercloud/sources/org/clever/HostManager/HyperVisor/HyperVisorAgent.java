@@ -37,12 +37,12 @@ public class HyperVisorAgent extends Agent {
     public void initialization() throws CleverException {
       
       //#############################################  
-      Logger logger4 = Logger.getLogger( "VirtualboxPlugin" );
-      setLog4J(logger4);
+      Logger logger = Logger.getLogger("VirtualboxPlugin");
+      setLog4J(logger);
       //#############################################
       
         
-        logger4.info("\n\nHyperVisorAgent Started!\n\n");
+        logger.info("\n\nHyperVisorAgent Started!\n\n");
         
         if (super.getAgentName().equals("NoName")) {
             super.setAgentName("HyperVisorAgent");
@@ -53,10 +53,10 @@ public class HyperVisorAgent extends Agent {
             
             hypervisor = (HyperVisorPlugin) super.startPlugin("./cfg/configuration_hypervisor.xml","/org/clever/HostManager/HyperVisor/configuration_hypervisor.xml");        
             hypervisor.setOwner(this);
-            logger4.info("HyperVisorPlugin created ");
+            logger.info("HyperVisorPlugin created ");
             
         } catch (Exception ex) {
-            logger4.error("HyperVisorPlugin creation failed: " + ex.getMessage());
+            logger.error("HyperVisorPlugin creation failed: " + ex.getMessage());
             this.errorStr=ex.getMessage();
         }
     }
@@ -81,7 +81,7 @@ public class HyperVisorAgent extends Agent {
       //
       String radice = System.getProperty("user.dir");   
       String path =radice +"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/"; 
-      String log4jConfigFile=path+"/log_conf/conf.xml";
+      String log4jConfigFile=path+"/conf.xml";
       String vett[]={path};
       Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
       log.creaFileConfigurazioneLog();

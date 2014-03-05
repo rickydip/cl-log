@@ -310,3 +310,59 @@
 2014-03-05 19:27:37 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
 2014-03-05 19:27:37 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
 2014-03-05 19:27:37 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:36:20 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:36:20 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:36:20 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:36:20 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:36:20 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:36:20 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:36:20 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:36:20 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:40:23 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:40:23 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:40:23 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:40:23 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:40:23 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:40:23 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:40:23 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:40:23 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:41:04 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:41:04 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:41:04 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:41:04 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:41:04 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:41:04 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:41:04 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:41:04 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:44:59 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:45:00 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:45:00 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:45:00 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:45:00 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:45:00 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:45:00 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:45:00 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:51:05 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:51:05 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:51:05 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:51:05 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:51:05 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:51:05 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:51:05 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:51:05 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:53:37 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:53:37 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:53:37 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:53:37 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:53:37 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:53:37 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:53:37 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:53:37 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !
+2014-03-05 19:56:36 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:62] - Read Configuration StorageManager!
+2014-03-05 19:56:36 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:636] - SONO DENTRO init() di StorageManager.java : 
+2014-03-05 19:56:36 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:637] - Debug Message! su StorageManager
+2014-03-05 19:56:36 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:638] - Info Message! su StorageManager
+2014-03-05 19:56:36 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:639] - Warn Message! su StorageManager
+2014-03-05 19:56:36 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:640] - Error Message! su StorageManager
+2014-03-05 19:56:36 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:641] - Fatal Message! su StorageManager
+2014-03-05 19:56:36 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:81] - StorageManager Plugin instantiated !

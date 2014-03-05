@@ -20,3 +20,17 @@
 2014-03-05 19:26:36,565 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
 2014-03-05 19:27:37,367 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
 2014-03-05 19:27:37,367 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:36:20,955 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:36:20,955 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:40:23,771 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:40:23,772 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:41:04,857 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:41:04,858 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:45:00,407 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:45:00,407 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:51:05,953 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:51:05,958 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:53:37,281 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:53:37,282 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:56:37,193 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:56:37,193 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java

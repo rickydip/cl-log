@@ -32,3 +32,31 @@ Check if this object exists.
 Check if this object exists.
 2014-03-05 19:27:35,439 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
 2014-03-05 19:27:35,439 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:36:18,854 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:36:18,854 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:40:21,802 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:40:21,802 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:40:27,450 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:40:29,221 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:41:02,858 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:41:02,858 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:43:16,884 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:43:16,884 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:44:57,829 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:44:57,829 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:45:02,322 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:45:04,062 [ThreadMessageHandler] ERROR (DispatcherClever.java:204) org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:51:03,387 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:51:03,387 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:53:35,105 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:53:35,105 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever
+2014-03-05 19:56:34,813 [main] ERROR (DispatcherClever.java:93) Error Message!  su DispacerClever
+2014-03-05 19:56:34,813 [main] FATAL (DispatcherClever.java:94) Fatal Message!  su DispacerClever

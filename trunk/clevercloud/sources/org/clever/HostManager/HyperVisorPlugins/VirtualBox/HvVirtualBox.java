@@ -40,6 +40,7 @@ import org.clever.Common.Exceptions.SaveStateException;
 import org.clever.Common.Exceptions.StartException;
 import org.clever.Common.Exceptions.StopException;
 import org.clever.Common.Exceptions.SuspendException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.VEInfo.CpuSettings;
 import org.clever.Common.VEInfo.CpuSettings.Architecture;
 import org.clever.Common.VEInfo.MemorySettings;
@@ -61,8 +62,10 @@ public class HvVirtualBox implements HyperVisorPlugin {
     private Agent ownerAgent;
 
     public HvVirtualBox() throws IOException{
-
+            //#############################################  
             logger4 = Logger.getLogger( "VirtualboxPlugin" );
+            setLog4J(logger4);
+            //#############################################
             logger4.info( "VirtualBox plugin created: " );
     }
     
@@ -992,6 +995,20 @@ public class HvVirtualBox implements HyperVisorPlugin {
         
     }
 
+    
+    public void setLog4J(Logger logger){
+         
+      //
+      String radice = System.getProperty("user.dir");   
+      String path =radice +"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/"; 
+      String log4jConfigFile=path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //   
+      
+     }
 
 }
 

@@ -2,8 +2,8 @@
 
 <logger name="HostCoordinatorHM" additivity="false">
         <level value="debug" />
-        <appender-ref ref="HoCo1" />
-        <appender-ref ref="HoCo2" />
-        <appender-ref ref="HoCo3" />
-        <appender-ref ref="HoCo4" />
+        <appender-ref ref="HoCoHM1" />
+        <appender-ref ref="HoCoHM2" />
+        <appender-ref ref="HoCoHM3" />
+        <appender-ref ref="HoCoHM4" />
 </logger>

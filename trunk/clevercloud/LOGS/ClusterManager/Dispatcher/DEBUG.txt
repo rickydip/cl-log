@@ -401,3 +401,304 @@ Check if this object exists.
 2014-03-05 19:27:35 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
 2014-03-05 19:27:35 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
 2014-03-05 19:27:35 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:36:18 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:36:18 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:36:18 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:36:18 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:36:18 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:36:18 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:36:18 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:36:19 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@6ad119
+2014-03-05 19:36:20 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:302] - No agents associated to notificationId PRESENCE/HM
+2014-03-05 19:40:21 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:40:21 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:40:21 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:40:21 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:40:21 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:40:21 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:40:21 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:40:27 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@1fba118
+2014-03-05 19:40:27 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@1e4cb74
+2014-03-05 19:40:27 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1990399515" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:40:27 CET 2014</timestamp>
+  <replyToMsg>207793485</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:263)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:236)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+2014-03-05 19:40:27 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listHVms
+2014-03-05 19:40:27 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 207793485 with result: org.clever.Common.Communicator.Request@afd472
+2014-03-05 19:40:27 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:40:29 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@65ffeb
+2014-03-05 19:40:29 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1694077854" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:40:29 CET 2014</timestamp>
+  <replyToMsg>196372479</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:263)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:236)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+2014-03-05 19:40:29 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listRunningHVms
+2014-03-05 19:40:29 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 196372479 with result: org.clever.Common.Communicator.Request@243fd6
+2014-03-05 19:40:29 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:41:02 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:41:02 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:41:02 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:41:02 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:41:02 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:41:02 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:41:02 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:43:16 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:43:16 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:43:16 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:43:16 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:43:16 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:43:16 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:43:16 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:44:57 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:44:57 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:44:57 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:44:57 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:44:57 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:44:57 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:44:57 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:45:01 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@1fe9354
+2014-03-05 19:45:02 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@1a6422a
+2014-03-05 19:45:02 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="251947694" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:45:02 CET 2014</timestamp>
+  <replyToMsg>911164782</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:266)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:239)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+2014-03-05 19:45:02 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listHVms
+2014-03-05 19:45:02 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 911164782 with result: org.clever.Common.Communicator.Request@906704
+2014-03-05 19:45:02 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:45:04 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@14edc4a
+2014-03-05 19:45:04 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1303206225" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:45:04 CET 2014</timestamp>
+  <replyToMsg>275270809</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:266)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:239)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+2014-03-05 19:45:04 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listRunningHVms
+2014-03-05 19:45:04 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 275270809 with result: org.clever.Common.Communicator.Request@18de28d
+2014-03-05 19:45:04 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:51:03 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:51:03 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:51:03 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:51:03 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:51:03 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:51:03 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:51:03 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:51:06 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@150cc3c
+2014-03-05 19:51:07 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:302] - No agents associated to notificationId PRESENCE/HM
+2014-03-05 19:53:35 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:53:35 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:53:35 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:53:35 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:53:35 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:53:35 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:53:35 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:53:44 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@555139
+2014-03-05 19:53:44 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@683a8d
+2014-03-05 19:53:44 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1956973451" type="REPLY">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:53:44 CET 2014</timestamp>
+  <replyToMsg>979127040</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="OBJECT" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<list/>]]></attachement>
+</message>
+
+
+2014-03-05 19:53:44 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listHVms
+2014-03-05 19:53:44 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 979127040 with result: org.clever.Common.Communicator.Request@5b6f4a
+2014-03-05 19:53:45 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@243fd6
+2014-03-05 19:53:45 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="2099215656" type="REPLY">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:53:45 CET 2014</timestamp>
+  <replyToMsg>1218106760</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="OBJECT" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<list/>]]></attachement>
+</message>
+
+
+2014-03-05 19:53:45 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listRunningHVms
+2014-03-05 19:53:45 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 1218106760 with result: org.clever.Common.Communicator.Request@73221e
+2014-03-05 19:56:34 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:56:34 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:56:34 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:56:34 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:56:34 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:56:34 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:56:34 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:56:36 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@150cc3c
+2014-03-05 19:56:37 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:302] - No agents associated to notificationId PRESENCE/HM

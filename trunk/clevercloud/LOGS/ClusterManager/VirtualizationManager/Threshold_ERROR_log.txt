@@ -45,3 +45,38 @@ Check if this object exists.
 2014-03-05 19:26:46,424 [Thread-0] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null
 2014-03-05 19:27:37,397 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
 2014-03-05 19:27:37,397 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:36:20,690 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:36:20,691 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:40:23,954 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:40:23,959 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:40:27,479 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:40:27,549 [Thread-0] ERROR (VirtualizationManagerClever.java:884) An exception has verified in function <manageReUpHost> step 1:null
+2014-03-05 19:40:29,252 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:40:29,253 [Thread-0] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null
+2014-03-05 19:41:04,937 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:41:04,938 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:41:07,502 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:41:07,502 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:41:07,938 [main] ERROR (VirtualizationManagerAgent.java:152) VirtualizationManager creation failed: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DispatcherAgent on bus org.clever.Common.CommunicatorPlugins.DispatcherAgentCM
+Check if this object exists.
+2014-03-05 19:45:00,299 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:45:00,299 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:45:02,371 [Thread-1] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:45:02,434 [Thread-1] ERROR (VirtualizationManagerClever.java:884) An exception has verified in function <manageReUpHost> step 1:null
+2014-03-05 19:45:04,117 [Thread-1] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:45:04,118 [Thread-1] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null
+2014-03-05 19:51:05,861 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:51:05,861 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:53:37,195 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:53:37,196 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:56:36,908 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:56:36,908 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
