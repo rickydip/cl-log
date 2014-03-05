@@ -1,2 +1,4 @@
-2014-03-05 19:16:04 DEBUG [org.clever.HostManager.Monitor.MonitorAgent:56] - MonitorPlugin start creation
-2014-03-05 19:16:04 ERROR [org.clever.HostManager.Monitor.MonitorAgent:65] - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-05 19:26:33 DEBUG [org.clever.HostManager.Monitor.MonitorAgent:56] - MonitorPlugin start creation
+2014-03-05 19:26:33 ERROR [org.clever.HostManager.Monitor.MonitorAgent:65] - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 
+2014-03-05 19:27:33 DEBUG [org.clever.HostManager.Monitor.MonitorAgent:56] - MonitorPlugin start creation
+2014-03-05 19:27:33 ERROR [org.clever.HostManager.Monitor.MonitorAgent:65] - CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 

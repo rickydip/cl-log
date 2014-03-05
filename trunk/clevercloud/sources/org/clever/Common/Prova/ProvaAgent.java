@@ -80,7 +80,7 @@ public class ProvaAgent extends Agent {
     public void setLog4J(Logger logger){
       //
       String radice =  System.getProperty("user.dir"); 
-      String path = radice + File.separator+"/sources/org/clever/Common/Prova/log_conf/"; 
+      String path = radice +"/sources/org/clever/Common/Prova/log_conf/"; 
       String log4jConfigFile= path+"/conf.xml";
       String vett[]={path};
       Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);

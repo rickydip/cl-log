@@ -27,6 +27,7 @@ package org.clever.HostManager.Info;
  *
  * @author alessiodipietro
  */
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -36,6 +37,7 @@ import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.Initiator.ModuleFactory.ModuleFactory;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.XMPPCommunicator.ConnectionXMPP;
 
 
@@ -77,6 +79,21 @@ public class InfoAgent extends Agent
     @Override
   public void initialization()
   {
+      
+      //############################################
+      Logger logger = Logger.getLogger("InfoAgentHM");  
+      setLog4J(logger);
+      //#############################################
+      //
+      logger.debug("Debug Message! su InfoAgentHM");
+      logger.info("Info Message!  su InfoAgentHM");
+      logger.warn("Warn Message!  su InfoAgentHM");
+      logger.error("Error Message!  su InfoAgentHM");
+      logger.fatal("Fatal Message!  su InfoAgentHM");
+      //
+      
+      
+      
       super.setAgentName("InfoAgent");
       
       try 
@@ -128,4 +145,17 @@ public class InfoAgent extends Agent
     {
         
     }
+   
+   public void setLog4J(Logger logger){
+      //
+      String radice =  System.getProperty("user.dir"); 
+      String path = radice + File.separator+"/sources/org/clever/HostManager/Info/log_conf/"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+    }
+   
 }

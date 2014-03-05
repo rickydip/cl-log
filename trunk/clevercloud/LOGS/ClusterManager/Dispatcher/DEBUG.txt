@@ -288,3 +288,116 @@ Check if this object exists.</detailMessage>
 2014-03-05 19:16:16 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
 Check if this object exists.
+2014-03-05 19:26:34 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:26:34 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:26:34 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:26:34 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:26:34 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:26:34 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:26:34 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created
+2014-03-05 19:26:44 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@e93442
+2014-03-05 19:26:44 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@f2e824
+2014-03-05 19:26:44 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="138950846" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:26:44 CET 2014</timestamp>
+  <replyToMsg>306181297</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:267)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:240)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+2014-03-05 19:26:44 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listHVms
+2014-03-05 19:26:44 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 306181297 with result: org.clever.Common.Communicator.Request@1dae2b
+2014-03-05 19:26:44 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:26:46 DEBUG [org.clever.ClusterManager.Dispatcher.DispatcherAgent:178] - received: org.clever.Common.XMPPCommunicator.CleverMessage@12aa943
+2014-03-05 19:26:46 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:185] - Dispatcher handle message: <?xml version="1.0" encoding="UTF-8"?>
+<message id="1886250158" type="ERROR">
+  <source>hmricky</source>
+  <destination>cmricky</destination>
+  <timestamp>Wed Mar 05 19:26:46 CET 2014</timestamp>
+  <replyToMsg>356398445</replyToMsg>
+  <hasReply>false</hasReply>
+  <body>
+    <result type="ERROR" useAttachementId="true">
+      <module>HyperVisorAgent</module>
+      <operation>listRunningHVms</operation>
+    </result>
+  </body>
+  <attachement id="0"><![CDATA[<org.clever.Common.Exceptions.CleverException>
+  <detailMessage>Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.</detailMessage>
+  <stackTrace>
+    <trace>org.clever.Common.CommunicatorPlugins.Dbus.CommunicatorDbus.sendRecv(CommunicatorDbus.java:121)</trace>
+    <trace>org.clever.Common.Communicator.ModuleCommunicator.invoke(ModuleCommunicator.java:124)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.methodDispatcher(HostCoordinator.java:267)</trace>
+    <trace>org.clever.HostManager.HostCoordinator.HostCoordinator.handleCleverMessage(HostCoordinator.java:240)</trace>
+    <trace>org.clever.Common.XMPPCommunicator.CleverChatListener.processMessage(CleverChatListener.java:56)</trace>
+    <trace>org.jivesoftware.smack.Chat.deliver(Chat.java:169)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.deliverMessage(ChatManager.java:245)</trace>
+    <trace>org.jivesoftware.smack.ChatManager.access$200(ChatManager.java:46)</trace>
+    <trace>org.jivesoftware.smack.ChatManager$2.processPacket(ChatManager.java:128)</trace>
+    <trace>org.jivesoftware.smack.Connection$ListenerWrapper.notifyListener(Connection.java:813)</trace>
+    <trace>org.jivesoftware.smack.PacketReader$ListenerNotification.run(PacketReader.java:453)</trace>
+    <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</trace>
+    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:262)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</trace>
+    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</trace>
+    <trace>java.lang.Thread.run(Thread.java:744)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+</org.clever.Common.Exceptions.CleverException>]]></attachement>
+</message>
+
+
+2014-03-05 19:26:46 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:189] - Module name: HyperVisorAgent and operation: listRunningHVms
+2014-03-05 19:26:46 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:196] - searching for: 356398445 with result: org.clever.Common.Communicator.Request@e7a30e
+2014-03-05 19:26:46 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:204] - org.clever.Common.Exceptions.CleverException: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:27:35 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:89] - SONO DENTRO init() di DispacerClever.java : 
+2014-03-05 19:27:35 DEBUG [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:90] - Debug Message! su DispacerClever
+2014-03-05 19:27:35 INFO [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:91] - Info Message!  su DispacerClever
+2014-03-05 19:27:35 WARN [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:92] - Warn Message!  su DispacerClever
+2014-03-05 19:27:35 ERROR [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:93] - Error Message!  su DispacerClever
+2014-03-05 19:27:35 FATAL [org.clever.ClusterManager.DispatcherPlugins.DispatcherClever.DispatcherClever:94] - Fatal Message!  su DispacerClever
+2014-03-05 19:27:35 INFO [org.clever.ClusterManager.Dispatcher.DispatcherAgent:102] - Dispatcher created

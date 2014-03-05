@@ -16,3 +16,7 @@
 2014-03-05 19:07:46,016 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
 2014-03-05 19:16:09,920 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
 2014-03-05 19:16:09,921 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:26:36,565 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:26:36,565 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java
+2014-03-05 19:27:37,367 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
+2014-03-05 19:27:37,367 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java

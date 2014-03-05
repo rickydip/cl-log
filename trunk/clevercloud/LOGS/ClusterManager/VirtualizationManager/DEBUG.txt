@@ -85,3 +85,27 @@ Check if this object exists.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
 Check if this object exists.
 2014-03-05 19:16:16 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:903] - An exception has verified in function <manageReUpHost> :null
+2014-03-05 19:26:36 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:59] - VirtualizationManager plugin created: 
+2014-03-05 19:26:36 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:65] - SONO DENTRO init() di VirtualizationManagerClever.java : 
+2014-03-05 19:26:36 DEBUG [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:66] - Debug Message! su VirtualizationManagerClever
+2014-03-05 19:26:36 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:67] - Info Message! su VirtualizationManagerClever
+2014-03-05 19:26:36 WARN [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:68] - Warn Message! su VirtualizationManagerClever
+2014-03-05 19:26:36 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:69] - Error Message! su VirtualizationManagerClever
+2014-03-05 19:26:36 FATAL [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:70] - Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:26:38 INFO [org.clever.ClusterManager.VirtualizationManager.VirtualizationManagerAgent:140] - VirtualizationManager Agent created 
+2014-03-05 19:26:44 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:862] - An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:26:44 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:884] - An exception has verified in function <manageReUpHost> step 1:null
+2014-03-05 19:26:46 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:862] - An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
+Check if this object exists.
+2014-03-05 19:26:46 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:903] - An exception has verified in function <manageReUpHost> :null
+2014-03-05 19:27:37 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:59] - VirtualizationManager plugin created: 
+2014-03-05 19:27:37 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:65] - SONO DENTRO init() di VirtualizationManagerClever.java : 
+2014-03-05 19:27:37 DEBUG [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:66] - Debug Message! su VirtualizationManagerClever
+2014-03-05 19:27:37 INFO [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:67] - Info Message! su VirtualizationManagerClever
+2014-03-05 19:27:37 WARN [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:68] - Warn Message! su VirtualizationManagerClever
+2014-03-05 19:27:37 ERROR [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:69] - Error Message! su VirtualizationManagerClever
+2014-03-05 19:27:37 FATAL [org.clever.ClusterManager.VirtualizationManagerPlugin.VirtualizationManagerClever:70] - Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:27:38 INFO [org.clever.ClusterManager.VirtualizationManager.VirtualizationManagerAgent:140] - VirtualizationManager Agent created 
