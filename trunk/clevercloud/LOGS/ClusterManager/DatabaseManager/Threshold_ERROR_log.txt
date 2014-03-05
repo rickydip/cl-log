@@ -1,2 +1,0 @@
-2014-03-05 20:16:51,706 [main] ERROR (DbSedna.java:367) Error Message!  su DbSedna.java
-2014-03-05 20:16:51,706 [main] FATAL (DbSedna.java:368) Fatal Message!  su DbSedna.java

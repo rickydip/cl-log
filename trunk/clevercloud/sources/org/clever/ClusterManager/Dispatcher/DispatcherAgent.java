@@ -3,26 +3,6 @@
  *  Copyright (c) 2011 Marco Sturiale
  *  Copyright (c) 2012 Marco Carbone
  *
- *  Permission is hereby granted, free of charge, to any person
- *  obtaining a copy of this software and associated documentation
- *  files (the "Software"), to deal in the Software without
- *  restriction, including without limitation the rights to use,
- *  copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the
- *  Software is furnished to do so, subject to the following
- *  conditions:
- *
- *  The above copyright notice and this permission notice shall be
- *  included in all copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- *  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- *  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- *  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- *  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- *  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- *  OTHER DEALINGS IN THE SOFTWARE.
  */
 package org.clever.ClusterManager.Dispatcher;
 
@@ -50,7 +30,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
     private BrainInterface brainInterface;
     private ThreadMessageDispatcher threadMessageDispatcher;
     public ConnectionXMPP connectionXMPP = null;
-    Logger logger6 = Logger.getLogger("Dispatcher");
+   Logger logger6 = null;
     
     public DispatcherAgent( ConnectionXMPP connectionXMPP ) throws CleverException 
     {   
@@ -66,19 +46,13 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
     @Override
     public void initialization() throws CleverException
     {
-      //  
         
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/Dispatcher/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/Dispatcher/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger6);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //
+       //#############################################
+       logger6 = Logger.getLogger("Dispatcher");
+       setLog4J(logger6);
+      //#############################################
         
-        
-        
-        
+                
         super.setAgentName("DispatcherAgent");
         super.start();
         
@@ -191,4 +165,19 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
         
     }
 
+   
+public void setLog4J(Logger logger){
+  //
+  String radice =System.getProperty("user.dir");  
+  String path = radice +"/sources/org/clever/ClusterManager/Dispatcher/log_conf/"; 
+  String log4jConfigFile=path+"/conf.xml";
+  String vett[]={path};
+  Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+  log.creaFileConfigurazioneLog();
+  log.assegnaConfToLog4j(log4jConfigFile);
+  //    
+   
+}   
+   
+   
 }

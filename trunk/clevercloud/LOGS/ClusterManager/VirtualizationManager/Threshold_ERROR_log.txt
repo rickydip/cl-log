@@ -1,2 +1,0 @@
-2014-03-05 20:16:51,771 [main] ERROR (VirtualizationManagerClever.java:73) Error Message! su VirtualizationManagerClever
-2014-03-05 20:16:51,771 [main] FATAL (VirtualizationManagerClever.java:74) Fatal Message! su VirtualizationManagerClever

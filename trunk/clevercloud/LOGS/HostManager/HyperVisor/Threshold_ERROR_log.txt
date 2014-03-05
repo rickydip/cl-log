@@ -1,2 +1,0 @@
-2014-03-05 20:16:46,827 [main] ERROR (HvVirtualBox.java:80) Error Message!  su HvVirtualbox
-2014-03-05 20:16:46,828 [main] FATAL (HvVirtualBox.java:81) Fatal Message!  su HvVirtualbox

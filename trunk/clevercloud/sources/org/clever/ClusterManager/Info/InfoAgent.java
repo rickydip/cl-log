@@ -35,6 +35,7 @@ import org.clever.Common.Communicator.CmAgent;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.Initiator.ModuleFactory.ModuleFactory;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.Shared.HostEntityInfo;
 import org.clever.Common.XMPPCommunicator.ConnectionXMPP;
 import org.jivesoftware.smackx.muc.Occupant;
@@ -56,7 +57,23 @@ public class InfoAgent extends CmAgent
     
     @Override
     public void initialization()throws CleverException
-    {        
+    {   
+      
+      //############################################
+      Logger logger = Logger.getLogger("InfoAgentCM");  
+      setLog4J(logger);
+      //#############################################
+        
+      //
+      logger.debug("Debug Message! su InfoAgent.java CM");
+      logger.info("Info Message!  su InfoAgent.java CM");
+      logger.warn("Warn Message!  su InfoAgent.java CM");
+      logger.error("Error Message!  su InfoAgent.java CM");
+      logger.fatal("Fatal Message!  su InfoAgent.java CM");
+      //
+      
+      
+      
         super.setAgentName("InfoAgent");
         super.start();
         
@@ -149,5 +166,17 @@ public class InfoAgent extends CmAgent
     {
         
     }
-    
+   
+   public void setLog4J(Logger logger){
+      //
+      String radice =  System.getProperty("user.dir"); 
+      String path = radice +"/sources/org/clever/ClusterManager/Info/log_conf/"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+    }
+   
 }

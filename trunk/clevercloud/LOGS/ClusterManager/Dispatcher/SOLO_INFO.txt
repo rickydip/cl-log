@@ -1,3 +1,0 @@
- INFO [main] (DispatcherClever.java:89) - SONO DENTRO init() di DispacerClever.java : 
- INFO [main] (DispatcherClever.java:91) - Info Message!  su DispacerClever
- INFO [main] (DispatcherAgent.java:102) - Dispatcher created

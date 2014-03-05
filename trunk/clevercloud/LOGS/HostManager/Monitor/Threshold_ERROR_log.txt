@@ -1,1 +1,0 @@
-2014-03-05 20:16:46,743 [main] ERROR (MonitorAgent.java:65) CleverException is occurred in Monitor Agent initialization.MessageStart Plugin on Agent Throw: Missing logger.properties or bad configuration 

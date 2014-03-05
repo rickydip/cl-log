@@ -2,26 +2,6 @@
  *  Copyright (c) 2010 Antonio Nastasi
  *  Copyright (c) 2011 Marco Sturiale
  *
- *  Permission is hereby granted, free of charge, to any person
- *  obtaining a copy of this software and associated documentation
- *  files (the "Software"), to deal in the Software without
- *  restriction, including without limitation the rights to use,
- *  copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the
- *  Software is furnished to do so, subject to the following
- *  conditions:
- *
- *  The above copyright notice and this permission notice shall be
- *  included in all copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- *  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- *  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- *  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- *  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- *  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- *  OTHER DEALINGS IN THE SOFTWARE.
  */
 package org.clever.ClusterManager.DispatcherPlugins.DispatcherClever;
 
@@ -54,6 +34,7 @@ import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smack.util.StringUtils;
 import org.clever.ClusterManager.Dispatcher.DispatcherAgent;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 
 
 
@@ -65,7 +46,7 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
     private ConnectionXMPP connectionXMPP = null;
     //private ModuleCommunicator mc = null;
     private RequestsManager requestsManager = null;
-    private Logger logger = Logger.getLogger("Dispatcher");
+    private Logger logger = null;//Logger.getLogger("Dispatcher");
     private Map<String, List<String>> notificationDelivery = new HashMap<String, List<String>>();
 
     @Override
@@ -85,6 +66,11 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
 
     @Override
     public void init(Element params,Agent owner) throws CleverException {
+      
+      //#############################################
+       logger = Logger.getLogger("Dispatcher");
+       setLog4J(logger);
+      //#############################################  
         
       logger.info("SONO DENTRO init() di DispacerClever.java : ");
       logger.debug("Debug Message! su DispacerClever");
@@ -358,4 +344,19 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
     public void shutdownPluginInstance(){
         
     }
+    
+    public void setLog4J(Logger logger){
+  //
+  String radice =System.getProperty("user.dir");  
+  String path = radice +"/sources/org/clever/ClusterManager/Dispatcher/log_conf/"; 
+  String log4jConfigFile=path+"/conf.xml";
+  String vett[]={path};
+  Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+  log.creaFileConfigurazioneLog();
+  log.assegnaConfToLog4j(log4jConfigFile);
+  //    
+   
+}
+    
+    
 }

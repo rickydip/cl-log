@@ -1,2 +1,0 @@
-2014-03-05 20:16:44 INFO [org.clever.HostManager.NetworkManager.NetworkManagerAgent:50] - NetworkManagerPlugin Started
-2014-03-05 20:16:46 ERROR [org.clever.HostManager.NetworkManager.NetworkManagerAgent:60] - CleverException in Network Agent initializationorg.clever.Common.Exceptions.CleverException: Start Plugin on Agent Throw: Missing logger.properties or bad configuration 

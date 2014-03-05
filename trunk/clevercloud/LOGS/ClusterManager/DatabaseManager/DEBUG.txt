@@ -1,8 +1,0 @@
-2014-03-05 20:16:51 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:51] - DbSedna plugin created!
-2014-03-05 20:16:51 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:363] - SONO DENTRO init() di DbSedna.java : 
-2014-03-05 20:16:51 DEBUG [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:364] - Debug Message! su DbSedna.java
-2014-03-05 20:16:51 INFO [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:365] - Info Message!  su DbSedna.java
-2014-03-05 20:16:51 WARN [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:366] - Warn Message!  su DbSedna.java
-2014-03-05 20:16:51 ERROR [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:367] - Error Message!  su DbSedna.java
-2014-03-05 20:16:51 FATAL [org.clever.ClusterManager.DatabaseManagerPlugins.Sedna.DbSedna:368] - Fatal Message!  su DbSedna.java
-2014-03-05 20:16:51 INFO [org.clever.ClusterManager.DatabaseManager.DatabaseManagerAgent:150] - DbManagerPlugin created 

@@ -1,2 +1,0 @@
-2014-03-05 20:16:42,526 [main] ERROR (InfoAgent.java:91) Error Message!  su InfoAgentHM
-2014-03-05 20:16:42,526 [main] FATAL (InfoAgent.java:92) Fatal Message!  su InfoAgentHM
