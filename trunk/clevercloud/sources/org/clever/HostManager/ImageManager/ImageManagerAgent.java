@@ -127,16 +127,10 @@ public class ImageManagerAgent extends Agent {
     //&&logger = Logger.getLogger("ImageManagerAgent");
       
       
-      
+       //#############################################
       Logger logger3 = Logger.getLogger("ImageManagerAgent");
-    //
-      String path =System.getProperty("user.dir")+"/sources/org/clever/HostManager/ImageManager/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+"/sources/org/clever/HostManager/ImageManager/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger3);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //  
+      setLog4J(logger3);
+      //#############################################
       
       
       
@@ -185,4 +179,18 @@ public class ImageManagerAgent extends Agent {
     {
         
     }
+   public void setLog4J(Logger logger){
+       
+    //
+      String radice =System.getProperty("user.dir");
+      String path =radice+"/sources/org/clever/HostManager/ImageManager/log_conf/"; 
+      String log4jConfigFile=path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+        //     
+       
+   }
+   
 }

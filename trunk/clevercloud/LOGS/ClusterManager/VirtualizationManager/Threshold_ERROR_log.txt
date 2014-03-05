@@ -1,72 +1,35 @@
-2014-03-04 17:56:51,432 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-04 17:56:51,432 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-04 18:01:51,446 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-04 18:01:51,446 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 10:29:10,011 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 10:29:10,011 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 10:30:15,713 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 10:30:15,713 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 10:44:59,936 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 10:44:59,939 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 10:50:33,728 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 10:50:33,728 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 10:52:13,600 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 10:52:13,600 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 10:52:52,304 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 10:52:52,305 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:22:36,193 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:22:36,193 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:34:35,550 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:34:35,550 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:36:37,367 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:36:37,368 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:39:28,281 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:39:28,281 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:51:36,824 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:51:36,824 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:53:31,026 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:53:31,027 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:54:30,517 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:54:30,518 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:56:40,556 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:56:40,557 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 11:59:47,645 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 11:59:47,646 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:02:50,955 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:02:50,955 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:05:07,444 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:05:07,445 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:08:01,253 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:08:01,253 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:12:21,966 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:12:21,966 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:17:24,498 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:17:24,498 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:18:52,133 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:18:52,134 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:19:54,991 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:19:54,992 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:20:17,990 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+2014-03-05 18:32:18,275 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 18:32:18,275 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 18:32:18,980 [main] ERROR (VirtualizationManagerClever.java:112) The Plugin is not corrected Started: An error is occurred in initialization process!
+The error is: null
+2014-03-05 18:32:19,053 [main] ERROR (VirtualizationManagerClever.java:85) The Plugin is not corrected Started: An error is occurred in initialization process!
+The error is: null
+2014-03-05 18:32:19,126 [main] ERROR (VirtualizationManagerClever.java:93) The Plugin is not corrected Started: An error is occurred in initialization process!
+The error is: null
+2014-03-05 18:42:45,838 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 18:42:45,839 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 18:48:52,279 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 18:48:52,280 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 18:50:17,677 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 18:50:17,677 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 18:56:16,088 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 18:56:16,088 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:00:40,493 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:00:40,495 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:05:50,212 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:05:50,212 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:07:46,452 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:07:46,453 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:07:47,172 [main] ERROR (VirtualizationManagerAgent.java:152) VirtualizationManager creation failed: Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DispatcherAgent on bus org.clever.Common.CommunicatorPlugins.DispatcherAgentCM
+Check if this object exists.
+2014-03-05 19:16:09,812 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
+2014-03-05 19:16:09,813 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:16:15,038 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
 Check if this object exists.
-2014-03-05 12:20:18,055 [Thread-0] ERROR (VirtualizationManagerClever.java:884) An exception has verified in function <manageReUpHost> step 1:null
-2014-03-05 12:20:38,222 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
+2014-03-05 19:16:15,110 [Thread-0] ERROR (VirtualizationManagerClever.java:884) An exception has verified in function <manageReUpHost> step 1:null
+2014-03-05 19:16:16,823 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
  Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
 Check if this object exists.
-2014-03-05 12:20:38,223 [Thread-0] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null
-2014-03-05 12:22:08,115 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:22:08,116 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:22:32,347 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
- Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
-Check if this object exists.
-2014-03-05 12:22:32,411 [Thread-0] ERROR (VirtualizationManagerClever.java:884) An exception has verified in function <manageReUpHost> step 1:null
-2014-03-05 12:22:52,580 [Thread-0] ERROR (VirtualizationManagerClever.java:862) An error has occurred in invocation of the Hypervisor Plugin Method:Error while sending message with sendRecv.
- Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/HyperVisorAgent on bus org.clever.Common.CommunicatorPlugins.HyperVisorAgentHM
-Check if this object exists.
-2014-03-05 12:22:52,580 [Thread-0] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null
-2014-03-05 12:25:39,997 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:25:39,997 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:29:20,060 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:29:20,060 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
-2014-03-05 12:34:30,368 [main] ERROR (VirtualizationManagerClever.java:69) Error Message! su VirtualizationManagerClever
-2014-03-05 12:34:30,368 [main] FATAL (VirtualizationManagerClever.java:70) Fatal Message! su VirtualizationManagerClever
+2014-03-05 19:16:16,824 [Thread-0] ERROR (VirtualizationManagerClever.java:903) An exception has verified in function <manageReUpHost> :null

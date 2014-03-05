@@ -38,15 +38,12 @@ public class NetworkManagerAgent extends Agent
     public void initialization()
     {
       
-      Logger logger = Logger.getLogger("NetworkManager");  
-      //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/NetworkManager/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/NetworkManager/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
+      //################################################
+      Logger logger = Logger.getLogger("NetworkManager");
+      setLog4J(logger);
+      //################################################
+      
+      
         
       if(super.getAgentName().equals("NoName"))
         super.setAgentName("NetworkManagerAgent");
@@ -89,4 +86,18 @@ public class NetworkManagerAgent extends Agent
     {
         
     }
+   
+   
+  public void setLog4J(Logger logger){ 
+      //
+      String radice = System.getProperty("user.dir");
+      String path =radice +"/sources/org/clever/HostManager/NetworkManager/log_conf/"; 
+      String log4jConfigFile=path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+   }
+  
 }

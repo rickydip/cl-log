@@ -2,24 +2,6 @@
  *  The MIT License
  * 
  *  Copyright 2011 brady.
- * 
- *  Permission is hereby granted, free of charge, to any person obtaining a copy
- *  of this software and associated documentation files (the "Software"), to deal
- *  in the Software without restriction, including without limitation the rights
- *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the Software is
- *  furnished to do so, subject to the following conditions:
- * 
- *  The above copyright notice and this permission notice shall be included in
- *  all copies or substantial portions of the Software.
- * 
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- *  THE SOFTWARE.
  */
 package org.clever.HostManager.ServiceManager;
 
@@ -60,30 +42,26 @@ public class ServiceManagerAgent extends Agent {
 
     @Override
     public void initialization() throws Exception {
-       
-      Logger logger7 = Logger.getLogger("ServiceManager");  
-       //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/ServiceManager/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/HostManager/ServiceManager/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger7);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
+      
+      //#################################################  
+      Logger logger = Logger.getLogger("ServiceManager");
+      setLog4J(logger);
+      //#################################################
+      
         
-      logger7.debug("Debug Message! su ServiceManagerAgent.java");
-      logger7.info("Info Message! su ServiceManagerAgent.java");
-      logger7.warn("Warn Message! su ServiceManagerAgent.java");
-      logger7.error("Error Message! su ServiceManagerAgent.java");
-      logger7.fatal("Fatal Message! su ServiceManagerAgent.java"); 
+      logger.debug("Debug Message! su ServiceManagerAgent.java");
+      logger.info("Info Message! su ServiceManagerAgent.java");
+      logger.warn("Warn Message! su ServiceManagerAgent.java");
+      logger.error("Error Message! su ServiceManagerAgent.java");
+      logger.fatal("Fatal Message! su ServiceManagerAgent.java"); 
       
       
        try {
            service_manager = (ServiceManagerPlugin) super.startPlugin("./cfg/configuration_ServiceManager.xml","/org/clever/HostManager/ServiceManager/configuration_ServiceManager.xml");
            service_manager.setOwner(this);
-           logger7.info("ServiceManagerAgent created ");
+           logger.info("ServiceManagerAgent created ");
         } catch (Exception ex) {
-            logger7.error("ServiceManagerPlugin creation failed: " + ex);
+            logger.error("ServiceManagerPlugin creation failed: " + ex);
         }
     }
 
@@ -92,4 +70,21 @@ public class ServiceManagerAgent extends Agent {
         //TODO: implement shutdown
         throw new UnsupportedOperationException("Not supported yet.");
     }
+    
+    public void setLog4J(Logger logger){
+    
+      String radice=System.getProperty("user.dir");
+      String path =radice+"/sources/org/clever/HostManager/ServiceManager/log_conf/"; 
+      String log4jConfigFile=path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+         
+        
+    }
+    
+      
+    
+    
 }

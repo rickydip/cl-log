@@ -36,16 +36,11 @@ public class HyperVisorAgent extends Agent {
     @Override
     public void initialization() throws CleverException {
       
-        
-      Logger logger4 = Logger.getLogger( "VirtualboxPlugin" );  
-          //
-      String path =System.getProperty("user.dir")+"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger4);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //
+      //#############################################  
+      Logger logger4 = Logger.getLogger( "VirtualboxPlugin" );
+      setLog4J(logger4);
+      //#############################################
+      
         
         logger4.info("\n\nHyperVisorAgent Started!\n\n");
         
@@ -81,6 +76,18 @@ public class HyperVisorAgent extends Agent {
     public void shutDown() {
     }
 
-    
+     public void setLog4J(Logger logger){
+         
+      //
+      String radice = System.getProperty("user.dir");   
+      String path =radice +"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/"; 
+      String log4jConfigFile=path+"/log_conf/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //   
+      
+     }
   
 }
