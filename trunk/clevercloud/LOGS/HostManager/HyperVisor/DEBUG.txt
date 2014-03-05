@@ -1,189 +1,63 @@
-2014-03-05 19:56:31 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:45] - 
+2014-03-05 20:16:44 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:45] - 
 
 HyperVisorAgent Started!
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
 , eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//appender.xml
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
 , eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//logger.xml
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
 , eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//rootLogger.xml
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/appender.xml  0
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/appender.xml  0
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/logger.xml  0
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/logger.xml  0
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/rootLogger.xml  0
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/rootLogger.xml  0
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
 
 
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//conf.xml
-2014-03-05 19:56:32 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//conf.xml
+2014-03-05 20:16:46 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
 
 
-2014-03-05 19:56:32 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:69] - VirtualBox plugin created: 
-2014-03-05 19:56:32 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:76] - Sono dentro init() di HvVirtualbox.java
-2014-03-05 19:56:32 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:77] - Debug Message! su HvVirtualbox
-2014-03-05 19:56:32 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:78] - Info Message!  su HvVirtualbox
-2014-03-05 19:56:32 WARN [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:79] - Warn Message!  su HvVirtualbox
-2014-03-05 19:56:32 ERROR [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:80] - Error Message!  su HvVirtualbox
-2014-03-05 19:56:32 FATAL [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:81] - Fatal Message!  su HvVirtualbox
-2014-03-05 19:56:32 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:94] - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
-2014-03-05 19:56:33 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:103] - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@12d7680
-2014-03-05 19:56:33 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:310] - List VMs rturned numero di macchine: 0
-2014-03-05 19:56:33 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:118] - 
+2014-03-05 20:16:46 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:69] - VirtualBox plugin created: 
+2014-03-05 20:16:46 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:76] - Sono dentro init() di HvVirtualbox.java
+2014-03-05 20:16:46 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:77] - Debug Message! su HvVirtualbox
+2014-03-05 20:16:46 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:78] - Info Message!  su HvVirtualbox
+2014-03-05 20:16:46 WARN [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:79] - Warn Message!  su HvVirtualbox
+2014-03-05 20:16:46 ERROR [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:80] - Error Message!  su HvVirtualbox
+2014-03-05 20:16:46 FATAL [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:81] - Fatal Message!  su HvVirtualbox
+2014-03-05 20:16:46 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:94] - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+2014-03-05 20:16:47 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:103] - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@c7e580
+2014-03-05 20:16:47 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:310] - List VMs rturned numero di macchine: 0
+2014-03-05 20:16:47 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:118] - 
 
 Fine delle istruzioni di init() di HvVirtualbox
 
 : 
-2014-03-05 19:56:33 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:56] - HyperVisorPlugin created 
-2014-03-05 19:57:42 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:45] - 
-
-HyperVisorAgent Started!
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
-, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//appender.xml
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
-, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//logger.xml
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
-, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//rootLogger.xml
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/appender.xml  0
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/logger.xml  0
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/rootLogger.xml  0
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
-
-
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//conf.xml
-2014-03-05 19:57:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
-
-
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:69] - VirtualBox plugin created: 
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:76] - Sono dentro init() di HvVirtualbox.java
-2014-03-05 19:57:43 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:77] - Debug Message! su HvVirtualbox
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:78] - Info Message!  su HvVirtualbox
-2014-03-05 19:57:43 WARN [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:79] - Warn Message!  su HvVirtualbox
-2014-03-05 19:57:43 ERROR [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:80] - Error Message!  su HvVirtualbox
-2014-03-05 19:57:43 FATAL [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:81] - Fatal Message!  su HvVirtualbox
-2014-03-05 19:57:43 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:94] - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:103] - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@12d7680
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:310] - List VMs rturned numero di macchine: 0
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:118] - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
-2014-03-05 19:57:43 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:56] - HyperVisorPlugin created 
-2014-03-05 20:08:02 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:45] - 
-
-HyperVisorAgent Started!
-
-
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
-, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//appender.xml
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
-, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//logger.xml
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
-, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//rootLogger.xml
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
-
-
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/appender.xml  0
-2014-03-05 20:08:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
-
-
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
-
-
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/logger.xml  0
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
-
-
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
-
-
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/rootLogger.xml  0
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
-
-
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf//conf.xml
-2014-03-05 20:08:05 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
-
-
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:69] - VirtualBox plugin created: 
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:76] - Sono dentro init() di HvVirtualbox.java
-2014-03-05 20:08:05 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:77] - Debug Message! su HvVirtualbox
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:78] - Info Message!  su HvVirtualbox
-2014-03-05 20:08:05 WARN [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:79] - Warn Message!  su HvVirtualbox
-2014-03-05 20:08:05 ERROR [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:80] - Error Message!  su HvVirtualbox
-2014-03-05 20:08:05 FATAL [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:81] - Fatal Message!  su HvVirtualbox
-2014-03-05 20:08:05 DEBUG [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:94] - /usr/lib/virtualbox/:./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:103] - Virtualbox plugin initialized: connected to virtualboxorg.virtualbox_4_1.IVirtualBox@c7e580
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:310] - List VMs rturned numero di macchine: 0
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisorPlugins.VirtualBox.HvVirtualBox:118] - 
-
-Fine delle istruzioni di init() di HvVirtualbox
-
-: 
-2014-03-05 20:08:05 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:56] - HyperVisorPlugin created 
+2014-03-05 20:16:47 INFO [org.clever.HostManager.HyperVisor.HyperVisorAgent:56] - HyperVisorPlugin created 

@@ -39,19 +39,12 @@ public class StorageManagerAgent extends CmAgent {
     @Override
     public void initialization() throws CleverException {
         
-      Logger logger1 = Logger.getLogger("StorageManager");  
-      //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/StorageManager/log_conf/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/StorageManager/log_conf/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger1);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
-        
-        
-        
-        
+      //############################################
+      Logger logger = Logger.getLogger("StorageManager"); 
+      setLog4J(logger);
+      //#############################################
+      
+             
         if (super.getAgentName().equals("NoName")) {
             super.setAgentName("StorageManagerAgent");
         }
@@ -59,7 +52,7 @@ public class StorageManagerAgent extends CmAgent {
         super.start();
 
         try {
-            logger1.info("Read Configuration StorageManager!");
+            logger.info("Read Configuration StorageManager!");
             this.StoragePlugin = (StorageManagerPlugin) super.startPlugin("./cfg/configuration_StorageManager.xml","/org/clever/ClusterManager/StorageManager/configuration_StorageManager.xml");
             /*
             InputStream inxml = getClass().getResourceAsStream("/org/clever/ClusterManager/StorageManager/configuration_StorageManager.xml");
@@ -78,9 +71,9 @@ public class StorageManagerAgent extends CmAgent {
             */
             
             this.StoragePlugin.setOwner(this);
-            logger1.info("StorageManager Plugin instantiated !");
+            logger.info("StorageManager Plugin instantiated !");
         } catch (Exception e) {
-            logger1.error("Error initializing StorageManager : " + e.getMessage());
+            logger.error("Error initializing StorageManager : " + e.getMessage());
         }
     }
 
@@ -102,4 +95,18 @@ public class StorageManagerAgent extends CmAgent {
     @Override
     public void shutDown() {
     }
+    
+     public void setLog4J(Logger logger){
+      //
+      String radice = System.getProperty("user.dir");
+      String path =radice+"/sources/org/clever/ClusterManager/StorageManager/log_conf/"; 
+      String log4jConfigFile=path+ "/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+ }
+    
+    
 }

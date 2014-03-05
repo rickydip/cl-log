@@ -40,6 +40,7 @@ import org.clever.Common.Communicator.CmAgent;
 import org.clever.Common.Communicator.MethodInvoker;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.Exceptions.LogicalCatalogException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.Storage.VFSDescription;
 import org.clever.Common.Storage.VirtualFileSystem;
 import org.clever.Common.XMLTools.MessageFormatter;
@@ -63,7 +64,12 @@ public class StorageManager implements StorageManagerPlugin {
    * Instantiates a new StorageManager object
    */
   public StorageManager() {
-    this.logger = Logger.getLogger("StorageManager");
+    //this.logger = Logger.getLogger("StorageManager");
+    //############################################
+      logger = Logger.getLogger("StorageManager"); 
+      setLog4J(logger);
+      //#############################################
+    
     try
     {
       hostName = InetAddress.getLocalHost().getHostName();
@@ -728,4 +734,17 @@ public String SnapshotImageCreate(String localpath,String logicalpath,String HMT
     public void shutdownPluginInstance(){
         
     }
+    
+     public void setLog4J(Logger logger){
+      //
+      String radice = System.getProperty("user.dir");
+      String path =radice+"/sources/org/clever/ClusterManager/StorageManager/log_conf/"; 
+      String log4jConfigFile=path+ "/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+ }
+    
 }
