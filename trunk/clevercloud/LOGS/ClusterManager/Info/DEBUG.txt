@@ -1,5 +1,0 @@
-2014-03-06 10:39:52 DEBUG [org.clever.ClusterManager.Info.InfoAgent:68] - Debug Message! su InfoAgent.java CM
-2014-03-06 10:39:52 INFO [org.clever.ClusterManager.Info.InfoAgent:69] - Info Message!  su InfoAgent.java CM
-2014-03-06 10:39:52 WARN [org.clever.ClusterManager.Info.InfoAgent:70] - Warn Message!  su InfoAgent.java CM
-2014-03-06 10:39:52 ERROR [org.clever.ClusterManager.Info.InfoAgent:71] - Error Message!  su InfoAgent.java CM
-2014-03-06 10:39:52 FATAL [org.clever.ClusterManager.Info.InfoAgent:72] - Fatal Message!  su InfoAgent.java CM

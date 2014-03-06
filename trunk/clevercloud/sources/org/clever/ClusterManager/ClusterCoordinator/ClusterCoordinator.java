@@ -123,29 +123,9 @@ public class ClusterCoordinator implements CleverMessageHandler
   
   public void init() 
   {
-      //
-   /*   logger = Logger.getLogger( "ClusterCoordinator" );
-      //
       
-      //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/ClusterCoordinator/conf_log/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/ClusterCoordinator/conf_log/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
-           
-      //
-      logger.info("SONO DENTRO init() di ClusterCoordinator.java : ");
-      logger.debug("Debug Message! su ClusterCoordinator.java ");
-      logger.info("Info Message! su ClusterCoordinator.java ");
-      logger.warn("Warn Message! su ClusterCoordinator.java ");
-      logger.error("Error Message! su ClusterCoordinator.java ");
-      logger.fatal("Fatal Message! su ClusterCoordinator.java ");
-      //
+   logger = Logger.getLogger( "ClusterCoordinator" );
       
-   */   
       
       
       

@@ -149,7 +149,7 @@ public class Log4J implements LoggingPlugin{
       logger2.error("Error Message! su Log4J");
       logger2.fatal("Fatal Message! su Log4J");
       
-      
+     /* 
       logger2.info("\n\nInizio delle istruzioni di init() di Log4J\n\n: ");
     
       radice = System.getProperty("user.dir")+ File.separator;
@@ -188,7 +188,7 @@ public class Log4J implements LoggingPlugin{
   //  avviaEsecuzioneSlave3(); 
     
     logger2.info("\n\nFine delle istruzioni di init() di Log4J\n\n: "); 
-    
+ */   
      
     }
     

@@ -28,12 +28,13 @@ public class DatabaseManagerAgent extends CmAgent
 {
     private DatabaseManagerPlugin DbManagerPlugin;
     //private Class cl;
-    Logger logger1=Logger.getLogger("DatabaseManager");
+    public Logger logger=Logger.getLogger("DatabaseManager");
     
     
     public DatabaseManagerAgent() throws CleverException 
     {
             super();
+            
               
     }
     
@@ -46,7 +47,8 @@ public class DatabaseManagerAgent extends CmAgent
         
         //////
     //#############################################
-    setLog4J(logger1);
+        
+    setLog4J(logger);
     //#############################################
     //////
    logger.debug("Debug Message! su DatabaseManager.java");
@@ -94,7 +96,7 @@ public class DatabaseManagerAgent extends CmAgent
     @Override
     public void handleNotification(Notification notification) throws CleverException {
         if(notification.getId().equals("PRESENCE/HM")){            
-            logger1.debug("Received notification type "+notification.getId());
+            logger.debug("Received notification type "+notification.getId());
             if(!DbManagerPlugin.checkHm(notification.getHostId())){
                 DbManagerPlugin.addHm(notification.getHostId());
             }
@@ -104,6 +106,8 @@ public class DatabaseManagerAgent extends CmAgent
     public void startPlugin()throws CleverException, IOException{
         try
         {
+            setLog4J(logger);
+            
          //   Properties prop = new Properties();
          //   InputStream in = getClass().getResourceAsStream( "/org/clever/Common/Shared/logger.properties" );
          //   prop.load( in );
@@ -123,7 +127,7 @@ public class DatabaseManagerAgent extends CmAgent
             //agentName=pXML.getElementContent( "moduleName" );
             DbManagerPlugin.setOwner(this);*/
            this.DbManagerPlugin.setOwner(this);
-            logger1.info( "DbManagerPlugin created " );
+            logger.info( "DbManagerPlugin created " );
             
         }
         catch( java.lang.NullPointerException e )

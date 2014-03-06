@@ -1,4 +1,0 @@
-<appender-ref ref="CluCo1" />
-<appender-ref ref="CluCog2" />
-<appender-ref ref="CluCo3" />
- <appender-ref ref="CluCo4" />

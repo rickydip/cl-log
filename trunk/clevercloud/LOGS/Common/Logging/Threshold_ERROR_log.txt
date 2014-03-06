@@ -1,2 +1,0 @@
-2014-03-06 10:39:50,500 [main] ERROR (Log4J.java:149) Error Message! su Log4J
-2014-03-06 10:39:50,500 [main] FATAL (Log4J.java:150) Fatal Message! su Log4J

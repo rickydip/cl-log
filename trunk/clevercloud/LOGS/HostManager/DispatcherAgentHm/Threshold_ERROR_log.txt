@@ -1,2 +1,0 @@
-2014-03-06 10:39:47,755 [main] ERROR (DispatcherAgent.java:153) Error Message! su DispatcherAgentHm.java
-2014-03-06 10:39:47,756 [main] FATAL (DispatcherAgent.java:154) Fatal Message! su DispatcherAgentHm.java
