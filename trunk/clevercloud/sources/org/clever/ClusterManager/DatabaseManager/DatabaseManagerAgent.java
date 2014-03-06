@@ -2,26 +2,6 @@
  *  Copyright (c) 2010 Antonino Longo
  *  Copyright (c) 2012 Marco Carbone
  *
- *  Permission is hereby granted, free of charge, to any person
- *  obtaining a copy of this software and associated documentation
- *  files (the "Software"), to deal in the Software without
- *  restriction, including without limitation the rights to use,
- *  copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the
- *  Software is furnished to do so, subject to the following
- *  conditions:
- *
- *  The above copyright notice and this permission notice shall be
- *  included in all copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- *  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- *  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- *  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- *  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- *  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- *  OTHER DEALINGS IN THE SOFTWARE.
  */
 package org.clever.ClusterManager.DatabaseManager;
 
@@ -48,10 +28,8 @@ public class DatabaseManagerAgent extends CmAgent
 {
     private DatabaseManagerPlugin DbManagerPlugin;
     //private Class cl;
+    Logger logger1=Logger.getLogger("DatabaseManager");
     
-    //////
-    Logger logger1 = Logger.getLogger("DatabaseManager"); 
-    //////
     
     public DatabaseManagerAgent() throws CleverException 
     {
@@ -66,19 +44,17 @@ public class DatabaseManagerAgent extends CmAgent
         
         //DatabaseManager
         
-       
-        //
-      String path =System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/DatabaseManager/conf_log/"; 
-      String log4jConfigFile=System.getProperty("user.dir")+ File.separator+"/sources/org/clever/ClusterManager/DatabaseManager/conf_log/x.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(log4jConfigFile,vett,1,logger1);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //
-        
-        
-        
-        
+        //////
+    //#############################################
+    setLog4J(logger1);
+    //#############################################
+    //////
+   logger.debug("Debug Message! su DatabaseManager.java");
+   logger.info("Info Message!  su DatabaseManager.java");
+   logger.warn("Warn Message!  su DatabaseManager.java");
+   logger.error("Error Message!  su DatabaseManager.java");
+   logger.fatal("Fatal Message!  su DatabaseManager.java");
+   /////// 
         
         if(super.getAgentName().equals("NoName"))
             super.setAgentName("DatabaseManagerAgent");
@@ -165,4 +141,17 @@ public class DatabaseManagerAgent extends CmAgent
     {
         
     }
+   
+    public void setLog4J(Logger logger){
+      //
+      String radice =  System.getProperty("user.dir"); 
+      String path = radice +"/sources/org/clever/ClusterManager/DatabaseManager/conf_log"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+    }
+    
 }

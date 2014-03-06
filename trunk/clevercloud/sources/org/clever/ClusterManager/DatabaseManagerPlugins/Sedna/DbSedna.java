@@ -19,6 +19,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.clever.ClusterManager.DatabaseManager.DatabaseManagerPlugin;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Exceptions.CleverException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.jdom.Element;
 import org.xmldb.api.DatabaseManager;
 import org.xmldb.api.base.*;
@@ -31,7 +32,7 @@ import org.xmldb.api.modules.XQueryService;
  */
 public class DbSedna implements DatabaseManagerPlugin {
     private Agent owner;
-    private Logger logger5;
+     Logger logger5;
     private String serverURL;
     private String dbName;
     private String user;
@@ -42,7 +43,10 @@ public class DbSedna implements DatabaseManagerPlugin {
     public DbSedna() throws CleverException {
          
          //
+        //#############################################
          logger5 = Logger.getLogger("DatabaseManager");
+        //#############################################
+         
         try {
             this.registerXMLDBDriver();
         } catch (XMLDBException ex) {
@@ -956,4 +960,7 @@ public class DbSedna implements DatabaseManagerPlugin {
     public void shutdownPluginInstance(){
         
     }
+    
+       
+    
 }
