@@ -212,10 +212,12 @@ public void initialization() throws CleverException
     String path =radice+"/sources/org/clever/HostManager/Dispatcher/log_conf/"; 
     String log4jConfigFile=path+"/conf.xml";
     String vett[]={path};
-    Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+    Log4J log =new Log4J();
+    log.creaDir(radice+"/LOGS/HostManager/DispatcherAgentHm");
+    log = new Log4J(radice,log4jConfigFile,vett,1,logger);
     log.creaFileConfigurazioneLog();
     log.assegnaConfToLog4j(log4jConfigFile);
-      //  
+    //  
        
        
    }

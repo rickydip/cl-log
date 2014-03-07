@@ -1,0 +1,5 @@
+2014-03-07 15:11:55,266 [main] ERROR (ImageManager.java:106) Error Message!  su ImageMAnager
+2014-03-07 15:11:55,266 [main] FATAL (ImageManager.java:107) Fatal Message!  su ImageMAnager
+2014-03-07 15:12:27,762 [Thread-6] ERROR (ImageManager.java:867) Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.

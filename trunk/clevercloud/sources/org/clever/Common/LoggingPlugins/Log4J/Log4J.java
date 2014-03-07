@@ -628,22 +628,20 @@ public int stringToFile(String path, String text){
 } //strinToFile
 
 /**
- * Questo metodo crea una direcotory dato il percorso con nome finale
- * @param directoryName 
+ * Questo metodo crea una direcotory dato il path
+ * @param path 
  */
-public void creaDir(String directoryName){
-   
-   File theDir = new File(directoryName);
+  public void creaDir(String path)
+  {
+    
+    boolean success = (new File(path)).mkdir();
 
-  // se la directory non esiste, la crea
-  if (!theDir.exists()) {
-    logger2.info("Creazione directory: " + directoryName);
-    boolean result = theDir.mkdir();  
-
-     if(result) {    
-       logger2.info("Creata DIR : "+directoryName);  
-     }
-   }
+    if (success)
+    {
+      logger2.info("Ho creato: " + path);
+    }else{
+      logger2.info("Impossibile creare: " + path);
+    }
 }//creaDir
 
 /**

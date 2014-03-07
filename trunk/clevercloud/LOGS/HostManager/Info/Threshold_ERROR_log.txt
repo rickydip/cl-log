@@ -1,0 +1,2 @@
+2014-03-07 15:11:54,297 [main] ERROR (InfoAgent.java:91) Error Message!  su InfoAgentHM
+2014-03-07 15:11:54,297 [main] FATAL (InfoAgent.java:92) Fatal Message!  su InfoAgentHM

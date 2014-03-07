@@ -94,7 +94,9 @@ public class NetworkManagerAgent extends Agent
       String path =radice +"/sources/org/clever/HostManager/NetworkManager/log_conf/"; 
       String log4jConfigFile=path+"/conf.xml";
       String vett[]={path};
-      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      Log4J log =new Log4J();
+      log.creaDir(radice+"/LOGS/HostManager/NetworkManager");
+      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
       log.creaFileConfigurazioneLog();
       log.assegnaConfToLog4j(log4jConfigFile);
       //

@@ -84,13 +84,13 @@ public class InfoAgent extends Agent
       Logger logger = Logger.getLogger("InfoAgentHM");  
       setLog4J(logger);
       //#############################################
-      //
+      //##Logger di comodo
       logger.debug("Debug Message! su InfoAgentHM");
       logger.info("Info Message!  su InfoAgentHM");
       logger.warn("Warn Message!  su InfoAgentHM");
       logger.error("Error Message!  su InfoAgentHM");
       logger.fatal("Fatal Message!  su InfoAgentHM");
-      //
+      //#############################################
       
       
       
@@ -149,10 +149,12 @@ public class InfoAgent extends Agent
    public void setLog4J(Logger logger){
       //
       String radice =  System.getProperty("user.dir"); 
-      String path = radice + File.separator+"/sources/org/clever/HostManager/Info/log_conf/"; 
+      String path = radice +"/sources/org/clever/HostManager/Info/log_conf/"; 
       String log4jConfigFile= path+"/conf.xml";
       String vett[]={path};
-      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      Log4J log =new Log4J();
+      log.creaDir(radice+"/LOGS/HostManager/Info");
+      log=new Log4J(radice,log4jConfigFile,vett,1,logger);
       log.creaFileConfigurazioneLog();
       log.assegnaConfToLog4j(log4jConfigFile);
       //

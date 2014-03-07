@@ -1,0 +1,16 @@
+2014-03-07 15:11:54 INFO [org.clever.HostManager.ImageManager.ImageManagerAgent:137] - 
+
+ImageManagerAgent Started!
+
+
+2014-03-07 15:11:55 INFO [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:97] - ImageManager created:  
+2014-03-07 15:11:55 INFO [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:102] - SONO DENTRO init() di ImageMAnager.java : 
+2014-03-07 15:11:55 DEBUG [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:103] - Debug Message! su ImageMAnager
+2014-03-07 15:11:55 INFO [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:104] - Info Message!  su ImageMAnager
+2014-03-07 15:11:55 WARN [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:105] - Warn Message!  su ImageMAnager
+2014-03-07 15:11:55 ERROR [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:106] - Error Message!  su ImageMAnager
+2014-03-07 15:11:55 FATAL [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager:107] - Fatal Message!  su ImageMAnager
+2014-03-07 15:11:55 INFO [org.clever.HostManager.ImageManager.ImageManagerAgent:153] - ImageManager created!
+2014-03-07 15:12:27 ERROR [org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager$ThreadCloser:867] - Error deleting host info from the database : Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
+Check if this object exists.

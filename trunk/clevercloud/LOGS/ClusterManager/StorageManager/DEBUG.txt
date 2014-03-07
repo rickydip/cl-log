@@ -1,0 +1,500 @@
+2014-03-07 12:16:43 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 12:16:43 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 12:16:43 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 12:16:43 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 12:16:43 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 12:16:43 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 12:16:43 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 12:16:43 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 12:16:43 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 12:30:02 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 12:30:02 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 12:30:02 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 12:30:02 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 12:30:02 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 12:30:02 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 12:30:02 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 12:30:02 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 12:30:02 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 14:22:54 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 14:22:54 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 14:22:54 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 14:22:54 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 14:22:54 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 14:22:54 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 14:22:54 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 14:22:54 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 14:22:54 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 14:53:49 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 14:53:49 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 14:53:49 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 14:53:49 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 14:53:49 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 14:53:49 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 14:53:49 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 14:53:49 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 14:53:49 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 14:56:51 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 14:56:51 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 14:56:51 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 14:56:51 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 14:56:51 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 14:56:51 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 14:56:51 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 14:56:51 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 14:56:51 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 14:58:25 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 14:58:25 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 14:58:25 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 14:58:25 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 14:58:25 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 14:58:25 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 14:58:25 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 14:58:25 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 14:58:25 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 14:58:53 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 14:58:53 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 14:58:53 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 14:58:53 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 14:58:53 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 14:58:53 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 14:58:53 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 14:58:53 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 14:58:53 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 14:59:52 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 14:59:52 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 14:59:52 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 14:59:52 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 14:59:52 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 14:59:52 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 14:59:52 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 14:59:52 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 14:59:52 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 15:00:12 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 15:00:12 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 15:00:12 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 15:00:12 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 15:00:12 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 15:00:12 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 15:00:12 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 15:00:12 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 15:00:12 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !
+2014-03-07 15:11:56 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:248] - Sono entrato in creaFileConfigurazioneLog()
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//appender.xml
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//logger.xml
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:527] - Entro in verificaFile()
+, eseguo il controllo sull'esistenza del file: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//rootLogger.xml
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:536] - Il file esiste. Esco da verificaFile()
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:262] - Componente software validato: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:465] - Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.
+
+
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:467] - Elaboro: 
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:469] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/appender.xml  0
+2014-03-07 15:11:56 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:475] - Sono uscito da componiAppConf().
+
+
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:487] - Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:489] - Elaboro: 
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:491] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/logger.xml  0
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:496] - Sono uscito da componiLogConf().
+
+
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:508] - Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.
+
+
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:510] - Elaboro: 
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:512] - /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf/rootLogger.xml  0
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:516] - Sono uscito da componirootLogConf().
+
+
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:612] - Entro in stringToFile()
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:625] - operazione completata con successo
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:626] - Esco da stringToFile()
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:289] - CREATO: /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/ClusterManager/StorageManager/log_conf//conf.xml
+2014-03-07 15:11:57 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:291] - Sono uscito da creaFileConfigurazioneLog().
+
+
+2014-03-07 15:11:57 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:642] - SONO DENTRO init() di StorageManager.java : 
+2014-03-07 15:11:57 DEBUG [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:643] - Debug Message! su StorageManager
+2014-03-07 15:11:57 INFO [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:644] - Info Message! su StorageManager
+2014-03-07 15:11:57 WARN [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:645] - Warn Message! su StorageManager
+2014-03-07 15:11:57 ERROR [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:646] - Error Message! su StorageManager
+2014-03-07 15:11:57 FATAL [org.clever.ClusterManager.StorageManagerPlugins.StorageManagerClever.StorageManager:647] - Fatal Message! su StorageManager
+2014-03-07 15:11:57 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !

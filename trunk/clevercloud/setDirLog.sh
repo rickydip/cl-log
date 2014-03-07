@@ -24,4 +24,4 @@ mkdir Prova Logging
 
 cd ..
 cd HostManager
-mkdir DispatcherAgentHm  HyperVisor    Info     NetworkManager HostCoordinator    ImageManager  Monitor  ServiceManager
+mkdir DispatcherAgentHm  HyperVisor Info NetworkManager HostCoordinator ImageManager  Monitor  ServiceManager
