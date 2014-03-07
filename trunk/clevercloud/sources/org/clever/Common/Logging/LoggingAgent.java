@@ -94,7 +94,9 @@ public void setLog4J(Logger logger){
     String path =radice+"/sources/org/clever/Common/Logging/log_conf/"; 
     String log4jConfigFile=radice+"/sources/org/clever/Common/Logging/log_conf/conf.xml";
     String vett[]={path};
-    Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+    Log4J log =new Log4J();
+    log.creaDir(radice+"/LOGS/Common/Logging");
+    log = new Log4J(radice,log4jConfigFile,vett,1,logger);
     log.creaFileConfigurazioneLog();
     log.assegnaConfToLog4j(log4jConfigFile);   
   //    

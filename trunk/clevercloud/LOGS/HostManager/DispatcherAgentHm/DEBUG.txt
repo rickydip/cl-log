@@ -1,6 +1,0 @@
-2014-03-07 15:11:54 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:145] - ?=)** hostId= riccardo
-2014-03-07 15:11:54 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:150] - Debug Message! su DispatcherAgentHm.java
-2014-03-07 15:11:54 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:151] - Info Message! su DispatcherAgentHm.java
-2014-03-07 15:11:54 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:152] - Warn Message! su DispatcherAgentHm.java
-2014-03-07 15:11:54 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:153] - Error Message! su DispatcherAgentHm.java
-2014-03-07 15:11:54 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:154] - Fatal Message! su DispatcherAgentHm.java

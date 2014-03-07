@@ -48,12 +48,7 @@
           <name></name>
     </agent>
 
-    
-    <agent>
-	  <class>org.clever.Common.Prova.ProvaAgent</class>
-          <name></name>
-    </agent>    
-       
+  
        
   </agents>
 </configuration>

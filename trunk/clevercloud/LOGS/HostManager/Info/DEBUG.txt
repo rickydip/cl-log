@@ -1,5 +1,0 @@
-2014-03-07 15:11:54 DEBUG [org.clever.HostManager.Info.InfoAgent:88] - Debug Message! su InfoAgentHM
-2014-03-07 15:11:54 INFO [org.clever.HostManager.Info.InfoAgent:89] - Info Message!  su InfoAgentHM
-2014-03-07 15:11:54 WARN [org.clever.HostManager.Info.InfoAgent:90] - Warn Message!  su InfoAgentHM
-2014-03-07 15:11:54 ERROR [org.clever.HostManager.Info.InfoAgent:91] - Error Message!  su InfoAgentHM
-2014-03-07 15:11:54 FATAL [org.clever.HostManager.Info.InfoAgent:92] - Fatal Message!  su InfoAgentHM

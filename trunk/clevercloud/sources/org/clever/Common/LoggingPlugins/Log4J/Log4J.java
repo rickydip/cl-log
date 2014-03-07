@@ -149,46 +149,7 @@ public class Log4J implements LoggingPlugin{
       logger2.error("Error Message! su Log4J");
       logger2.fatal("Fatal Message! su Log4J");
       
-     /* 
-      logger2.info("\n\nInizio delle istruzioni di init() di Log4J\n\n: ");
-    
-      radice = System.getProperty("user.dir")+ File.separator;
-      logger2.info("la radice è: \n\n"+radice+"\n\n");
-    
-    
-     localPath = "sources/org/clever/Common/LoggingPlugins/Log4J/";
-     log4jConfigFile = radice + localPath+"log4j_configuration_file.xml";
-    
-     //String comodo = radice+"sources/org/clever/HostManager/";
-     //String path1 = comodo+"ImageManager/log_conf/";
-     //String path2 = comodo+"Monitor/log_conf/";
-     String path3 = "/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/Common/Prova/log_conf/";
-     String path4 = "/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/Common/Logging/log_conf/";
-    
-      n = 2;
-      String[] vett= {path4,path3};
-    
-      
-    
-    
-    
-    //creo l'oggetto entro cui si svolgono tutte le operazioni  
-    Log4J log = new Log4J(log4jConfigFile,vett,n,logger2); 
-   
-     //AVVIO ROUTINE DI CREAZIONE
-     //#######################################
-      flag=log.creaFileConfigurazioneLog();//#
-     //ASSEGNO IL FILE CREATO A LOG4J      //#
-     if(flag==0){
-      logger2.info("\n\nIl file log4jConfigFile è stato creato correttamente\n\n.");      
-                   //log.assegnaConfToLog4j();
-     }//#
-     //#######################################
-      
-  //  avviaEsecuzioneSlave3(); 
-    
-    logger2.info("\n\nFine delle istruzioni di init() di Log4J\n\n: "); 
- */   
+     
      
     }
     
@@ -628,7 +589,7 @@ public int stringToFile(String path, String text){
 } //strinToFile
 
 /**
- * Questo metodo crea una direcotory dato il path
+ * Questo metodo crea una directory dato il path
  * @param path 
  */
   public void creaDir(String path)
