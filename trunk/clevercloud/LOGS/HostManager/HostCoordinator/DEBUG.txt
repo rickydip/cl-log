@@ -1,0 +1,33 @@
+2014-03-10 17:12:29 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:79] - Debug Message! su HostCoordinator.java HM
+2014-03-10 17:12:29 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:80] - Info Message!  su HostCoordinator.java HM
+2014-03-10 17:12:29 WARN [org.clever.HostManager.HostCoordinator.HostCoordinator:81] - Warn Message!  su HostCoordinator.java HM
+2014-03-10 17:12:29 ERROR [org.clever.HostManager.HostCoordinator.HostCoordinator:82] - Error Message!  su HostCoordinator.java HM
+2014-03-10 17:12:29 FATAL [org.clever.HostManager.HostCoordinator.HostCoordinator:83] - Fatal Message!  su HostCoordinator.java HM
+2014-03-10 17:12:29 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:87] - CLASSPATH= /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-codec-1.8.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-io-2.4.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-logging-1.1.1.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/gson-2.2.4.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/jdom.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/log4j.jar:dist/clever.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//dist/clever-occi-plugins.jar
+2014-03-10 17:12:29 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:120] - ./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+2014-03-10 17:12:29 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:122] - Initiator created
+2014-03-10 17:12:29 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:132] - 
+
+ valori nuovi caricati: 4 10
+2014-03-10 18:37:20 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:79] - Debug Message! su HostCoordinator.java HM
+2014-03-10 18:37:20 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:80] - Info Message!  su HostCoordinator.java HM
+2014-03-10 18:37:20 WARN [org.clever.HostManager.HostCoordinator.HostCoordinator:81] - Warn Message!  su HostCoordinator.java HM
+2014-03-10 18:37:20 ERROR [org.clever.HostManager.HostCoordinator.HostCoordinator:82] - Error Message!  su HostCoordinator.java HM
+2014-03-10 18:37:20 FATAL [org.clever.HostManager.HostCoordinator.HostCoordinator:83] - Fatal Message!  su HostCoordinator.java HM
+2014-03-10 18:37:20 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:87] - CLASSPATH= /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-codec-1.8.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-io-2.4.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-logging-1.1.1.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/gson-2.2.4.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/jdom.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/log4j.jar:dist/clever.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//dist/clever-occi-plugins.jar
+2014-03-10 18:37:20 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:120] - ./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+2014-03-10 18:37:20 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:122] - Initiator created
+2014-03-10 18:37:20 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:132] - 
+
+ valori nuovi caricati: 4 10
+2014-03-10 18:38:22 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:79] - Debug Message! su HostCoordinator.java HM
+2014-03-10 18:38:22 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:80] - Info Message!  su HostCoordinator.java HM
+2014-03-10 18:38:22 WARN [org.clever.HostManager.HostCoordinator.HostCoordinator:81] - Warn Message!  su HostCoordinator.java HM
+2014-03-10 18:38:22 ERROR [org.clever.HostManager.HostCoordinator.HostCoordinator:82] - Error Message!  su HostCoordinator.java HM
+2014-03-10 18:38:22 FATAL [org.clever.HostManager.HostCoordinator.HostCoordinator:83] - Fatal Message!  su HostCoordinator.java HM
+2014-03-10 18:38:22 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:87] - CLASSPATH= /home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-codec-1.8.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-io-2.4.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/commons-logging-1.1.1.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/gson-2.2.4.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/jdom.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//lib/log4j.jar:dist/clever.jar:/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/../clever-occi-plugins//dist/clever-occi-plugins.jar
+2014-03-10 18:38:22 DEBUG [org.clever.HostManager.HostCoordinator.HostCoordinator:120] - ./libraries:/usr/java/packages/lib/i386:/lib:/usr/lib:./libraries
+2014-03-10 18:38:22 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:122] - Initiator created
+2014-03-10 18:38:22 INFO [org.clever.HostManager.HostCoordinator.HostCoordinator:132] - 
+
+ valori nuovi caricati: 4 10

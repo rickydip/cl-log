@@ -1,0 +1,15 @@
+ INFO [main] (HostCoordinator.java:80) - Info Message!  su HostCoordinator.java HM
+ INFO [main] (HostCoordinator.java:122) - Initiator created
+ INFO [main] (HostCoordinator.java:132) - 
+
+ valori nuovi caricati: 4 10
+ INFO [main] (HostCoordinator.java:80) - Info Message!  su HostCoordinator.java HM
+ INFO [main] (HostCoordinator.java:122) - Initiator created
+ INFO [main] (HostCoordinator.java:132) - 
+
+ valori nuovi caricati: 4 10
+ INFO [main] (HostCoordinator.java:80) - Info Message!  su HostCoordinator.java HM
+ INFO [main] (HostCoordinator.java:122) - Initiator created
+ INFO [main] (HostCoordinator.java:132) - 
+
+ valori nuovi caricati: 4 10

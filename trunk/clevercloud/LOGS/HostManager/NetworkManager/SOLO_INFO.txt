@@ -1,0 +1,3 @@
+ INFO [main] (NetworkManagerAgent.java:50) - NetworkManagerPlugin Started
+ INFO [main] (NetworkManagerAgent.java:50) - NetworkManagerPlugin Started
+ INFO [main] (NetworkManagerAgent.java:50) - NetworkManagerPlugin Started

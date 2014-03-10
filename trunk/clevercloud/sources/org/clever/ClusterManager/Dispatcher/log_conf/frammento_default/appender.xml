@@ -1,5 +1,5 @@
 <appender name="app_def_0" class="org.apache.log4j.FileAppender">
-   <param name="file" value="LOGS/HostManager/NetworkManager/
+   <param name="file" value="LOGS/ClusterManager/Dispatcher/
 DEBUG_default.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
      <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n"/>     

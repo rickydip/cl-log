@@ -1,0 +1,39 @@
+2014-03-10 17:12:32,820 [main] ERROR (VirtualizationManagerClever.java:73) Error Message! su VirtualizationManagerClever
+2014-03-10 17:12:32,820 [main] FATAL (VirtualizationManagerClever.java:74) Fatal Message! su VirtualizationManagerClever
+2014-03-10 17:12:32,968 [main] ERROR (VirtualizationManagerClever.java:116) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 17:12:32,973 [main] ERROR (VirtualizationManagerClever.java:89) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 17:12:32,979 [main] ERROR (VirtualizationManagerClever.java:97) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 17:12:41,477 [Thread-3] ERROR (VirtualizationManagerClever.java:888) An exception has verified in function <manageReUpHost> step 1:Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 17:12:41,483 [Thread-3] ERROR (VirtualizationManagerClever.java:907) An exception has verified in function <manageReUpHost> :Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 18:37:23,435 [main] ERROR (VirtualizationManagerClever.java:73) Error Message! su VirtualizationManagerClever
+2014-03-10 18:37:23,435 [main] FATAL (VirtualizationManagerClever.java:74) Fatal Message! su VirtualizationManagerClever
+2014-03-10 18:37:23,558 [main] ERROR (VirtualizationManagerClever.java:116) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 18:37:23,564 [main] ERROR (VirtualizationManagerClever.java:89) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 18:37:23,569 [main] ERROR (VirtualizationManagerClever.java:97) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 18:38:24,971 [main] ERROR (VirtualizationManagerClever.java:73) Error Message! su VirtualizationManagerClever
+2014-03-10 18:38:24,971 [main] FATAL (VirtualizationManagerClever.java:74) Fatal Message! su VirtualizationManagerClever
+2014-03-10 18:38:25,140 [main] ERROR (VirtualizationManagerClever.java:116) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 18:38:25,145 [main] ERROR (VirtualizationManagerClever.java:89) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.
+2014-03-10 18:38:25,150 [main] ERROR (VirtualizationManagerClever.java:97) Error while sending message with sendRecv.
+ Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentCM
+Check if this object exists.

@@ -1,0 +1,3 @@
+ INFO [main] (InfoAgent.java:69) - Info Message!  su InfoAgent.java CM
+ INFO [main] (InfoAgent.java:69) - Info Message!  su InfoAgent.java CM
+ INFO [main] (InfoAgent.java:69) - Info Message!  su InfoAgent.java CM

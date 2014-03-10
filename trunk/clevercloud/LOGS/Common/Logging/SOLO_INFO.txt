@@ -1,0 +1,30 @@
+ INFO [main] (LoggingAgent.java:39) - 
+
+LoggingAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:56) - LoggingPlugin start creation.
+ INFO [main] (Log4J.java:76) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:145) - SONO DENTRO init() di Log4J.java : 
+ INFO [main] (Log4J.java:147) - Info Message! su Log4J
+ INFO [main] (LoggingAgent.java:59) -  LoggingPlugin created.
+ INFO [main] (LoggingAgent.java:39) - 
+
+LoggingAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:56) - LoggingPlugin start creation.
+ INFO [main] (Log4J.java:76) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:145) - SONO DENTRO init() di Log4J.java : 
+ INFO [main] (Log4J.java:147) - Info Message! su Log4J
+ INFO [main] (LoggingAgent.java:59) -  LoggingPlugin created.
+ INFO [main] (LoggingAgent.java:39) - 
+
+LoggingAgent Started!
+
+
+ INFO [main] (LoggingAgent.java:56) - LoggingPlugin start creation.
+ INFO [main] (Log4J.java:76) - LoggingAgent plugin created:  
+ INFO [main] (Log4J.java:145) - SONO DENTRO init() di Log4J.java : 
+ INFO [main] (Log4J.java:147) - Info Message! su Log4J
+ INFO [main] (LoggingAgent.java:59) -  LoggingPlugin created.

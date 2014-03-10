@@ -1,0 +1,18 @@
+2014-03-10 17:12:29 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:145] - ?=)** hostId= riccardo
+2014-03-10 17:12:30 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:150] - Debug Message! su DispatcherAgentHm.java
+2014-03-10 17:12:30 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:151] - Info Message! su DispatcherAgentHm.java
+2014-03-10 17:12:30 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:152] - Warn Message! su DispatcherAgentHm.java
+2014-03-10 17:12:30 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:153] - Error Message! su DispatcherAgentHm.java
+2014-03-10 17:12:30 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:154] - Fatal Message! su DispatcherAgentHm.java
+2014-03-10 18:37:20 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:145] - ?=)** hostId= riccardo
+2014-03-10 18:37:20 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:150] - Debug Message! su DispatcherAgentHm.java
+2014-03-10 18:37:20 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:151] - Info Message! su DispatcherAgentHm.java
+2014-03-10 18:37:20 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:152] - Warn Message! su DispatcherAgentHm.java
+2014-03-10 18:37:20 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:153] - Error Message! su DispatcherAgentHm.java
+2014-03-10 18:37:20 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:154] - Fatal Message! su DispatcherAgentHm.java
+2014-03-10 18:38:22 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:145] - ?=)** hostId= riccardo
+2014-03-10 18:38:22 DEBUG [org.clever.HostManager.Dispatcher.DispatcherAgent:150] - Debug Message! su DispatcherAgentHm.java
+2014-03-10 18:38:22 INFO [org.clever.HostManager.Dispatcher.DispatcherAgent:151] - Info Message! su DispatcherAgentHm.java
+2014-03-10 18:38:22 WARN [org.clever.HostManager.Dispatcher.DispatcherAgent:152] - Warn Message! su DispatcherAgentHm.java
+2014-03-10 18:38:22 ERROR [org.clever.HostManager.Dispatcher.DispatcherAgent:153] - Error Message! su DispatcherAgentHm.java
+2014-03-10 18:38:22 FATAL [org.clever.HostManager.Dispatcher.DispatcherAgent:154] - Fatal Message! su DispatcherAgentHm.java
