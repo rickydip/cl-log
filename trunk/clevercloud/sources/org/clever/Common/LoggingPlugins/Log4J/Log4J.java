@@ -149,8 +149,6 @@ public class Log4J implements LoggingPlugin{
       logger2.error("Error Message! su Log4J");
       logger2.fatal("Fatal Message! su Log4J");
       
-     
-     
     }
     
     
@@ -193,11 +191,7 @@ public class Log4J implements LoggingPlugin{
     
     
 /**
- * Funzione principale della classe Lo4J 
- * @param n dim del vettore vett
- * @param vett vettore contenente i path delle componenti sw
- * @param log4jConfigFile path dove salvare il file di configurazione di Log4J
- * @param radice path del progetto
+ * Funzione principale della classe Log4J 
  * @return 0 
  * @return 1 errore 
  */   
@@ -299,7 +293,7 @@ return flag;
 /**
  * Questa funzione serve a fornire dei frammenti di default per le componenti sw
  * che altrimenti non potrebbero essere validate (ossia mancano di un loro frammento)
- * I frammenti creati verranno creati in una directory interna al loro path. 
+ * I frammenti di default creati verranno creati in una directory interna al loro path. 
  * @param componente_sw non validato
  * @param n_c_sw serve per creare un nome diverso per ogni logger di ogni nuovo componente di default creato 
  * @return 
@@ -314,7 +308,7 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
     //creo la directory
     creaDir(output);
     
-    String path_log =fileToString("/home/riccardo/NetBeansProjects/clever-unime/trunk/clevercloud/sources/org/clever/Common/Prova/log_conf/path_log.txt");
+    String path_log =fileToString(componente_sw+"/path_log.txt");
     logger2.info("path_log: " +path_log);
     
     //##########################################
@@ -324,7 +318,14 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
 "   <layout class=\"org.apache.log4j.PatternLayout\" >\n" +
 "     <param name=\"ConversionPattern\" value=\"%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n\"/>     \n" +
 "   </layout>\n" +
+"</appender>\n  "+
+"<appender name=\""+nome_app+n_c_sw+1+"\" class=\"org.apache.log4j.FileAppender\">\n" +
+"   <param name=\"file\" value=\""+"LOGS/DEBUG.txt\"/>\n" +
+"   <layout class=\"org.apache.log4j.PatternLayout\" >\n" +
+"        <param name=\"ConversionPattern\" value=\"%5p [%t] (%F:%L) - %m%n\"/>     \n" +
+"   </layout>\n"+
 "</appender>";
+    
     //creo il file
     flag=stringToFile(output+"appender.xml",text_appender);
     if(flag==1){exit(1);logger2.info("ERRORE nella creazione del file appender.xml!!!");}
@@ -342,17 +343,17 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
            //System.out.println("il file contiene logger n°: "+lista.size()+"\n\n");
            //System.out.println(lista);
                
-    
-    
-    
-    
+       
     //creo il contenuto di logger.xml
     String text_logger =""; 
     String comodo="";
     
     for(int i=0;i<lista.size();i++){
         comodo = "<logger name=\""+lista.get(i)+"\" additivity=\"false\">\n<level value=\"debug\"/>\n";
-        text_logger= text_logger+ comodo+"<appender-ref ref=\""+nome_app+n_c_sw+"\" />\n</logger>\n\n";
+        text_logger= text_logger+ comodo+
+                "<appender-ref ref=\""+nome_app+n_c_sw+"\" />\n"+
+                "<appender-ref ref=\""+nome_app+n_c_sw+1+"\" />\n"+
+                "\n</logger>\n\n";
         
     }//for
     
@@ -365,7 +366,7 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
     
     //##########################################
     //creo il contenuto di rootLogger.xml
-    String text_rlogger = " <appender-ref ref=\""+nome_app+n_c_sw+"\"/>";
+    String text_rlogger = " <appender-ref ref=\""+nome_app+n_c_sw+"\"/>\n"+"<appender-ref ref=\""+nome_app+n_c_sw+1+"\"/>\n";
     //creo il file
     flag=stringToFile(output+"rootLogger.xml",text_rlogger);
     if(flag==1){exit(1);logger2.info("ERRORE nella creazione del file rootLogger.xml!!!");}
@@ -379,7 +380,6 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
  * dai frammenti presenti su percorsi specifici dei componenti software.
  * @param vett_ok vettore contenente i path dove prendere i file dei componenti software validati
  * @param n dim fisica del vettore vett_ok
- * @param radice path di ambiente del progetto  
  * @return stringa contenente il file di configurazione di log finale
  */
 public String componiConfLog(String[] vett_ok,int n){

@@ -16,7 +16,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.util.List;
-import java.util.logging.Level;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.MethodInvoker;
 import org.clever.Common.Communicator.ModuleCommunicator;
@@ -30,7 +29,6 @@ import org.clever.Common.XMLTools.ParserXML;
 import org.clever.Common.XMPPCommunicator.*;
 import org.clever.HostManager.Dispatcher.DispatcherAgent;
 import org.clever.HostManager.Info.InfoAgent;
-import org.clever.HostManager.Test.TestAgent;
 import org.jdom.Element;
 import org.jivesoftware.smack.packet.Presence.Mode;
 
@@ -55,7 +53,7 @@ public class HostCoordinator implements CleverMessageHandler {
         //logger = Logger.getLogger("HostCoordinatorHM");
         //#############################################  
       logger = Logger.getLogger("HostCoordinatorHM");
-      //setLog4J(logger);
+      setLog4J(logger);
       //############################################# 
         
         
@@ -304,10 +302,6 @@ public class HostCoordinator implements CleverMessageHandler {
       log.creaFileConfigurazioneLog();
       log.assegnaConfToLog4j(log4jConfigFile);
       //
-    
-    
-    
-    
     }
     
 }

@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
-<log4j:configuration>
 <appender name="app_def_0" class="org.apache.log4j.FileAppender">
    <param name="file" value="LOGS/HostManager/NetworkManager/
 DEBUG_default.txt"/>
@@ -14,18 +11,3 @@ DEBUG_default.txt"/>
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
 </appender>
-<logger name="NetworkManager" additivity="false">
-<level value="debug"/>
-<appender-ref ref="app_def_0" />
-<appender-ref ref="app_def_01" />
-
-</logger>
-
-
-<logger name="log4j.rootLogger" additivity="false">
-<level value="DEBUG"/>
- <appender-ref ref="app_def_0"/>
-<appender-ref ref="app_def_01"/>
-
-</logger>
-</log4j:configuration>

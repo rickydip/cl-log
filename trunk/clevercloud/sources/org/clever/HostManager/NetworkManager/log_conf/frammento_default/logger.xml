@@ -1,0 +1,8 @@
+<logger name="NetworkManager" additivity="false">
+<level value="debug"/>
+<appender-ref ref="app_def_0" />
+<appender-ref ref="app_def_01" />
+
+</logger>
+
+

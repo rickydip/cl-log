@@ -1,5 +1,4 @@
 
-
 <logger name="HostCoordinatorHM" additivity="false">
         <level value="debug" />
         <appender-ref ref="HoCoHM1" />

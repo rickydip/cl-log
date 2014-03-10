@@ -2,7 +2,7 @@
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 <log4j:configuration>
 <appender name="HoCoHM1" class="org.apache.log4j.FileAppender">
-   <param name="file1" value="LOGS/HostManager/HostCoordinator/SOLO_INFO.txt"/>
+   <param name="file" value="LOGS/HostManager/HostCoordinator/SOLO_INFO.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
@@ -15,26 +15,25 @@
 
 <appender name="HoCoHM2" class="org.apache.log4j.FileAppender">
     <param name="Threshold" value="ERROR"/>  
-    <param name="file2" value="LOGS/HostManager/HostCoordinator/Threshold_ERROR_log.txt"/>
+    <param name="file" value="LOGS/HostManager/HostCoordinator/Threshold_ERROR_log.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
        <param name="ConversionPattern" value="%d [%t] %-5p (%F:%L) %m%n"/>     
     </layout>
 </appender>
 
 <appender name="HoCoHM3" class="org.apache.log4j.FileAppender">
-    <param name="file3" value="LOGS/HostManager/HostCoordinator/DEBUG.txt"/>
+    <param name="file" value="LOGS/HostManager/HostCoordinator/DEBUG.txt"/>
     <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p [%C:%L] - %m%n"/>  
    </layout>
 </appender>
 
 <appender name="HoCoHM4" class="org.apache.log4j.FileAppender">
-   <param name="file4" value="LOGS/DEBUG.txt"/>
+   <param name="file" value="LOGS/DEBUG.txt"/>
    <layout class="org.apache.log4j.PatternLayout" >
         <param name="ConversionPattern" value="%5p [%t] (%F:%L) - %m%n"/>     
    </layout>
 </appender>
-
 
 
 <logger name="HostCoordinatorHM" additivity="false">
@@ -46,6 +45,7 @@
 </logger>
 <logger name="log4j.rootLogger" additivity="false">
 <level value="DEBUG"/>
+
 <appender-ref ref="HoCoHM1" />
 <appender-ref ref="HoCoHM2" />
 <appender-ref ref="HoCoHM3" />
