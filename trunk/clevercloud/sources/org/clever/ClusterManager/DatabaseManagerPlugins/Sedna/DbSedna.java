@@ -32,7 +32,7 @@ import org.xmldb.api.modules.XQueryService;
  */
 public class DbSedna implements DatabaseManagerPlugin {
     private Agent owner;
-     Logger logger5;
+     Logger logger5 = Logger.getLogger("DatabaseManager");
     private String serverURL;
     private String dbName;
     private String user;
@@ -44,7 +44,8 @@ public class DbSedna implements DatabaseManagerPlugin {
          
          //
         //#############################################
-         logger5 = Logger.getLogger("DatabaseManager");
+        // logger5 = Logger.getLogger("DatabaseManager");
+         setLog4J(logger5);
         //#############################################
          
         try {
@@ -961,6 +962,18 @@ public class DbSedna implements DatabaseManagerPlugin {
         
     }
     
-       
+   public void setLog4J(Logger logger){
+      //
+      String radice =  System.getProperty("user.dir"); 
+      String path = radice +"/sources/org/clever/ClusterManager/DatabaseManager/conf_log"; 
+      String log4jConfigFile= path+"/conf.xml";
+      String vett[]={path};
+      Log4J log =new Log4J();
+      log.creaDir(radice+"/LOGS/ClusterManager/DatabaseManager");
+      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
+      log.creaFileConfigurazioneLog();
+      log.assegnaConfToLog4j(log4jConfigFile);
+      //
+    }    
     
 }

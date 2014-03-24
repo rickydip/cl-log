@@ -73,12 +73,12 @@ public class HvVirtualBox implements HyperVisorPlugin {
  @Override
     public void init(Element params, Agent owner) throws CleverException {
         //
-        logger4.info("Sono dentro init() di HvVirtualbox.java");
-        logger4.debug("Debug Message! su HvVirtualbox");
-        logger4.info("Info Message!  su HvVirtualbox");
-        logger4.warn("Warn Message!  su HvVirtualbox");
-        logger4.error("Error Message!  su HvVirtualbox");
-        logger4.fatal("Fatal Message!  su HvVirtualbox");
+        //logger4.info("Sono dentro init() di HvVirtualbox.java");
+        //logger4.debug("Debug Message! su HvVirtualbox");
+        //logger4.info("Info Message!  su HvVirtualbox");
+        //logger4.warn("Warn Message!  su HvVirtualbox");
+        //logger4.error("Error Message!  su HvVirtualbox");
+        //logger4.fatal("Fatal Message!  su HvVirtualbox");
         //
         
         
@@ -115,7 +115,7 @@ public class HvVirtualBox implements HyperVisorPlugin {
         }
     
         
-    logger4.info("\n\nFine delle istruzioni di init() di HvVirtualbox\n\n: ");    
+   // logger4.info("\n\nFine delle istruzioni di init() di HvVirtualbox\n\n: ");    
     }
 
     

@@ -85,11 +85,11 @@ public class InfoAgent extends Agent
       setLog4J(logger);
       //#############################################
       //##Logger di comodo
-      logger.debug("Debug Message! su InfoAgentHM");
-      logger.info("Info Message!  su InfoAgentHM");
-      logger.warn("Warn Message!  su InfoAgentHM");
-      logger.error("Error Message!  su InfoAgentHM");
-      logger.fatal("Fatal Message!  su InfoAgentHM");
+      //logger.debug("Debug Message! su InfoAgentHM");
+      //logger.info("Info Message!  su InfoAgentHM");
+      //logger.warn("Warn Message!  su InfoAgentHM");
+      //logger.error("Error Message!  su InfoAgentHM");
+      //logger.fatal("Fatal Message!  su InfoAgentHM");
       //#############################################
       
       

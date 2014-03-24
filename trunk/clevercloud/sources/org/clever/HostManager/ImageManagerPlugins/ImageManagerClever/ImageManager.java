@@ -94,17 +94,17 @@ public class ImageManager implements ImageManagerPlugin {
   }
   public ImageManager() {
       logger3 = Logger.getLogger("ImageManagerAgent");
-      logger3.info("ImageManager created:  ");
+      logger3.info("ImageManager inizializzato ");
   }
   
   public void init( Element params, Agent owner ){
       //
-      logger3.info("SONO DENTRO init() di ImageMAnager.java : ");
-      logger3.debug("Debug Message! su ImageMAnager");
-      logger3.info("Info Message!  su ImageMAnager");
-      logger3.warn("Warn Message!  su ImageMAnager");
-      logger3.error("Error Message!  su ImageMAnager");
-      logger3.fatal("Fatal Message!  su ImageMAnager");
+      //logger3.info("SONO DENTRO init() di ImageMAnager.java : ");
+      //logger3.debug("Debug Message! su ImageMAnager");
+      //logger3.info("Info Message!  su ImageMAnager");
+      //logger3.warn("Warn Message!  su ImageMAnager");
+      //logger3.error("Error Message!  su ImageMAnager");
+      //logger3.fatal("Fatal Message!  su ImageMAnager");
       //
       
       

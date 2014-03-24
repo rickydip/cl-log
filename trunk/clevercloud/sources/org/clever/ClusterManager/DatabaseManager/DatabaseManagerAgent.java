@@ -28,7 +28,7 @@ public class DatabaseManagerAgent extends CmAgent
 {
     private DatabaseManagerPlugin DbManagerPlugin;
     //private Class cl;
-    public Logger logger=Logger.getLogger("DatabaseManager");
+    Logger logger=Logger.getLogger("DatabaseManager");
     
     
     public DatabaseManagerAgent() throws CleverException 
@@ -51,11 +51,11 @@ public class DatabaseManagerAgent extends CmAgent
     setLog4J(logger);
     //#############################################
     //////
-   logger.debug("Debug Message! su DatabaseManager.java");
-   logger.info("Info Message!  su DatabaseManager.java");
-   logger.warn("Warn Message!  su DatabaseManager.java");
-   logger.error("Error Message!  su DatabaseManager.java");
-   logger.fatal("Fatal Message!  su DatabaseManager.java");
+   //logger.debug("Debug Message! su DatabaseManager.java");
+   //logger.info("Info Message!  su DatabaseManager.java");
+   //logger.warn("Warn Message!  su DatabaseManager.java");
+   //logger.error("Error Message!  su DatabaseManager.java");
+   //logger.fatal("Fatal Message!  su DatabaseManager.java");
    /////// 
         
         if(super.getAgentName().equals("NoName"))

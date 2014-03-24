@@ -66,12 +66,13 @@ public class VirtualizationManagerClever implements VirtualizationManagerPlugin 
 
     @Override
     public void init(Element params, Agent owner) throws CleverException {
-         logger.info("SONO DENTRO init() di VirtualizationManagerClever.java : ");
-         logger.debug("Debug Message! su VirtualizationManagerClever");
-         logger.info("Info Message! su VirtualizationManagerClever");
-         logger.warn("Warn Message! su VirtualizationManagerClever");
-         logger.error("Error Message! su VirtualizationManagerClever");
-         logger.fatal("Fatal Message! su VirtualizationManagerClever");
+         //logger.info("SONO DENTRO init() di VirtualizationManagerClever.java : ");
+         //debug
+         //logger.debug("Debug Message! su VirtualizationManagerClever");
+         //logger.info("Info Message! su VirtualizationManagerClever");
+         //logger.warn("Warn Message! su VirtualizationManagerClever");
+         //logger.error("Error Message! su VirtualizationManagerClever");
+         //logger.fatal("Fatal Message! su VirtualizationManagerClever");
         
         
         if(params!=null){

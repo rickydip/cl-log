@@ -49,11 +49,11 @@ public class ServiceManagerAgent extends Agent {
       //#################################################
       
         
-      logger.debug("Debug Message! su ServiceManagerAgent.java");
-      logger.info("Info Message! su ServiceManagerAgent.java");
-      logger.warn("Warn Message! su ServiceManagerAgent.java");
-      logger.error("Error Message! su ServiceManagerAgent.java");
-      logger.fatal("Fatal Message! su ServiceManagerAgent.java"); 
+      //logger.debug("Debug Message! su ServiceManagerAgent.java");
+      //logger.info("Info Message! su ServiceManagerAgent.java");
+      //logger.warn("Warn Message! su ServiceManagerAgent.java");
+      //logger.error("Error Message! su ServiceManagerAgent.java");
+      //logger.fatal("Fatal Message! su ServiceManagerAgent.java"); 
       
       
        try {

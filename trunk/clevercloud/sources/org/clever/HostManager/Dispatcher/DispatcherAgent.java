@@ -147,11 +147,11 @@ public void initialization() throws CleverException
     this.sendNotification(notification);
     
     
-    logger.debug("Debug Message! su DispatcherAgentHm.java");
-    logger.info("Info Message! su DispatcherAgentHm.java");
-    logger.warn("Warn Message! su DispatcherAgentHm.java");
-    logger.error("Error Message! su DispatcherAgentHm.java");
-    logger.fatal("Fatal Message! su DispatcherAgentHm.java");
+    //logger.debug("Debug Message! su DispatcherAgentHm.java");
+    //logger.info("Info Message! su DispatcherAgentHm.java");
+    //logger.warn("Warn Message! su DispatcherAgentHm.java");
+    //logger.error("Error Message! su DispatcherAgentHm.java");
+    //logger.fatal("Fatal Message! su DispatcherAgentHm.java");
     
     
     

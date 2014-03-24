@@ -1,42 +1,8 @@
-2014-03-10 17:12:30 INFO [org.clever.Common.Logging.LoggingAgent:39] - 
+2014-03-24 11:40:03 INFO [org.clever.Common.Logging.LoggingAgent:39] - 
 
 LoggingAgent Started!
 
 
-2014-03-10 17:12:31 INFO [org.clever.Common.Logging.LoggingAgent:56] - LoggingPlugin start creation.
-2014-03-10 17:12:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:76] - LoggingAgent plugin created:  
-2014-03-10 17:12:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:145] - SONO DENTRO init() di Log4J.java : 
-2014-03-10 17:12:31 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:146] - Debug Message! su Log4J
-2014-03-10 17:12:31 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:147] - Info Message! su Log4J
-2014-03-10 17:12:31 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:148] - Warn Message! su Log4J
-2014-03-10 17:12:31 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:149] - Error Message! su Log4J
-2014-03-10 17:12:31 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:150] - Fatal Message! su Log4J
-2014-03-10 17:12:31 INFO [org.clever.Common.Logging.LoggingAgent:59] -  LoggingPlugin created.
-2014-03-10 18:37:21 INFO [org.clever.Common.Logging.LoggingAgent:39] - 
-
-LoggingAgent Started!
-
-
-2014-03-10 18:37:21 INFO [org.clever.Common.Logging.LoggingAgent:56] - LoggingPlugin start creation.
-2014-03-10 18:37:21 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:76] - LoggingAgent plugin created:  
-2014-03-10 18:37:21 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:145] - SONO DENTRO init() di Log4J.java : 
-2014-03-10 18:37:21 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:146] - Debug Message! su Log4J
-2014-03-10 18:37:21 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:147] - Info Message! su Log4J
-2014-03-10 18:37:21 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:148] - Warn Message! su Log4J
-2014-03-10 18:37:21 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:149] - Error Message! su Log4J
-2014-03-10 18:37:21 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:150] - Fatal Message! su Log4J
-2014-03-10 18:37:21 INFO [org.clever.Common.Logging.LoggingAgent:59] -  LoggingPlugin created.
-2014-03-10 18:38:23 INFO [org.clever.Common.Logging.LoggingAgent:39] - 
-
-LoggingAgent Started!
-
-
-2014-03-10 18:38:23 INFO [org.clever.Common.Logging.LoggingAgent:56] - LoggingPlugin start creation.
-2014-03-10 18:38:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:76] - LoggingAgent plugin created:  
-2014-03-10 18:38:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:145] - SONO DENTRO init() di Log4J.java : 
-2014-03-10 18:38:23 DEBUG [org.clever.Common.LoggingPlugins.Log4J.Log4J:146] - Debug Message! su Log4J
-2014-03-10 18:38:23 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:147] - Info Message! su Log4J
-2014-03-10 18:38:23 WARN [org.clever.Common.LoggingPlugins.Log4J.Log4J:148] - Warn Message! su Log4J
-2014-03-10 18:38:23 ERROR [org.clever.Common.LoggingPlugins.Log4J.Log4J:149] - Error Message! su Log4J
-2014-03-10 18:38:23 FATAL [org.clever.Common.LoggingPlugins.Log4J.Log4J:150] - Fatal Message! su Log4J
-2014-03-10 18:38:23 INFO [org.clever.Common.Logging.LoggingAgent:59] -  LoggingPlugin created.
+2014-03-24 11:40:04 INFO [org.clever.Common.Logging.LoggingAgent:56] - LoggingPlugin start creation.
+2014-03-24 11:40:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:76] - LoggingAgent plugin inizializzato:  
+2014-03-24 11:40:04 INFO [org.clever.Common.Logging.LoggingAgent:59] -  LoggingPlugin created.

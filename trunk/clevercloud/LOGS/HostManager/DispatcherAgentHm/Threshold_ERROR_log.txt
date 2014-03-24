@@ -1,6 +1,0 @@
-2014-03-10 17:12:30,091 [main] ERROR (DispatcherAgent.java:153) Error Message! su DispatcherAgentHm.java
-2014-03-10 17:12:30,091 [main] FATAL (DispatcherAgent.java:154) Fatal Message! su DispatcherAgentHm.java
-2014-03-10 18:37:20,834 [main] ERROR (DispatcherAgent.java:153) Error Message! su DispatcherAgentHm.java
-2014-03-10 18:37:20,834 [main] FATAL (DispatcherAgent.java:154) Fatal Message! su DispatcherAgentHm.java
-2014-03-10 18:38:22,417 [main] ERROR (DispatcherAgent.java:153) Error Message! su DispatcherAgentHm.java
-2014-03-10 18:38:22,417 [main] FATAL (DispatcherAgent.java:154) Fatal Message! su DispatcherAgentHm.java

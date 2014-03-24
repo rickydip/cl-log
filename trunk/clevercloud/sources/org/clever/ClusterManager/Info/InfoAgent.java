@@ -65,11 +65,11 @@ public class InfoAgent extends CmAgent
       //#############################################
         
       //
-      logger.debug("Debug Message! su InfoAgent.java CM");
-      logger.info("Info Message!  su InfoAgent.java CM");
-      logger.warn("Warn Message!  su InfoAgent.java CM");
-      logger.error("Error Message!  su InfoAgent.java CM");
-      logger.fatal("Fatal Message!  su InfoAgent.java CM");
+      //logger.debug("Debug Message! su InfoAgent.java CM");
+      //logger.info("Info Message!  su InfoAgent.java CM");
+      //logger.warn("Warn Message!  su InfoAgent.java CM");
+      //logger.error("Error Message!  su InfoAgent.java CM");
+      //logger.fatal("Fatal Message!  su InfoAgent.java CM");
       //
       
       

@@ -1,6 +1,0 @@
-2014-03-10 17:12:32,217 [main] ERROR (InfoAgent.java:71) Error Message!  su InfoAgent.java CM
-2014-03-10 17:12:32,217 [main] FATAL (InfoAgent.java:72) Fatal Message!  su InfoAgent.java CM
-2014-03-10 18:37:22,848 [main] ERROR (InfoAgent.java:71) Error Message!  su InfoAgent.java CM
-2014-03-10 18:37:22,848 [main] FATAL (InfoAgent.java:72) Fatal Message!  su InfoAgent.java CM
-2014-03-10 18:38:24,445 [main] ERROR (InfoAgent.java:71) Error Message!  su InfoAgent.java CM
-2014-03-10 18:38:24,445 [main] FATAL (InfoAgent.java:72) Fatal Message!  su InfoAgent.java CM

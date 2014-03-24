@@ -73,7 +73,7 @@ public class Log4J implements LoggingPlugin{
         this.vett = null;
         this.n = 0;
         logger2 = Logger.getLogger("LoggingAgent");
-        logger2.info("LoggingAgent plugin created:  ");
+        logger2.info("LoggingAgent plugin inizializzato:  ");
     }
     
     /**
@@ -140,14 +140,13 @@ public class Log4J implements LoggingPlugin{
 
     private void init (){
        
-      int flag=0;
-      
-      logger2.info("SONO DENTRO init() di Log4J.java : ");
-      logger2.debug("Debug Message! su Log4J");
-      logger2.info("Info Message! su Log4J");
-      logger2.warn("Warn Message! su Log4J");
-      logger2.error("Error Message! su Log4J");
-      logger2.fatal("Fatal Message! su Log4J");
+           
+      //logger2.info("SONO DENTRO init() di Log4J.java : ");
+      //logger2.debug("Debug Message! su Log4J");
+      //logger2.info("Info Message! su Log4J");
+      //logger2.warn("Warn Message! su Log4J");
+      //logger2.error("Error Message! su Log4J");
+      //logger2.fatal("Fatal Message! su Log4J");
       
     }
     
@@ -200,7 +199,7 @@ public int creaFileConfigurazioneLog(){
      //########################
      //Processo di validazione# 
      //########################
-     logger2.info("Sono entrato in creaFileConfigurazioneLog()"); 
+     //logger2.info("Sono entrato in creaFileConfigurazioneLog()"); 
      
      String[] vett_validato= new String[getN()];
      int flag=0;
@@ -214,7 +213,7 @@ public int creaFileConfigurazioneLog(){
      }//
      
      //debug
-     for(int i=0;i<j;i++){logger2.info("Componente software validato: "+vett_validato[i]);}
+     //for(int i=0;i<j;i++){logger2.info("Componente software validato: "+vett_validato[i]);}
      //
 
      //adesso vett_validato contiene l'input corretto da passare 
@@ -240,10 +239,10 @@ public int creaFileConfigurazioneLog(){
      
     // logger2.info(getLog4jConfigFile());
      
-     if(alert==1){logger2.info("\n\nERRORE nel processo di creazione del file di configurazione.\n\n");}
-     else {logger2.info("CREATO: "+getLog4jConfigFile());}
+     if(alert==1){logger2.error("\n\nERRORE nel processo di creazione del file di configurazione.\n\n");}
+     //else {logger2.info("CREATO: "+getLog4jConfigFile());}
      
-     logger2.info("Sono uscito da creaFileConfigurazioneLog().\n\n");
+     //logger2.debug("Sono uscito da creaFileConfigurazioneLog().\n\n");
      return alert;
      }//creaFileConfigurazioneLog
    
@@ -309,7 +308,7 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
     creaDir(output);
     
     String path_log =fileToString(componente_sw+"/path_log.txt");
-    logger2.info("path_log: " +path_log);
+    //logger2.info("path_log: " +path_log);
     
     //##########################################
     //creo il contenuto di appender.xml
@@ -328,7 +327,7 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
     
     //creo il file
     flag=stringToFile(output+"appender.xml",text_appender);
-    if(flag==1){exit(1);logger2.info("ERRORE nella creazione del file appender.xml!!!");}
+    if(flag==1){exit(1);logger2.error("ERRORE nella creazione del file appender.xml!!!");}
     //##########################################
     //bisogna valutare il numero di logger presenti sul file
        
@@ -362,14 +361,14 @@ public String assegnaFrammento(String componente_sw, int n_c_sw){
         
     //creo il file
     flag=stringToFile(output+"logger.xml",text_logger);
-    if(flag==1){exit(1);logger2.info("ERRORE nella creazione del file logger.xml!!!");}
+    if(flag==1){exit(1);logger2.error("ERRORE nella creazione del file logger.xml!!!");}
     
     //##########################################
     //creo il contenuto di rootLogger.xml
     String text_rlogger = " <appender-ref ref=\""+nome_app+n_c_sw+"\"/>\n"+"<appender-ref ref=\""+nome_app+n_c_sw+1+"\"/>\n";
     //creo il file
     flag=stringToFile(output+"rootLogger.xml",text_rlogger);
-    if(flag==1){exit(1);logger2.info("ERRORE nella creazione del file rootLogger.xml!!!");}
+    if(flag==1){exit(1);logger2.error("ERRORE nella creazione del file rootLogger.xml!!!");}
     //##########################################
     
  return output;    
@@ -423,17 +422,17 @@ public String componiConfLog(String[] vett_ok,int n){
  * @return stringa contenente tutti i frammenti appender delle componenti presnti nel vettore path 
  */
 public String componiAppConf(String [] path,int n){
-    logger2.info("Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.\n\n");
+   // logger2.debug("Sono entrato in componiAppConf(), routine di creazione del frammento appender globale.\n\n");
     String com1 ="",com2 ="";
-    logger2.info("Elaboro: ");
+   // logger2.info("Elaboro: ");
     for(int i=0;i<n;i++){
-        logger2.info(path[i]+"appender.xml  "+i);
+       // logger2.debug(path[i]+"appender.xml  "+i);
         com1=fileToString(path[i]+"appender.xml");
         com2=com2+com1;
        
     }
  
- logger2.info("Sono uscito da componiAppConf().\n\n");
+ //logger2.debug("Sono uscito da componiAppConf().\n\n");
  return com2;   
 }//componiAppConf
 
@@ -445,16 +444,16 @@ public String componiAppConf(String [] path,int n){
  * @return stringa contenente tutti i frammenti logger delle componenti presenti nel vettore path
  */
 public String componiLogConf(String[] path,int n){
-    logger2.info("Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.\n\n");
+  //  logger2.debug("Sono entrato in componiLogConf(), routine di creazione del frammento logger globale.\n\n");
     String com1 ="",com2 ="";
-    logger2.info("Elaboro: ");
+  //  logger2.debug("Elaboro: ");
     for(int i=0;i<n;i++){
-        logger2.info(path[i]+"logger.xml  "+i);
+   //     logger2.debug(path[i]+"logger.xml  "+i);
         com1=fileToString(path[i]+"logger.xml");
         com2=com2+com1;
     }
     
- logger2.info("Sono uscito da componiLogConf().\n\n");
+ //logger2.debug("Sono uscito da componiLogConf().\n\n");
  return com2;   
 }//componiLogConf
 
@@ -466,15 +465,15 @@ public String componiLogConf(String[] path,int n){
  * @return stringa contenente tutti i frammenti rootLogger delle componenti presenti nel vettore path
  */
 public String componirootLogConf(String[] path,int n){
-    logger2.info("Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.\n\n");
+  //  logger2.debug("Sono entrato in componirootLogConf(), routine di creazione del frammento logger globale.\n\n");
     String com1 ="",com2 ="";
-    logger2.info("Elaboro: ");
+  //  logger2.debug("Elaboro: ");
     for(int i=0;i<n;i++){
-        logger2.info(path[i]+"rootLogger.xml  "+i);
+  //      logger2.debug(path[i]+"rootLogger.xml  "+i);
         com1=fileToString(path[i]+"rootLogger.xml");
         com2=com2+com1;
     }
- logger2.info("Sono uscito da componirootLogConf().\n\n");
+ // logger2.debug("Sono uscito da componirootLogConf().\n\n");
  return com2;   
 }//componirootLogConf
 
@@ -485,16 +484,16 @@ public String componirootLogConf(String[] path,int n){
  * @return 1 i1 filenon esiste
  */
  public int verificaFile(String path){
-     logger2.info("Entro in verificaFile()\n, eseguo il controllo sull'esistenza del file: "+path);
+  //   logger2.debug("Entro in verificaFile()\n, eseguo il controllo sull'esistenza del file: "+path);
     int flag=0;
      //apro il file 
      File  file1 =new File(path);
      boolean existsFile1 = file1.isFile();
      if (!existsFile1){
          flag=1;
-     logger2.info("Il file: "+path+" non esiste!!!");
+    // logger2.info("Il file: "+path+" non esiste!!!");
      }
-     if(flag==0){logger2.info("Il file esiste. Esco da verificaFile()");}
+     //if(flag==0){logger2.debug("Il file"+path+" esiste. Esco da verificaFile()");}
 return flag;
 }//verificaFile
 
@@ -505,7 +504,7 @@ return flag;
  * @param contenuto contenuto da mettere nel file contenitore
  */
 public void componiFile(String contenitore, String contenuto){
-   logger2.info("Entro in componiFile()");
+ //  logger2.debug("Entro in componiFile()");
    
     BufferedWriter bw = null;
    String file;
@@ -528,7 +527,7 @@ try {
         }
     }
 }
-logger2.info("Esco da componiFile()");
+//logger2.debug("Esco da componiFile()");
 }//componiFile
 
 /**
@@ -537,8 +536,6 @@ logger2.info("Esco da componiFile()");
  * Funzione usata all'interno di componiFile()
  * @param path percorso del file
  * @return 
- * @throws FileNotFoundException
- * @throws IOException 
  */
 public String fileToString( String path ){
     BufferedReader reader = null;
@@ -570,7 +567,7 @@ public String fileToString( String path ){
  * @return 1 errore
  */
 public int stringToFile(String path, String text){
-    logger2.info("Entro in stringToFile()");
+  //  logger2.debug("Entro in stringToFile()");
     int flag =0;
     PrintWriter out = null;
        try {
@@ -578,13 +575,13 @@ public int stringToFile(String path, String text){
            out.println(text);
        } //try
        catch (FileNotFoundException ex) {
-           logger2.info("Errore: "+ex);
+           logger2.error("Errore: "+ex);
            flag=1;
        } finally {
            out.close();
        }//finally
-  if(flag==0 ){logger2.info("operazione completata con successo");}     
-  logger2.info("Esco da stringToFile()");     
+ // if(flag==0 ){logger2.debug("operazione completata con successo");}     
+//  logger2.debug("Esco da stringToFile()");     
  return flag;
 } //strinToFile
 
@@ -599,9 +596,9 @@ public int stringToFile(String path, String text){
 
     if (success)
     {
-      logger2.info("Ho creato: " + path);
+      logger2.debug("Ho creato: " + path);
     }else{
-      logger2.info("Impossibile creare: " + path);
+      logger2.error("Impossibile creare: " + path);
     }
 }//creaDir
 
@@ -695,18 +692,15 @@ public void aggiornaConfToLog4j(){
  * Metodo che assegna la configurazione di log4j
  */
 public void assegnaConfToLog4j(String file){
-     
+    // File com = new File(file);
+    //faccio un reset di eventuali precedenti configurazione log4j
+    // LogManager.resetConfiguration();
      //setto il file di configurazione in log4j
      DOMConfigurator.configure(file);    
     
 }//assegnaConfToLog4j
 
-    
-
-
-
-
-        
+         
   
     
 }//Log4J

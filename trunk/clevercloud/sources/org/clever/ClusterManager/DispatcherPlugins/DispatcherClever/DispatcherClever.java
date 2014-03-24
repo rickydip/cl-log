@@ -71,13 +71,13 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
        logger = Logger.getLogger("Dispatcher");
        setLog4J(logger);
       //#############################################  
-        
-      logger.info("SONO DENTRO init() di DispacerClever.java : ");
-      logger.debug("Debug Message! su DispacerClever");
-      logger.info("Info Message!  su DispacerClever");
-      logger.warn("Warn Message!  su DispacerClever");
-      logger.error("Error Message!  su DispacerClever");
-      logger.fatal("Fatal Message!  su DispacerClever");
+      //debug  
+      //logger.info("SONO DENTRO init() di DispacerClever.java : ");
+      //logger.debug("Debug Message! su DispacerClever");
+      //logger.info("Info Message!  su DispacerClever");
+      //logger.warn("Warn Message!  su DispacerClever");
+      //logger.error("Error Message!  su DispacerClever");
+      //logger.fatal("Fatal Message!  su DispacerClever");
         
         
         

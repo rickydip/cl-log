@@ -87,12 +87,12 @@ public class NetworkManagerLinux implements NetworkManagerPlugin
     private void init(Agent owner) throws CleverException {
         
         ////
-        logger.info("SONO DENTRO init di NetworkManager.java : ");
-        logger.debug("Debug Message! su NetworkManager.java");
-        logger.info("Info Message! su NetworkManager.java");
-        logger.warn("Warn Message! su NetworkManager.java");
-        logger.error("Error Message! su NetworkManager.java");
-        logger.fatal("Fatal Message! su NetworkManager.java");
+        //logger.info("SONO DENTRO init di NetworkManager.java : ");
+        //logger.debug("Debug Message! su NetworkManager.java");
+        //logger.info("Info Message! su NetworkManager.java");
+        //logger.warn("Warn Message! su NetworkManager.java");
+        //logger.error("Error Message! su NetworkManager.java");
+        //logger.fatal("Fatal Message! su NetworkManager.java");
         ////
         
         

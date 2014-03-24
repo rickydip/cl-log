@@ -82,7 +82,7 @@ public class ClusterCoordinator implements CleverMessageHandler
   
   public ClusterCoordinator()
   {
-      try
+     try
       {         
           Properties prop = new Properties();
           InputStream in = getClass().getResourceAsStream("/org/clever/Common/Shared/logger.properties");
@@ -95,13 +95,12 @@ public class ClusterCoordinator implements CleverMessageHandler
       }
       
       
-    logger = Logger.getLogger( "ClusterCoordinator" );
+   logger = Logger.getLogger( "ClusterCoordinator" );
+     
       
-      
-      
+ //inizializzo le variabili usate in seguito     
            
       conn = null;
-
       pXML = null;      
       roomclients = "";      
       dispatcherAgent = null;
@@ -123,12 +122,7 @@ public class ClusterCoordinator implements CleverMessageHandler
   
   public void init() 
   {
-      
-   logger = Logger.getLogger( "ClusterCoordinator" );
-      
-      
-      
-      
+         
       cfgFile = new File( cfgPath );
       
       if( !cfgFile.exists() )
@@ -571,5 +565,5 @@ public class ClusterCoordinator implements CleverMessageHandler
     return conn.getMembers(ROOM.CLEVER_MAIN);
   }
   
-  
+    
 }

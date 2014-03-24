@@ -53,7 +53,7 @@ public class HostCoordinator implements CleverMessageHandler {
         //logger = Logger.getLogger("HostCoordinatorHM");
         //#############################################  
       logger = Logger.getLogger("HostCoordinatorHM");
-      setLog4J(logger);
+      //setLog4J(logger);
       //############################################# 
         
         
@@ -76,11 +76,11 @@ public class HostCoordinator implements CleverMessageHandler {
       
       //setLog4J(logger);
         //    
-        logger.debug("Debug Message! su HostCoordinator.java HM");
-        logger.info("Info Message!  su HostCoordinator.java HM");
-        logger.warn("Warn Message!  su HostCoordinator.java HM");
-        logger.error("Error Message!  su HostCoordinator.java HM");
-        logger.fatal("Fatal Message!  su HostCoordinator.java HM");
+        //logger.debug("Debug Message! su HostCoordinator.java HM");
+        //logger.info("Info Message!  su HostCoordinator.java HM");
+        //logger.warn("Warn Message!  su HostCoordinator.java HM");
+        //logger.error("Error Message!  su HostCoordinator.java HM");
+        //logger.fatal("Fatal Message!  su HostCoordinator.java HM");
         //
         
         try {

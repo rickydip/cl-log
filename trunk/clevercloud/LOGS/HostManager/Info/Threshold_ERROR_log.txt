@@ -1,6 +1,0 @@
-2014-03-10 17:12:30,110 [main] ERROR (InfoAgent.java:91) Error Message!  su InfoAgentHM
-2014-03-10 17:12:30,110 [main] FATAL (InfoAgent.java:92) Fatal Message!  su InfoAgentHM
-2014-03-10 18:37:20,859 [main] ERROR (InfoAgent.java:91) Error Message!  su InfoAgentHM
-2014-03-10 18:37:20,859 [main] FATAL (InfoAgent.java:92) Fatal Message!  su InfoAgentHM
-2014-03-10 18:38:22,435 [main] ERROR (InfoAgent.java:91) Error Message!  su InfoAgentHM
-2014-03-10 18:38:22,435 [main] FATAL (InfoAgent.java:92) Fatal Message!  su InfoAgentHM
