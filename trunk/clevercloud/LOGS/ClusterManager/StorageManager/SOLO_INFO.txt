@@ -1,2 +1,0 @@
- INFO [main] (StorageManagerAgent.java:55) - Read Configuration StorageManager!
- INFO [main] (StorageManagerAgent.java:74) - StorageManager Plugin instantiated !

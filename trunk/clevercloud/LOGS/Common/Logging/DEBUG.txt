@@ -1,8 +1,0 @@
-2014-03-24 11:40:03 INFO [org.clever.Common.Logging.LoggingAgent:39] - 
-
-LoggingAgent Started!
-
-
-2014-03-24 11:40:04 INFO [org.clever.Common.Logging.LoggingAgent:56] - LoggingPlugin start creation.
-2014-03-24 11:40:04 INFO [org.clever.Common.LoggingPlugins.Log4J.Log4J:76] - LoggingAgent plugin inizializzato:  
-2014-03-24 11:40:04 INFO [org.clever.Common.Logging.LoggingAgent:59] -  LoggingPlugin created.

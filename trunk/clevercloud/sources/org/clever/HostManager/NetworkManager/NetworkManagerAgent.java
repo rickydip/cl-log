@@ -7,17 +7,9 @@
 package org.clever.HostManager.NetworkManager;
 
 
-import java.io.File;
-import java.util.logging.Level;
 import org.clever.Common.Exceptions.CleverException;
-import org.clever.Common.XMLTools.FileStreamer;
-import org.clever.Common.XMLTools.ParserXML;
-import java.io.IOException;
-//import org.apache.log4j.*;
-import java.io.InputStream;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
-import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 //import org.clever.Common.Shared.LoggerInstantiator;
 
@@ -25,23 +17,32 @@ public class NetworkManagerAgent extends Agent
 {
     private NetworkManagerPlugin networkManager;  
     //private Class cl;
-    
+     //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger =null;
+    private String pathLogConf="/sources/org/clever/HostManager/NetworkManager/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/NetworkManager";
+    //########
     
     
     public NetworkManagerAgent() throws  CleverException
     {
        super();
-            
+      
+       //############################################
+      //Inizializzazione meccanismo di logging
+      logger = Logger.getLogger("NetworkManager");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
+       
     }
     
     @Override
     public void initialization()
     {
       
-      //################################################
-      Logger logger = Logger.getLogger("NetworkManager");
-      setLog4J(logger);
-      //################################################
+      
       
       
         
@@ -88,18 +89,5 @@ public class NetworkManagerAgent extends Agent
     }
    
    
-  public void setLog4J(Logger logger){ 
-      //
-      String radice = System.getProperty("user.dir");
-      String path =radice +"/sources/org/clever/HostManager/NetworkManager/log_conf/"; 
-      String log4jConfigFile=path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/HostManager/NetworkManager");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
-   }
-  
+ 
 }

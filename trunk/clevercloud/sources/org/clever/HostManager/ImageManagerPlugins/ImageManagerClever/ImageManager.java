@@ -17,15 +17,14 @@ import java.net.UnknownHostException;
 import java.text.DateFormat;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.logging.Level;
 import org.apache.commons.collections.MultiHashMap;
 import org.apache.commons.collections.MultiMap;
 import org.apache.commons.vfs2.*;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Communicator.MethodInvoker;
-import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.Exceptions.CleverException;
+import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.Shared.Host;
 import org.clever.Common.Shared.ImageFileInfo;
 import org.clever.Common.Storage.VFSDescription;
@@ -71,7 +70,6 @@ public class ImageManager implements ImageManagerPlugin {
   //private DistributedStoragePlugin distributedStorage;
   private ConnectionXMPP conn;
   
-  private Logger logger3;
   private FileTransferManager ftm;
   private Agent owner;
   private SQLite sqlite;
@@ -84,6 +82,14 @@ public class ImageManager implements ImageManagerPlugin {
    * A constant representing the XMPP-based file transfer
    */
   public static final int XMPP = 101;
+  
+  //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger3 =null;
+    private String pathLogConf="/sources/org/clever/HostManager/ImageManager/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/ImageManager";
+    //########
+  
 
   /**
    * Instantiates a new ImageManager
@@ -91,8 +97,22 @@ public class ImageManager implements ImageManagerPlugin {
   public ImageManager(Element pp) {
       init(pp,this.owner);
       
+       //############################################
+      //Inizializzazione meccanismo di logging
+      logger3 = Logger.getLogger("ImageManagerAgent");
+      Log4J log =new Log4J();
+      log.setLog4J(logger3, pathLogConf, pathDirOut);
+      //#############################################
+      
   }
   public ImageManager() {
+       //############################################
+      //Inizializzazione meccanismo di logging
+      logger3 = Logger.getLogger("ImageManagerAgent");
+      Log4J log =new Log4J();
+      log.setLog4J(logger3, pathLogConf, pathDirOut);
+      //#############################################
+      
       logger3 = Logger.getLogger("ImageManagerAgent");
       logger3.info("ImageManager inizializzato ");
   }

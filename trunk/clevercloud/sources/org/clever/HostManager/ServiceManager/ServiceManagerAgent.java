@@ -24,9 +24,25 @@ public class ServiceManagerAgent extends Agent {
 
     private ServiceManagerPlugin service_manager;
     //private Class cl;
+    
+     //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger =null;
+    private String pathLogConf="/sources/org/clever/HostManager/ServiceManager/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/ServiceManager";
+    //########
+    
 
     public ServiceManagerAgent() throws CleverException {
         super();
+        
+         //############################################
+      //Inizializzazione meccanismo di logging
+      logger = Logger.getLogger("ServiceManager");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
+        
        
     }
 
@@ -42,11 +58,6 @@ public class ServiceManagerAgent extends Agent {
 
     @Override
     public void initialization() throws Exception {
-      
-      //#################################################  
-      Logger logger = Logger.getLogger("ServiceManager");
-      setLog4J(logger);
-      //#################################################
       
         
       //logger.debug("Debug Message! su ServiceManagerAgent.java");
@@ -71,22 +82,5 @@ public class ServiceManagerAgent extends Agent {
         throw new UnsupportedOperationException("Not supported yet.");
     }
     
-    public void setLog4J(Logger logger){
-    
-      String radice=System.getProperty("user.dir");
-      String path =radice+"/sources/org/clever/HostManager/ServiceManager/log_conf/"; 
-      String log4jConfigFile=path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/HostManager/ServiceManager");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-         
-        
-    }
-    
-      
-    
-    
+   
 }

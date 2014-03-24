@@ -50,12 +50,26 @@ public class InfoAgent extends Agent
     private  ArrayList <Agent> Agents = new ArrayList(3);
     private ModuleFactory mf;
     
+    
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger =null;
+    private String pathLogConf="/sources/org/clever/HostManager/Info/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/Info";
+    //########
+    
+    
     public InfoAgent( ConnectionXMPP connectionXMPP ) throws CleverException
     {
         //nota questo infoagent deve avere un nome diverso dall'info agentr del cluster managre residente
         //sullo stesso host, altrimenti si verificano problemi di registrazione sul bus!
         super();
        
+        //############################################
+      logger = Logger.getLogger("InfoAgentHM");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
         
         mf = ModuleFactory.getInstance();
         
@@ -74,16 +88,19 @@ public class InfoAgent extends Agent
     }
     public InfoAgent() throws CleverException{
         super();
+        
+        //############################################
+      logger = Logger.getLogger("InfoAgentHM");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
     }
     
     @Override
   public void initialization()
   {
       
-      //############################################
-      Logger logger = Logger.getLogger("InfoAgentHM");  
-      setLog4J(logger);
-      //#############################################
+      
       //##Logger di comodo
       //logger.debug("Debug Message! su InfoAgentHM");
       //logger.info("Info Message!  su InfoAgentHM");
@@ -146,18 +163,5 @@ public class InfoAgent extends Agent
         
     }
    
-   public void setLog4J(Logger logger){
-      //
-      String radice =  System.getProperty("user.dir"); 
-      String path = radice +"/sources/org/clever/HostManager/Info/log_conf/"; 
-      String log4jConfigFile= path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/HostManager/Info");
-      log=new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
-    }
-   
+     
 }

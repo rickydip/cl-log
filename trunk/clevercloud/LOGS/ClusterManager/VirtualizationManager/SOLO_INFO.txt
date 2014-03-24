@@ -1,2 +1,0 @@
- INFO [main] (VirtualizationManagerClever.java:63) - VirtualizationManager plugin created: 
- INFO [main] (VirtualizationManagerAgent.java:135) - VirtualizationManager Agent created 

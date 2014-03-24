@@ -7,18 +7,15 @@
  */     
 package org.clever.ClusterManager.VirtualizationManagerPlugin;
 
-import java.io.StreamTokenizer;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
-import java.util.StringTokenizer;
 import org.apache.log4j.Logger;
 import org.clever.ClusterManager.VirtualizationManager.VirtualizationManagerPlugin;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Communicator.CmAgent;
 import org.clever.Common.Communicator.MethodInvoker;
-import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.Exceptions.LogicalCatalogException;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
@@ -38,7 +35,6 @@ public class VirtualizationManagerClever implements VirtualizationManagerPlugin 
     private String version = "0.0.1";
     private String description = "Plugin per HTML5 remote desktop";
     private String name = "Virtualization Desktop Plugin";
-    private Logger logger = null;
     private String HostManagerServiceGuacaTarget;
     private String agent;
     private String OS_service;
@@ -54,13 +50,22 @@ public class VirtualizationManagerClever implements VirtualizationManagerPlugin 
     private String nodoMatchingVmHM="Matching_VM_HM";
     private String nodoVmRunning="VMs_Running";
 
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/";
+    private String pathDirOut="/LOGS/ClusterManager/VirtualizationManager";
+    //########
+    
 
     public VirtualizationManagerClever() throws Exception{
-        //#############################################
-        logger = Logger.getLogger( "VirtualizationManager" );
-        setLog4J(logger);
-      //#############################################
-        logger.info("VirtualizationManager plugin created: ");
+       //#############################################
+       //Inizializzazione meccanismo di logging
+       logger=Logger.getLogger("VirtualizationManager");    
+       Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+    //#############################################
+    logger.info("VirtualizationManager plugin created: ");
     }
 
 
@@ -996,19 +1001,7 @@ public String listMac_address(String id) throws CleverException{
         
     }
     
-     public void setLog4J(Logger logger){
-       //
-      String radice=System.getProperty("user.dir");
-      String path =radice+"/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/"; 
-      String log4jConfigFile= path+"/conf.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //   
-       
-    }
-    
+         
 }
 
  

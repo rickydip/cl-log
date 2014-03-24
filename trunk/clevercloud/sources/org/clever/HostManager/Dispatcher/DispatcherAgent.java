@@ -29,13 +29,14 @@ import org.jivesoftware.smack.packet.Packet;
  */
 class NotificationThread extends Thread implements PacketListener 
 {
-
+    Logger logger =null;
     private Queue<CleverMessage> queue = new LinkedList();
     private ConnectionXMPP connectionXMPP;
     boolean queueNotEmpty = false;
     boolean CMisPresent = false;
     private int notificationThreshold;
-    private Logger logger=null;
+            
+    
 
     public NotificationThread(ConnectionXMPP connectionXMPP, int notificationThreshold) {
         logger=Logger.getLogger("NotificationThread");
@@ -108,7 +109,13 @@ public class DispatcherAgent extends Agent
     private ConnectionXMPP connectionXMPP = null;
     private NotificationThread notificationThread;
     private int notificationsThreshold;    
-   
+    
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger =null;
+    private String pathLogConf="/sources/org/clever/HostManager/Dispatcher/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/DispatcherAgentHm";
+    //########
     
 
     public DispatcherAgent(ConnectionXMPP connectionXMPP, int notificationsThreshold) throws CleverException
@@ -116,22 +123,28 @@ public class DispatcherAgent extends Agent
         
         this.connectionXMPP = connectionXMPP;
         this.notificationsThreshold = notificationsThreshold;
+        
+        //############################################
+      //Inizializzazione meccanismo di logging
+      logger = Logger.getLogger("DispatcherAgentHm");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
     }
     public DispatcherAgent() throws CleverException{
         super();
+        //############################################
+      //Inizializzazione meccanismo di logging
+      logger = Logger.getLogger("DispatcherAgentHm");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
        
     }
     
      @Override
 public void initialization() throws CleverException
 {
-    //
-    //#############################################
-    Logger logger = Logger.getLogger("DispatcherAgentHm");
-    setLog4J(logger);
-    //#############################################
-    //
-     
     
     super.setAgentName("DispatcherAgentHm");    
     super.start();
@@ -205,21 +218,6 @@ public void initialization() throws CleverException
         
     }
    
-   public void setLog4J(Logger logger){
-       
-     //
-    String radice =System.getProperty("user.dir");
-    String path =radice+"/sources/org/clever/HostManager/Dispatcher/log_conf/"; 
-    String log4jConfigFile=path+"/conf.xml";
-    String vett[]={path};
-    Log4J log =new Log4J();
-    log.creaDir(radice+"/LOGS/HostManager/DispatcherAgentHm");
-    log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-    log.creaFileConfigurazioneLog();
-    log.assegnaConfToLog4j(log4jConfigFile);
-    //  
-       
-       
-   }
+   
    
 }

@@ -46,9 +46,31 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
     private ConnectionXMPP connectionXMPP = null;
     //private ModuleCommunicator mc = null;
     private RequestsManager requestsManager = null;
-    private Logger logger = null;//Logger.getLogger("Dispatcher");
     private Map<String, List<String>> notificationDelivery = new HashMap<String, List<String>>();
 
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/Dispatcher/log_conf/";
+    private String pathDirOut="/LOGS/ClusterManager/Dispatcher";
+    //########
+    
+    
+    public DispatcherClever() { // !!!!
+        super();
+        
+        //#############################################
+        //Inizializzazione meccanismo di logging
+        logger=Logger.getLogger("Dispatcher");    
+        Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+       //############################################# 
+        
+    }
+    
+    
+    
+    
     @Override
     public String getName() {
         return name;
@@ -69,7 +91,7 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
       
       //#############################################
        logger = Logger.getLogger("Dispatcher");
-       setLog4J(logger);
+      
       //#############################################  
       //debug  
       //logger.info("SONO DENTRO init() di DispacerClever.java : ");
@@ -345,18 +367,5 @@ public class DispatcherClever implements CLusterManagerDispatcherPlugin,PacketLi
         
     }
     
-    public void setLog4J(Logger logger){
-  //
-  String radice =System.getProperty("user.dir");  
-  String path = radice +"/sources/org/clever/ClusterManager/Dispatcher/log_conf/"; 
-  String log4jConfigFile=path+"/conf.xml";
-  String vett[]={path};
-  Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-  log.creaFileConfigurazioneLog();
-  log.assegnaConfToLog4j(log4jConfigFile);
-  //    
-   
-}
-    
-    
+     
 }

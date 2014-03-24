@@ -56,17 +56,27 @@ import org.clever.HostManager.HyperVisor.HyperVisorPlugin;
 public class HvVirtualBox implements HyperVisorPlugin {
     private Agent owner;
     private Map<String, VMWrapper> m = new HashMap<String, VMWrapper>();
-    private Logger logger4;
     private VirtualBoxManager mgr ;
     private IVirtualBox vbox;
     private Agent ownerAgent;
+        
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger4 = null;
+    private String pathLogConf="/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/HyperVisor/VirtualBox";
+    //########
 
     public HvVirtualBox() throws IOException{
-            //#############################################  
-            logger4 = Logger.getLogger( "VirtualboxPlugin" );
-            setLog4J(logger4);
-            //#############################################
-            logger4.info( "VirtualBox plugin created: " );
+     
+      //############################################
+      //Inizializzazione meccanismo di logging
+      logger4 = Logger.getLogger("VirtualboxPlugin");
+      Log4J log =new Log4J();
+      log.setLog4J(logger4, pathLogConf, pathDirOut);
+      //#############################################    
+            
+     logger4.info( "VirtualBox plugin created: " );
     }
     
     
@@ -996,20 +1006,4 @@ public class HvVirtualBox implements HyperVisorPlugin {
     }
 
     
-    public void setLog4J(Logger logger){
-         
-      //
-      String radice = System.getProperty("user.dir");   
-      String path =radice +"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/"; 
-      String log4jConfigFile=path+"/conf.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //   
-      
-     }
-
-}
-
-
+  }

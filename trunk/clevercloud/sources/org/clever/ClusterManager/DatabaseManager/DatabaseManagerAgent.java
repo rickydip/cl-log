@@ -1,4 +1,5 @@
  /*
+ * The MIT License
  *  Copyright (c) 2010 Antonino Longo
  *  Copyright (c) 2012 Marco Carbone
  *
@@ -28,13 +29,24 @@ public class DatabaseManagerAgent extends CmAgent
 {
     private DatabaseManagerPlugin DbManagerPlugin;
     //private Class cl;
-    Logger logger=Logger.getLogger("DatabaseManager");
+    
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/DatabaseManager/conf_log";
+    private String pathDirOut="/LOGS/ClusterManager/DatabaseManager";
+    //########
     
     
     public DatabaseManagerAgent() throws CleverException 
     {
-            super();
-            
+        super();
+        //#############################################
+        //Inizializzazione meccanismo di logging
+        logger=Logger.getLogger("DatabaseManager");    
+        Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+       //#############################################    
               
     }
     
@@ -43,13 +55,7 @@ public class DatabaseManagerAgent extends CmAgent
     public void initialization() throws CleverException, IOException
     {
         
-        //DatabaseManager
-        
-        //////
-    //#############################################
-        
-    setLog4J(logger);
-    //#############################################
+            
     //////
    //logger.debug("Debug Message! su DatabaseManager.java");
    //logger.info("Info Message!  su DatabaseManager.java");
@@ -106,8 +112,7 @@ public class DatabaseManagerAgent extends CmAgent
     public void startPlugin()throws CleverException, IOException{
         try
         {
-            setLog4J(logger);
-            
+                        
          //   Properties prop = new Properties();
          //   InputStream in = getClass().getResourceAsStream( "/org/clever/Common/Shared/logger.properties" );
          //   prop.load( in );
@@ -146,18 +151,5 @@ public class DatabaseManagerAgent extends CmAgent
         
     }
    
-    public void setLog4J(Logger logger){
-      //
-      String radice =  System.getProperty("user.dir"); 
-      String path = radice +"/sources/org/clever/ClusterManager/DatabaseManager/conf_log"; 
-      String log4jConfigFile= path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/ClusterManager/DatabaseManager");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
-    }
-    
+       
 }

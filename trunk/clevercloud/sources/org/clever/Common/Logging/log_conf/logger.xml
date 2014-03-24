@@ -1,9 +1,0 @@
-<logger name="LoggingAgent" additivity="false">
-        <level value="debug" />
-        <appender-ref ref="LogAg1" />
-        <appender-ref ref="LogAg2" />
-        <appender-ref ref="LogAg3" />
-         <appender-ref ref="LogAg4" />
-</logger>
-
-

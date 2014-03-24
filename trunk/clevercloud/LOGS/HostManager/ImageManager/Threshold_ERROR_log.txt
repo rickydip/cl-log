@@ -1,3 +1,0 @@
-2014-03-24 11:44:59,215 [Thread-6] ERROR (ImageManager.java:867) Error deleting host info from the database : Error while sending message with sendRecv.
- Remote object /org/clever/Common/CommunicatorPlugins/Dbus/CleverDbusInterface/DatabaseManagerAgent on bus org.clever.Common.CommunicatorPlugins.DatabaseManagerAgentHM
-Check if this object exists.

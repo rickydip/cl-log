@@ -6,26 +6,17 @@
  */
 package org.clever.ClusterManager.VirtualizationManager;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Properties;
 import java.util.logging.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.clever.Common.Communicator.CmAgent;
-import org.clever.Common.Communicator.MethodInvoker;
-import org.clever.Common.Communicator.ModuleCommunicator;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 import org.clever.Common.VEInfo.DesktopVirtualization;
-import org.clever.Common.XMLTools.FileStreamer;
-import org.clever.Common.XMLTools.ParserXML;
-import org.jdom.Element;
 
 /**
  *
@@ -45,24 +36,30 @@ public class VirtualizationManagerAgent extends CmAgent {
     private String notificatioPresenceHM = "PRESENCE/HM";
  //Modifico il virtualizationManagerAgent 05/24/2012 Rob
   
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/";
+    private String pathDirOut="/LOGS/ClusterManager/VirtualizationManager";
+    //########
+    
     
    //05/24/2012 
     public VirtualizationManagerAgent() throws CleverException {
       super();
+      //#############################################
+       //Inizializzazione meccanismo di logging
+       logger=Logger.getLogger("VirtualizationManager");    
+       Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+    //#############################################
      
     }
     
     
     public void initialization()throws CleverException,IOException {
         
-      //############################################
-      Logger logger = Logger.getLogger("VirtualizationManager");  
-      setLog4J(logger);
-      //#############################################
-      
-      
-        
-        try {
+     try {
             List params = null;
            // MethodInvoker mi = null;
             
@@ -259,20 +256,5 @@ public class VirtualizationManagerAgent extends CmAgent {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
-    
-    public void setLog4J(Logger logger){
-       //
-      String radice=System.getProperty("user.dir");
-      String path =radice+"/sources/org/clever/ClusterManager/VirtualizationManager/log_conf/"; 
-      String log4jConfigFile= path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/ClusterManager/VirtualizationManager");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //   
-       
-    }
-    
+        
 }

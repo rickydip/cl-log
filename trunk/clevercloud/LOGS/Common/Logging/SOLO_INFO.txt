@@ -1,8 +1,0 @@
- INFO [main] (LoggingAgent.java:39) - 
-
-LoggingAgent Started!
-
-
- INFO [main] (LoggingAgent.java:56) - LoggingPlugin start creation.
- INFO [main] (Log4J.java:76) - LoggingAgent plugin inizializzato:  
- INFO [main] (LoggingAgent.java:59) -  LoggingPlugin created.

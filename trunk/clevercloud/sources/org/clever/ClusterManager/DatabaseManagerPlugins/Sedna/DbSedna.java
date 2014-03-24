@@ -3,19 +3,14 @@
  *
  * Copyright 2011 Alessio Di Pietro.
  * Copyright 2013 Tricomi Giuseppe
- *
+ * Copyright 2013 Riccardo Di Pietro
  */
 package org.clever.ClusterManager.DatabaseManagerPlugins.Sedna;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
-import java.util.logging.Level;
 import net.cfoster.sedna.SednaUpdateService;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.clever.ClusterManager.DatabaseManager.DatabaseManagerPlugin;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Exceptions.CleverException;
@@ -32,21 +27,29 @@ import org.xmldb.api.modules.XQueryService;
  */
 public class DbSedna implements DatabaseManagerPlugin {
     private Agent owner;
-     Logger logger5 = Logger.getLogger("DatabaseManager");
     private String serverURL;
     private String dbName;
     private String user;
     private String password;
     private String document;
     private String xpath = "/clever/cluster[@id='clustermain']";
+    
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger5=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/DatabaseManager/conf_log";
+    private String pathDirOut="/LOGS/ClusterManager/DatabaseManager";
+    //########
+    
 
     public DbSedna() throws CleverException {
          
-         //
         //#############################################
-        // logger5 = Logger.getLogger("DatabaseManager");
-         setLog4J(logger5);
-        //#############################################
+        //Inizializzazione meccanismo di logging
+        logger5=Logger.getLogger("DatabaseManager");    
+        Log4J log =new Log4J();
+       log.setLog4J(logger5, pathLogConf, pathDirOut);
+       //#############################################
          
         try {
             this.registerXMLDBDriver();
@@ -962,18 +965,5 @@ public class DbSedna implements DatabaseManagerPlugin {
         
     }
     
-   public void setLog4J(Logger logger){
-      //
-      String radice =  System.getProperty("user.dir"); 
-      String path = radice +"/sources/org/clever/ClusterManager/DatabaseManager/conf_log"; 
-      String log4jConfigFile= path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/ClusterManager/DatabaseManager");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
-    }    
     
 }

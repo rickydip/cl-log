@@ -30,16 +30,37 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
     private BrainInterface brainInterface;
     private ThreadMessageDispatcher threadMessageDispatcher;
     public ConnectionXMPP connectionXMPP = null;
-   Logger logger6 = null;
+      
+   //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/Dispatcher/log_conf/";
+    private String pathDirOut="/LOGS/ClusterManager/Dispatcher";
+    //########
+   
     
     public DispatcherAgent( ConnectionXMPP connectionXMPP ) throws CleverException 
     {   
         super();
         
-        this.connectionXMPP = connectionXMPP;   
+        this.connectionXMPP = connectionXMPP;
+        
+        //#############################################
+        //Inizializzazione meccanismo di logging
+        logger=Logger.getLogger("Dispatcher");    
+        Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+       //############################################# 
     }
     public DispatcherAgent() throws CleverException{
         super();
+        
+        //#############################################
+        //Inizializzazione meccanismo di logging
+        logger=Logger.getLogger("Dispatcher");    
+        Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+       //############################################# 
      
     }
     
@@ -47,10 +68,6 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
     public void initialization() throws CleverException
     {
         
-       //#############################################
-       logger6 = Logger.getLogger("Dispatcher");
-       setLog4J(logger6);
-      //#############################################
         
                 
         super.setAgentName("DispatcherAgent");
@@ -73,7 +90,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
             dispatcherPlugin.setOwner(this);*/
             dispatcherPlugin.setOwner(this);
             dispatcherPlugin.setConnectionXMMP( this.connectionXMPP );
-            logger6.info( "Dispatcher created" );
+            logger.info( "Dispatcher created" );
             
             this.threadMessageDispatcher = new ThreadMessageDispatcher(dispatcherPlugin,2000, 20); //TODO: retrieve parameters from configuration file
             this.threadMessageDispatcher.start();
@@ -102,7 +119,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
         }*/
         catch( Exception e )
         {
-            logger6.error("errore generico dispatcherAgent CC");
+            logger.error("errore generico dispatcherAgent CC");
             throw new CleverException( e );
         }
     }
@@ -149,7 +166,7 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
 
     @Override
     public void handleCleverMessage(CleverMessage message) {
-        logger6.debug("received: "+message);
+        logger.debug("received: "+message);
         this.threadMessageDispatcher.pushMessage(message);
     }
 
@@ -165,21 +182,5 @@ public class DispatcherAgent extends CmAgent  implements CleverMessageHandler
         
     }
 
-   
-public void setLog4J(Logger logger){
-  //
-  String radice =System.getProperty("user.dir");  
-  String path = radice +"/sources/org/clever/ClusterManager/Dispatcher/log_conf/"; 
-  String log4jConfigFile=path+"/conf.xml";
-  String vett[]={path};
-  Log4J log =new Log4J();
-  log.creaDir(radice+"/LOGS/ClusterManager/Dispatcher");
-  log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-  log.creaFileConfigurazioneLog();
-  log.assegnaConfToLog4j(log4jConfigFile);
-  //    
-   
-}   
-   
-   
+  
 }

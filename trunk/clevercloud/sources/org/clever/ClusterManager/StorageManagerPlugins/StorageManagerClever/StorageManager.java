@@ -53,23 +53,33 @@ import org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.LockFile;
  */
 
 public class StorageManager implements StorageManagerPlugin {
-  private Logger logger;
   private Class cl;
 //  private ModuleCommunicator mc;
   private String hostName;
   private ParserXML pXML;
   private Agent owner;
+  
+  //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger=null;
+    private String pathLogConf="/sources/org/clever/ClusterManager/StorageManager/log_conf/";
+    private String pathDirOut="/LOGS/ClusterManager/StorageManager";
+    //########
+  
 
   /**
    * Instantiates a new StorageManager object
    */
   public StorageManager() {
-    //this.logger = Logger.getLogger("StorageManager");
-    //############################################
-      logger = Logger.getLogger("StorageManager"); 
-      setLog4J(logger);
-      //#############################################
     
+    //#############################################
+       //Inizializzazione meccanismo di logging
+       logger=Logger.getLogger("StorageManager");    
+       Log4J log =new Log4J();
+       log.setLog4J(logger, pathLogConf, pathDirOut);
+    //#############################################
+    
+       
     try
     {
       hostName = InetAddress.getLocalHost().getHostName();
@@ -736,16 +746,5 @@ public String SnapshotImageCreate(String localpath,String logicalpath,String HMT
         
     }
     
-     public void setLog4J(Logger logger){
-      //
-      String radice = System.getProperty("user.dir");
-      String path =radice+"/sources/org/clever/ClusterManager/StorageManager/log_conf/"; 
-      String log4jConfigFile=path+ "/conf.xml";
-      String vett[]={path};
-      Log4J log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //
- }
-    
+         
 }

@@ -30,22 +30,30 @@ public class MonitorAgent extends Agent
     private MonitorPlugin monitorPlugin;
     //private Class cl;
     
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger =null;
+    private String pathLogConf="/sources/org/clever/HostManager/Monitor/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/Monitor";
+    //########
    
 
   public MonitorAgent() throws CleverException
   {   
       super();
-         
+     //############################################
+      //Inizializzazione meccanismo di logging
+      logger = Logger.getLogger("MonitorAgent");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################
+      
   }
   
    @Override
     public void initialization()
     {
-      //#############################################
-      Logger logger1 = Logger.getLogger("MonitorAgent");
-      setLog4J(logger1);
-      //#############################################
-        
+              
         if(super.getAgentName().equals("NoName"))
             super.setAgentName("MonitorAgent");
         
@@ -53,20 +61,20 @@ public class MonitorAgent extends Agent
       try 
         {
             super.start();
-            logger1.debug( "MonitorPlugin start creation" );
+            logger.debug( "MonitorPlugin start creation" );
             monitorPlugin = (MonitorPlugin)super.startPlugin("./cfg/configuration_monitor.xml","/org/clever/HostManager/Monitor/configuration_monitor.xml");
             monitorPlugin.setOwner(this);
-            logger1.info( "MonitorPlugin Created" );
+            logger.info( "MonitorPlugin Created" );
             
         }
         
         catch (CleverException ex) 
         {
-            logger1.error("CleverException is occurred in Monitor Agent initialization.Message"+ex.getMessage());
+            logger.error("CleverException is occurred in Monitor Agent initialization.Message"+ex.getMessage());
         }
         catch( Exception e )
         {
-            logger1.error( "MonitorPlugin creation failed: " + e );
+            logger.error( "MonitorPlugin creation failed: " + e );
         }
         
             
@@ -95,21 +103,5 @@ public class MonitorAgent extends Agent
         
     }
    
-   public void setLog4J(Logger logger){
-       
-   // 
-      String radice =System.getProperty("user.dir");
-      String path =radice +"/sources/org/clever/HostManager/Monitor/log_conf/"; 
-      String log4jConfigFile=path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/HostManager/Monitor");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //    
-       
-       
-   }
-   
+     
 }

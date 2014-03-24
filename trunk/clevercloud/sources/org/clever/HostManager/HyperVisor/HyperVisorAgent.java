@@ -10,14 +10,9 @@
  */
 package org.clever.HostManager.HyperVisor;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-//import java.util.logging.Logger;
+
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Exceptions.CleverException;
-import org.clever.Common.XMLTools.ParserXML;
-import java.io.FileInputStream;
 import org.apache.log4j.Logger;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
 
@@ -26,22 +21,29 @@ public class HyperVisorAgent extends Agent {
     private HyperVisorPlugin hypervisor;
     //private Class cl;
     
+    //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger = null;
+    private String pathLogConf="/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/HyperVisor";
+    //########
+    
     
     public HyperVisorAgent() throws CleverException  {
         super();
-        
+     //############################################
+      //Inizializzazione meccanismo di logging
+      logger = Logger.getLogger("VirtualboxPlugin");
+      Log4J log =new Log4J();
+      log.setLog4J(logger, pathLogConf, pathDirOut);
+      //#############################################    
       
     }
 
     @Override
     public void initialization() throws CleverException {
       
-      //#############################################  
-      Logger logger = Logger.getLogger("VirtualboxPlugin");
-      setLog4J(logger);
-      //#############################################
-      
-        
+       
         logger.info("\n\nHyperVisorAgent Started!\n\n");
         
         if (super.getAgentName().equals("NoName")) {
@@ -76,20 +78,5 @@ public class HyperVisorAgent extends Agent {
     public void shutDown() {
     }
 
-     public void setLog4J(Logger logger){
-         
-      //
-      String radice = System.getProperty("user.dir");   
-      String path =radice +"/sources/org/clever/HostManager/HyperVisorPlugins/VirtualBox/log_conf/"; 
-      String log4jConfigFile=path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/HostManager/HyperVisor");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-      //   
-      
-     }
-  
+       
 }

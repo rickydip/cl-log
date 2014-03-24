@@ -1,2 +1,0 @@
-2014-03-24 11:40:07 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:55] - Read Configuration StorageManager!
-2014-03-24 11:40:07 INFO [org.clever.ClusterManager.StorageManager.StorageManagerAgent:74] - StorageManager Plugin instantiated !

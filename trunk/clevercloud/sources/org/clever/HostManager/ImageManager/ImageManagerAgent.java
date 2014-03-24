@@ -11,20 +11,10 @@
 package org.clever.HostManager.ImageManager;
 
 import org.clever.HostManager.ImageManagerPlugins.ImageManagerClever.ImageManager;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.List;
-import java.util.logging.Level;
 import org.apache.log4j.Logger;
-import org.clever.Common.Communicator.MethodInvoker;
 import org.clever.Common.Communicator.Agent;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
-import org.clever.Common.XMLTools.FileStreamer;
-import org.clever.Common.XMLTools.ParserXML;
-import org.jdom.Element;
 
 /**
  * 
@@ -113,11 +103,25 @@ public class ImageManagerAgent extends Agent {
   private ImageManager imgManager;
   //rob
   
+  
+  //########
+    //Dichiarazioni per meccanismo di logging
+    Logger logger3 =null;
+    private String pathLogConf="/sources/org/clever/HostManager/ImageManager/log_conf/";
+    private String pathDirOut="/LOGS/HostManager/ImageManager";
+    //########
+  
 
   public ImageManagerAgent() throws CleverException 
   {     
         super();
       
+      //############################################
+      //Inizializzazione meccanismo di logging
+      logger3 = Logger.getLogger("ImageManagerAgent");
+      Log4J log =new Log4J();
+      log.setLog4J(logger3, pathLogConf, pathDirOut);
+      //#############################################
     }
 
  
@@ -127,11 +131,7 @@ public class ImageManagerAgent extends Agent {
     //&&logger = Logger.getLogger("ImageManagerAgent");
       
       
-       //#############################################
-      Logger logger3 = Logger.getLogger("ImageManagerAgent");
-      setLog4J(logger3);
-      //#############################################
-      
+            
       
       
     logger3.info("\n\nImageManagerAgent Started!\n\n"); 
@@ -179,20 +179,6 @@ public class ImageManagerAgent extends Agent {
     {
         
     }
-   public void setLog4J(Logger logger){
-       
-    //
-      String radice =System.getProperty("user.dir");
-      String path =radice+"/sources/org/clever/HostManager/ImageManager/log_conf/"; 
-      String log4jConfigFile=path+"/conf.xml";
-      String vett[]={path};
-      Log4J log =new Log4J();
-      log.creaDir(radice+"/LOGS/HostManager/ImageManager");
-      log = new Log4J(radice,log4jConfigFile,vett,1,logger);
-      log.creaFileConfigurazioneLog();
-      log.assegnaConfToLog4j(log4jConfigFile);
-        //     
-       
-   }
+   
    
 }
