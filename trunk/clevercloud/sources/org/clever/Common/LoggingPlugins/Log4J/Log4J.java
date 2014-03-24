@@ -658,7 +658,7 @@ public void aggiornaConfToLog4j(){
 public void assegnaConfToLog4j(String file){
     // File com = new File(file);
     //faccio un reset di eventuali precedenti configurazione log4j
-    // LogManager.resetConfiguration();
+     LogManager.resetConfiguration();
      //setto il file di configurazione in log4j
      DOMConfigurator.configure(file);    
     
