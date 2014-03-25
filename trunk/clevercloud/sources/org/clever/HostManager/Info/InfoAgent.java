@@ -27,14 +27,11 @@ package org.clever.HostManager.Info;
  *
  * @author alessiodipietro
  */
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import org.apache.log4j.Logger;
 import org.clever.Common.Communicator.Agent;
-import org.clever.Common.Communicator.ModuleCommunicator;
-import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.Initiator.ModuleFactory.ModuleFactory;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;

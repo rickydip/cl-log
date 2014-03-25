@@ -9,13 +9,7 @@
  */
 package org.clever.HostManager.Monitor;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.logging.Level;
 import org.clever.Common.Exceptions.CleverException;
-import org.clever.Common.XMLTools.FileStreamer;
-import org.clever.Common.XMLTools.ParserXML;
-import java.io.InputStream;
 import org.apache.log4j.Logger;
 
 import org.clever.Common.Communicator.Agent;
