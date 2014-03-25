@@ -65,7 +65,7 @@ public class InfoAgent extends Agent
         //sullo stesso host, altrimenti si verificano problemi di registrazione sul bus!
         super();
        
-        //############################################
+      //############################################
       logger = Logger.getLogger("InfoAgentHM");
       Log4J log =new Log4J();
       log.setLog4J(logger, pathLogConf, pathDirOut);
@@ -86,6 +86,7 @@ public class InfoAgent extends Agent
             throw new CleverException( e );
         }
     }
+    
     public InfoAgent() throws CleverException{
         super();
         

@@ -36,7 +36,7 @@ public class ServiceManagerAgent extends Agent {
     public ServiceManagerAgent() throws CleverException {
         super();
         
-         //############################################
+      //############################################
       //Inizializzazione meccanismo di logging
       logger = Logger.getLogger("ServiceManager");
       Log4J log =new Log4J();

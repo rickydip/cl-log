@@ -6,8 +6,6 @@
  */
 package org.clever.ClusterManager.Dispatcher;
 
-import java.io.File;
-import java.io.InputStream;
 import org.apache.log4j.Logger;
 import org.clever.ClusterManager.Brain.BrainInterface;
 import org.clever.Common.Communicator.CmAgent;
@@ -15,8 +13,6 @@ import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Communicator.ThreadMessageDispatcher;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
-import org.clever.Common.XMLTools.FileStreamer;
-import org.clever.Common.XMLTools.ParserXML;
 import org.clever.Common.XMPPCommunicator.CleverMessage;
 import org.clever.Common.XMPPCommunicator.CleverMessageHandler;
 import org.clever.Common.XMPPCommunicator.ConnectionXMPP;

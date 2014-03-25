@@ -7,7 +7,6 @@
  */
 package org.clever.HostManager.Dispatcher;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -131,6 +130,8 @@ public class DispatcherAgent extends Agent
       log.setLog4J(logger, pathLogConf, pathDirOut);
       //#############################################
     }
+    
+    
     public DispatcherAgent() throws CleverException{
         super();
         //############################################
@@ -142,7 +143,7 @@ public class DispatcherAgent extends Agent
        
     }
     
-     @Override
+@Override
 public void initialization() throws CleverException
 {
     

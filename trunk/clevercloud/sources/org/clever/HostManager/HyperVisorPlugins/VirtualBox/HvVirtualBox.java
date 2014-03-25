@@ -71,7 +71,7 @@ public class HvVirtualBox implements HyperVisorPlugin {
      
       //############################################
       //Inizializzazione meccanismo di logging
-      logger4 = Logger.getLogger("VirtualboxPlugin");
+      logger4 = Logger.getLogger("VirtualBoxPlugin");
       Log4J log =new Log4J();
       log.setLog4J(logger4, pathLogConf, pathDirOut);
       //#############################################    

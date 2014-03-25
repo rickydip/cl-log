@@ -33,7 +33,8 @@ public class HyperVisorAgent extends Agent {
         super();
      //############################################
       //Inizializzazione meccanismo di logging
-      logger = Logger.getLogger("VirtualboxPlugin");
+      //logger = Logger.getLogger("HyperVisorAgent");
+      logger = Logger.getLogger("VirtualBoxPlugin");
       Log4J log =new Log4J();
       log.setLog4J(logger, pathLogConf, pathDirOut);
       //#############################################    

@@ -1,17 +1,10 @@
 package org.clever.ClusterManager.StorageManager;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.clever.Common.Communicator.CmAgent;
 import org.clever.Common.Communicator.Notification;
 import org.clever.Common.Exceptions.CleverException;
 import org.clever.Common.LoggingPlugins.Log4J.Log4J;
-import org.clever.Common.XMLTools.FileStreamer;
-import org.clever.Common.XMLTools.ParserXML;
 
 /*
  * @author Valerio Barbera & Luca Ciarniello
